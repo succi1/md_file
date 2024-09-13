@@ -203,11 +203,12 @@ class Solution:
 -   排列问题：N个数按一定规则全排列，有几种排列方式
 -   棋盘问题：N皇后，解数独等等
 ### 回溯法模板
-这里我再给大家列出回溯三部曲。
+**所有回溯法解决的问题都可以抽象为树形结构**，因此与树的回溯三部曲相同，
 -   回溯函数模板返回值以及参数
 -   回溯函数终止条件
 -   回溯搜索的遍历过程
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUzOTA1MjldfQ==
+eyJoaXN0b3J5IjpbLTE2NTIwMDQ5MjAsLTE5OTUzOTA1MjldfQ
+==
 -->
