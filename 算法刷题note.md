@@ -229,8 +229,9 @@ void backtracking(参数) {
 [216. 组合总和 III - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-iii/description/)
 [17. 电话号码的字母组合 - 力扣（LeetCode）](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/)
 [39. 组合总和 - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum/description/)可重复数字的组合数
+[40. 组合总和 II - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-ii/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NTg0NjMxLDEyNjUxNjU1MzUsNTE4MT
-YyMDYyLDg3Njk5Mzc0NSwtMTIwMTY4NDE2LDIwNDQwMzcyNzEs
-LTE5OTUzOTA1MjldfQ==
+eyJoaXN0b3J5IjpbLTYyMjEyMjMyMywzNjg1ODQ2MzEsMTI2NT
+E2NTUzNSw1MTgxNjIwNjIsODc2OTkzNzQ1LC0xMjAxNjg0MTYs
+MjA0NDAzNzI3MSwtMTk5NTM5MDUyOV19
 -->
