@@ -203,7 +203,7 @@ class Solution:
 -   排列问题：N个数按一定规则全排列，有几种排列方式
 -   棋盘问题：N皇后，解数独等等
 ### 回溯法模板
-**所有回溯法解决的问题都可以抽象为树形结构**，因此与树的递归三部曲相同，回溯三部曲为：
+**所有回溯法解决的问题都可以抽象为树形结构（N叉树）**，因此与树的递归三部曲相同，回溯三部曲为：
 -   回溯函数模板返回值以及参数
 -   回溯函数终止条件
 -   回溯搜索的遍历过程
@@ -225,6 +225,6 @@ void backtracking(参数) {
 ```
 **for循环可以理解是横向遍历，backtracking（递归）就是纵向遍历**，这样就把这棵树全遍历完了，一般来说，搜索叶子节点就是找的其中一个结果了
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMyNjYyMDgsMjA0NDAzNzI3MSwtMT
-k5NTM5MDUyOV19
+eyJoaXN0b3J5IjpbLTgyMzA1MzgxNywyMDQ0MDM3MjcxLC0xOT
+k1MzkwNTI5XX0=
 -->
