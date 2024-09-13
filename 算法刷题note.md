@@ -224,7 +224,9 @@ void backtracking(参数) {
 }
 ```
 **for循环可以理解是横向遍历，backtracking（递归）就是纵向遍历**，这样就把这棵树全遍历完了，一般来说，搜索叶子节点就是找的其中一个结果了
+### 题目链接
+[77. 组合 - 力扣（LeetCode）](https://leetcode.cn/problems/combinations/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzA1MzgxNywyMDQ0MDM3MjcxLC0xOT
+eyJoaXN0b3J5IjpbLTEyMDE2ODQxNiwyMDQ0MDM3MjcxLC0xOT
 k1MzkwNTI5XX0=
 -->
