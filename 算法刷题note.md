@@ -232,10 +232,10 @@ void backtracking(参数) {
 [40. 组合总和 II - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-ii/description/)重复组合数去重操作，**去重的是同一树层上的“使用过”，同一树枝上的都是一个组合里的元素，不用去重**
 [131. 分割回文串 - 力扣（LeetCode）](https://leetcode.cn/problems/palindrome-partitioning/description/)
 [93. 复原 IP 地址 - 力扣（LeetCode）](https://leetcode.cn/problems/restore-ip-addresses/description/)
-[78. 子集 - 力扣（LeetCode）](https://leetcode.cn/problems/subsets/description/)
+[78. 子集 - 力扣（LeetCode）](https://leetcode.cn/problems/subsets/description/)与组合分割问题不同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDg2ODk3NCwtNzIxMDk3MTQzLC01Mz
-M1ODg1MDMsLTYyMjEyMjMyMywzNjg1ODQ2MzEsMTI2NTE2NTUz
-NSw1MTgxNjIwNjIsODc2OTkzNzQ1LC0xMjAxNjg0MTYsMjA0ND
-AzNzI3MSwtMTk5NTM5MDUyOV19
+eyJoaXN0b3J5IjpbODgzNTExMjU5LC03NjA4Njg5NzQsLTcyMT
+A5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIzMjMsMzY4NTg0NjMx
+LDEyNjUxNjU1MzUsNTE4MTYyMDYyLDg3Njk5Mzc0NSwtMTIwMT
+Y4NDE2LDIwNDQwMzcyNzEsLTE5OTUzOTA1MjldfQ==
 -->
