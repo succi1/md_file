@@ -247,11 +247,11 @@ void backtracking(参数) {
 
 4. 排列问题
 
-[46. 全排列 - 力扣（LeetCode）](https://leetcode.cn/problems/permutations/description/)增加了数组used的使用
+[46. 全排列 - 力扣（LeetCode）](https://leetcode.cn/problems/permutations/description/)增加了数组used, 用来记录数字是否已经被使用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA4MTQ5MjEsMjc1MzQwMTc1LDE1Nz
-UwMDE4NjksNjYxMTU5ODY5LC03NjA4Njg5NzQsLTcyMTA5NzE0
-MywtNTMzNTg4NTAzLC02MjIxMjIzMjMsMzY4NTg0NjMxLDEyNj
-UxNjU1MzUsNTE4MTYyMDYyLDg3Njk5Mzc0NSwtMTIwMTY4NDE2
-LDIwNDQwMzcyNzEsLTE5OTUzOTA1MjldfQ==
+eyJoaXN0b3J5IjpbMjgxMTQ0NjczLC0xMTkwODE0OTIxLDI3NT
+M0MDE3NSwxNTc1MDAxODY5LDY2MTE1OTg2OSwtNzYwODY4OTc0
+LC03MjEwOTcxNDMsLTUzMzU4ODUwMywtNjIyMTIyMzIzLDM2OD
+U4NDYzMSwxMjY1MTY1NTM1LDUxODE2MjA2Miw4NzY5OTM3NDUs
+LTEyMDE2ODQxNiwyMDQ0MDM3MjcxLC0xOTk1MzkwNTI5XX0=
 -->
