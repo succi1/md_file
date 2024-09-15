@@ -241,7 +241,7 @@ void backtracking(参数) {
 
  3. 子集问题
 
-[78. 子集 - 力扣（LeetCode）](https://leetcode.cn/problems/subsets/description/)与组合分割问题不同，组合分割问题是要找到树上的叶子节点，子集问题是遍历整棵树找到所有的节点
+[78. 子集 - 力扣（LeetCode）](https://leetcode.cn/problems/subsets/description/)与组合分割排列问题不同，组合分割排列问题是要找到树上的叶子节点，子集问题是遍历整棵树找到所有的节点
 [90. 子集 II - 力扣（LeetCode）](https://leetcode.cn/problems/subsets-ii/submissions/564925729/)重复子集的去重操作，与40题思想相同
 [491. 非递减子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/non-decreasing-subsequences/submissions/564942546/)去重操作不同于上面，因为不是对有序数组操作，所以要借用集合判断元素是否出现过
 
@@ -250,9 +250,10 @@ void backtracking(参数) {
 [46. 全排列 - 力扣（LeetCode）](https://leetcode.cn/problems/permutations/description/)增加了数组used, 用来记录数字是否已经被使用
 [47. 全排列 II - 力扣（LeetCode）](https://leetcode.cn/problems/permutations-ii/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5MDg2NTg2LC0xMTkwODE0OTIxLDI3NT
-M0MDE3NSwxNTc1MDAxODY5LDY2MTE1OTg2OSwtNzYwODY4OTc0
-LC03MjEwOTcxNDMsLTUzMzU4ODUwMywtNjIyMTIyMzIzLDM2OD
-U4NDYzMSwxMjY1MTY1NTM1LDUxODE2MjA2Miw4NzY5OTM3NDUs
-LTEyMDE2ODQxNiwyMDQ0MDM3MjcxLC0xOTk1MzkwNTI5XX0=
+eyJoaXN0b3J5IjpbLTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOT
+A4MTQ5MjEsMjc1MzQwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5
+LC03NjA4Njg5NzQsLTcyMTA5NzE0MywtNTMzNTg4NTAzLC02Mj
+IxMjIzMjMsMzY4NTg0NjMxLDEyNjUxNjU1MzUsNTE4MTYyMDYy
+LDg3Njk5Mzc0NSwtMTIwMTY4NDE2LDIwNDQwMzcyNzEsLTE5OT
+UzOTA1MjldfQ==
 -->
