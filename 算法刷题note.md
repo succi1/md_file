@@ -248,8 +248,9 @@ void backtracking(参数) {
 4. 排列问题
 
 [46. 全排列 - 力扣（LeetCode）](https://leetcode.cn/problems/permutations/description/)增加了数组used, 用来记录数字是否已经被使用
+[47. 全排列 II - 力扣（LeetCode）](https://leetcode.cn/problems/permutations-ii/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMTQ0NjczLC0xMTkwODE0OTIxLDI3NT
+eyJoaXN0b3J5IjpbOTM5MDg2NTg2LC0xMTkwODE0OTIxLDI3NT
 M0MDE3NSwxNTc1MDAxODY5LDY2MTE1OTg2OSwtNzYwODY4OTc0
 LC03MjEwOTcxNDMsLTUzMzU4ODUwMywtNjIyMTIyMzIzLDM2OD
 U4NDYzMSwxMjY1MTY1NTM1LDUxODE2MjA2Miw4NzY5OTM3NDUs
