@@ -233,9 +233,11 @@ void backtracking(参数) {
 [131. 分割回文串 - 力扣（LeetCode）](https://leetcode.cn/problems/palindrome-partitioning/description/)
 [93. 复原 IP 地址 - 力扣（LeetCode）](https://leetcode.cn/problems/restore-ip-addresses/description/)
 [78. 子集 - 力扣（LeetCode）](https://leetcode.cn/problems/subsets/description/)与组合分割问题不同，组合分割问题是要找到树上的叶子节点，子集问题是遍历整棵树找到所有的节点
+[90. 子集 II - 力扣（LeetCode）](https://leetcode.cn/problems/subsets-ii/submissions/564925729/)重复子集的去重操作，与40题思想相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxMTU5ODY5LC03NjA4Njg5NzQsLTcyMT
-A5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIzMjMsMzY4NTg0NjMx
-LDEyNjUxNjU1MzUsNTE4MTYyMDYyLDg3Njk5Mzc0NSwtMTIwMT
-Y4NDE2LDIwNDQwMzcyNzEsLTE5OTUzOTA1MjldfQ==
+eyJoaXN0b3J5IjpbMTU3NTAwMTg2OSw2NjExNTk4NjksLTc2MD
+g2ODk3NCwtNzIxMDk3MTQzLC01MzM1ODg1MDMsLTYyMjEyMjMy
+MywzNjg1ODQ2MzEsMTI2NTE2NTUzNSw1MTgxNjIwNjIsODc2OT
+kzNzQ1LC0xMjAxNjg0MTYsMjA0NDAzNzI3MSwtMTk5NTM5MDUy
+OV19
 -->
