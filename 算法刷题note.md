@@ -249,11 +249,14 @@ void backtracking(参数) {
 
 [46. 全排列 - 力扣（LeetCode）](https://leetcode.cn/problems/permutations/description/)增加了数组used, 用来记录数字是否已经被使用
 [47. 全排列 II - 力扣（LeetCode）](https://leetcode.cn/problems/permutations-ii/description/)
+
+5. 特殊问题
+[332. 重新安排行程 - 力扣（LeetCode）](https://leetcode.cn/problems/reconstruct-itinerary/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOT
-A4MTQ5MjEsMjc1MzQwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5
-LC03NjA4Njg5NzQsLTcyMTA5NzE0MywtNTMzNTg4NTAzLC02Mj
-IxMjIzMjMsMzY4NTg0NjMxLDEyNjUxNjU1MzUsNTE4MTYyMDYy
-LDg3Njk5Mzc0NSwtMTIwMTY4NDE2LDIwNDQwMzcyNzEsLTE5OT
-UzOTA1MjldfQ==
+eyJoaXN0b3J5IjpbLTE3MDQwMjM3NzIsLTMxNjM5NDIxNCw5Mz
+kwODY1ODYsLTExOTA4MTQ5MjEsMjc1MzQwMTc1LDE1NzUwMDE4
+NjksNjYxMTU5ODY5LC03NjA4Njg5NzQsLTcyMTA5NzE0MywtNT
+MzNTg4NTAzLC02MjIxMjIzMjMsMzY4NTg0NjMxLDEyNjUxNjU1
+MzUsNTE4MTYyMDYyLDg3Njk5Mzc0NSwtMTIwMTY4NDE2LDIwND
+QwMzcyNzEsLTE5OTUzOTA1MjldfQ==
 -->
