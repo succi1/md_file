@@ -253,11 +253,15 @@ void backtracking(参数) {
 5. 特殊问题
 
 [332. 重新安排行程 - 力扣（LeetCode）](https://leetcode.cn/problems/reconstruct-itinerary/description/)
+
+6. 棋盘问题
+[51. N 皇后 - 力扣（LeetCode）](https://leetcode.cn/problems/n-queens/description/)
+[37. 解数独 - 力扣（LeetCode）](https://leetcode.cn/problems/sudoku-solver/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDA3MDA3MCwtMzE2Mzk0MjE0LDkzOT
-A4NjU4NiwtMTE5MDgxNDkyMSwyNzUzNDAxNzUsMTU3NTAwMTg2
-OSw2NjExNTk4NjksLTc2MDg2ODk3NCwtNzIxMDk3MTQzLC01Mz
-M1ODg1MDMsLTYyMjEyMjMyMywzNjg1ODQ2MzEsMTI2NTE2NTUz
-NSw1MTgxNjIwNjIsODc2OTkzNzQ1LC0xMjAxNjg0MTYsMjA0ND
-AzNzI3MSwtMTk5NTM5MDUyOV19
+eyJoaXN0b3J5IjpbODY4NjIwOTEyLDE2OTAwNzAwNzAsLTMxNj
+M5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5MjEsMjc1MzQwMTc1
+LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03NjA4Njg5NzQsLTcyMT
+A5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIzMjMsMzY4NTg0NjMx
+LDEyNjUxNjU1MzUsNTE4MTYyMDYyLDg3Njk5Mzc0NSwtMTIwMT
+Y4NDE2LDIwNDQwMzcyNzEsLTE5OTUzOTA1MjldfQ==
 -->
