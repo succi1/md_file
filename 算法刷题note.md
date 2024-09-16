@@ -259,15 +259,15 @@ void backtracking(参数) {
 [37. 解数独 - 力扣（LeetCode）](https://leetcode.cn/problems/sudoku-solver/description/)
 # 贪心算法
 ### 理论基础
-**贪心的本质是选择每一阶段的局部最优，从而达到全局最优**。
-如何验证可不可以用贪心算法呢？
-**最好用的策略就是举反例，如果想不到反例，那么就试一试贪心吧**
+1. **贪心的本质是选择每一阶段的局部最优，从而达到全局最优**。
+2. 如何验证可不可以用贪心算法呢？
+**最好用的策略就是举反例，如果想不到反例，那么就试一试贪心**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI0NTAxNDksODY4NjIwOTEyLDE2OT
-AwNzAwNzAsLTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5
-MjEsMjc1MzQwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03Nj
-A4Njg5NzQsLTcyMTA5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIz
-MjMsMzY4NTg0NjMxLDEyNjUxNjU1MzUsNTE4MTYyMDYyLDg3Nj
-k5Mzc0NSwtMTIwMTY4NDE2LDIwNDQwMzcyNzEsLTE5OTUzOTA1
-MjldfQ==
+eyJoaXN0b3J5IjpbMTQzMDUwMDY1LDg2ODYyMDkxMiwxNjkwMD
+cwMDcwLC0zMTYzOTQyMTQsOTM5MDg2NTg2LC0xMTkwODE0OTIx
+LDI3NTM0MDE3NSwxNTc1MDAxODY5LDY2MTE1OTg2OSwtNzYwOD
+Y4OTc0LC03MjEwOTcxNDMsLTUzMzU4ODUwMywtNjIyMTIyMzIz
+LDM2ODU4NDYzMSwxMjY1MTY1NTM1LDUxODE2MjA2Miw4NzY5OT
+M3NDUsLTEyMDE2ODQxNiwyMDQ0MDM3MjcxLC0xOTk1MzkwNTI5
+XX0=
 -->
