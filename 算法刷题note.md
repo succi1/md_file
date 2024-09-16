@@ -258,9 +258,12 @@ void backtracking(参数) {
 [51. N 皇后 - 力扣（LeetCode）](https://leetcode.cn/problems/n-queens/description/)
 [37. 解数独 - 力扣（LeetCode）](https://leetcode.cn/problems/sudoku-solver/description/)
 # 贪心算法
-
+### 理论基础
+**贪心的本质是选择每一阶段的局部最优，从而达到全局最优**。
+如何验证可不可以用贪心算法呢？
+**最好用的策略就是举反例，如果想不到反例，那么就试一试贪心吧**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjYxMjM0NjQsODY4NjIwOTEyLDE2OT
+eyJoaXN0b3J5IjpbLTE2OTI0NTAxNDksODY4NjIwOTEyLDE2OT
 AwNzAwNzAsLTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5
 MjEsMjc1MzQwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03Nj
 A4Njg5NzQsLTcyMTA5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIz
