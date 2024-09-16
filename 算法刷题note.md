@@ -257,11 +257,14 @@ void backtracking(参数) {
 6. 棋盘问题
 [51. N 皇后 - 力扣（LeetCode）](https://leetcode.cn/problems/n-queens/description/)
 [37. 解数独 - 力扣（LeetCode）](https://leetcode.cn/problems/sudoku-solver/description/)
+# 贪心算法
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NjIwOTEyLDE2OTAwNzAwNzAsLTMxNj
-M5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5MjEsMjc1MzQwMTc1
-LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03NjA4Njg5NzQsLTcyMT
-A5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIzMjMsMzY4NTg0NjMx
-LDEyNjUxNjU1MzUsNTE4MTYyMDYyLDg3Njk5Mzc0NSwtMTIwMT
-Y4NDE2LDIwNDQwMzcyNzEsLTE5OTUzOTA1MjldfQ==
+eyJoaXN0b3J5IjpbLTExNjYxMjM0NjQsODY4NjIwOTEyLDE2OT
+AwNzAwNzAsLTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5
+MjEsMjc1MzQwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03Nj
+A4Njg5NzQsLTcyMTA5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIz
+MjMsMzY4NTg0NjMxLDEyNjUxNjU1MzUsNTE4MTYyMDYyLDg3Nj
+k5Mzc0NSwtMTIwMTY4NDE2LDIwNDQwMzcyNzEsLTE5OTUzOTA1
+MjldfQ==
 -->
