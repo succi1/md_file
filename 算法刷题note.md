@@ -267,13 +267,13 @@ void backtracking(参数) {
 [53. 最大子数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-subarray/description/)
 [122. 买卖股票的最佳时机 II - 力扣（LeetCode）](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/description/)
 [55. 跳跃游戏 - 力扣（LeetCode）](https://leetcode.cn/problems/jump-game/description/)
-[45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode.cn/problems/jump-game-ii/description/)
+[45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode.cn/problems/jump-game-ii/description/)与上一题一样都是利用覆盖范围，但是解法不同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTYzNDc4NjMsLTE0NDEwNTM1MTIsLT
-YzMDA3NDg1Myw1NzE0ODc4NTEsMTE0NjI0OTk3MSwxNDMwNTAw
-NjUsODY4NjIwOTEyLDE2OTAwNzAwNzAsLTMxNjM5NDIxNCw5Mz
-kwODY1ODYsLTExOTA4MTQ5MjEsMjc1MzQwMTc1LDE1NzUwMDE4
-NjksNjYxMTU5ODY5LC03NjA4Njg5NzQsLTcyMTA5NzE0MywtNT
-MzNTg4NTAzLC02MjIxMjIzMjMsMzY4NTg0NjMxLDEyNjUxNjU1
-MzVdfQ==
+eyJoaXN0b3J5IjpbMTM1NTQ5ODMwNiwtMTk5NjM0Nzg2MywtMT
+Q0MTA1MzUxMiwtNjMwMDc0ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5
+OTcxLDE0MzA1MDA2NSw4Njg2MjA5MTIsMTY5MDA3MDA3MCwtMz
+E2Mzk0MjE0LDkzOTA4NjU4NiwtMTE5MDgxNDkyMSwyNzUzNDAx
+NzUsMTU3NTAwMTg2OSw2NjExNTk4NjksLTc2MDg2ODk3NCwtNz
+IxMDk3MTQzLC01MzM1ODg1MDMsLTYyMjEyMjMyMywzNjg1ODQ2
+MzFdfQ==
 -->
