@@ -263,13 +263,14 @@ void backtracking(参数) {
 2. 如何验证可不可以用贪心算法呢？
 **最好用的策略就是举反例，如果想不到反例，那么就试一试贪心**
 ### 题目链接
-[376. 摆动序列 - 力扣（LeetCode）](https://leetcode.cn/problems/wiggle-subsequence/description/)
+[376. 摆动序列 - 力扣（LeetCode）](https://leetcode.cn/problems/wiggle-subsequence/description/)需要考虑平谷的多种情况
+[53. 最大子数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-subarray/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNDg3ODUxLDExNDYyNDk5NzEsMTQzMD
-UwMDY1LDg2ODYyMDkxMiwxNjkwMDcwMDcwLC0zMTYzOTQyMTQs
-OTM5MDg2NTg2LC0xMTkwODE0OTIxLDI3NTM0MDE3NSwxNTc1MD
-AxODY5LDY2MTE1OTg2OSwtNzYwODY4OTc0LC03MjEwOTcxNDMs
-LTUzMzU4ODUwMywtNjIyMTIyMzIzLDM2ODU4NDYzMSwxMjY1MT
-Y1NTM1LDUxODE2MjA2Miw4NzY5OTM3NDUsLTEyMDE2ODQxNl19
+eyJoaXN0b3J5IjpbLTYzMDA3NDg1Myw1NzE0ODc4NTEsMTE0Nj
+I0OTk3MSwxNDMwNTAwNjUsODY4NjIwOTEyLDE2OTAwNzAwNzAs
+LTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5MjEsMjc1Mz
+QwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03NjA4Njg5NzQs
+LTcyMTA5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIzMjMsMzY4NT
+g0NjMxLDEyNjUxNjU1MzUsNTE4MTYyMDYyLDg3Njk5Mzc0NV19
 
 -->
