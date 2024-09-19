@@ -262,6 +262,7 @@ void backtracking(参数) {
 1. **贪心的本质是选择每一阶段的局部最优，从而达到全局最优**。
 2. 如何验证可不可以用贪心算法呢？
 **最好用的策略就是举反例，如果想不到反例，那么就试一试贪心**
+3. 题目技巧性强，有时难以看出使用贪心算法
 ### 题目链接
 [376. 摆动序列 - 力扣（LeetCode）](https://leetcode.cn/problems/wiggle-subsequence/description/)需要考虑平谷的多种情况
 [53. 最大子数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-subarray/description/)
@@ -270,13 +271,13 @@ void backtracking(参数) {
 [45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode.cn/problems/jump-game-ii/description/)与上一题一样都是利用覆盖范围，但是解法不同
 [1005. K 次取反后最大化的数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/description/)
 [134. 加油站 - 力扣（LeetCode）](https://leetcode.cn/problems/gas-station/description/)
-[135. 分发糖果 - 力扣（LeetCode）](https://leetcode.cn/problems/candy/description/)这道题目一定是要确定一边之后，再确定另一边，例如比较每一个孩子的左边，然后再比较右边，**如果两边一起考虑一定会顾此失彼**
+[135. 分发糖果 - 力扣（LeetCode）](https://leetcode.cn/problems/candy/description/)这道题目一定是要确定一边之后，再确定另一边，如果两边一起考虑一定会顾此失彼
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzUyMTUxOCwzOTk5NDY3ODMsMTM1NT
-Q5ODMwNiwtMTk5NjM0Nzg2MywtMTQ0MTA1MzUxMiwtNjMwMDc0
-ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5OTcxLDE0MzA1MDA2NSw4Nj
-g2MjA5MTIsMTY5MDA3MDA3MCwtMzE2Mzk0MjE0LDkzOTA4NjU4
-NiwtMTE5MDgxNDkyMSwyNzUzNDAxNzUsMTU3NTAwMTg2OSw2Nj
-ExNTk4NjksLTc2MDg2ODk3NCwtNzIxMDk3MTQzLC01MzM1ODg1
-MDNdfQ==
+eyJoaXN0b3J5IjpbNzAwNDAwMDgxLDM5OTk0Njc4MywxMzU1ND
+k4MzA2LC0xOTk2MzQ3ODYzLC0xNDQxMDUzNTEyLC02MzAwNzQ4
+NTMsNTcxNDg3ODUxLDExNDYyNDk5NzEsMTQzMDUwMDY1LDg2OD
+YyMDkxMiwxNjkwMDcwMDcwLC0zMTYzOTQyMTQsOTM5MDg2NTg2
+LC0xMTkwODE0OTIxLDI3NTM0MDE3NSwxNTc1MDAxODY5LDY2MT
+E1OTg2OSwtNzYwODY4OTc0LC03MjEwOTcxNDMsLTUzMzU4ODUw
+M119
 -->
