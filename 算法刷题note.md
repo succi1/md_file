@@ -270,9 +270,9 @@ void backtracking(参数) {
 [45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode.cn/problems/jump-game-ii/description/)与上一题一样都是利用覆盖范围，但是解法不同
 [1005. K 次取反后最大化的数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/description/)
 [134. 加油站 - 力扣（LeetCode）](https://leetcode.cn/problems/gas-station/description/)
-[135. 分发糖果 - 力扣（LeetCode）](https://leetcode.cn/problems/candy/description/)
+[135. 分发糖果 - 力扣（LeetCode）](https://leetcode.cn/problems/candy/description/)这道题目一定是要确定一边之后，再确定另一边，例如比较每一个孩子的左边，然后再比较右边，**如果两边一起考虑一定会顾此失彼**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTg1MjQwOCwzOTk5NDY3ODMsMTM1NT
+eyJoaXN0b3J5IjpbMTE5MzUyMTUxOCwzOTk5NDY3ODMsMTM1NT
 Q5ODMwNiwtMTk5NjM0Nzg2MywtMTQ0MTA1MzUxMiwtNjMwMDc0
 ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5OTcxLDE0MzA1MDA2NSw4Nj
 g2MjA5MTIsMTY5MDA3MDA3MCwtMzE2Mzk0MjE0LDkzOTA4NjU4
