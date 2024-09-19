@@ -269,12 +269,14 @@ void backtracking(参数) {
 [55. 跳跃游戏 - 力扣（LeetCode）](https://leetcode.cn/problems/jump-game/description/)
 [45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode.cn/problems/jump-game-ii/description/)与上一题一样都是利用覆盖范围，但是解法不同
 [1005. K 次取反后最大化的数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/description/)
+[134. 加油站 - 力扣（LeetCode）](https://leetcode.cn/problems/gas-station/description/)
+[135. 分发糖果 - 力扣（LeetCode）](https://leetcode.cn/problems/candy/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5OTQ2NzgzLDEzNTU0OTgzMDYsLTE5OT
-YzNDc4NjMsLTE0NDEwNTM1MTIsLTYzMDA3NDg1Myw1NzE0ODc4
-NTEsMTE0NjI0OTk3MSwxNDMwNTAwNjUsODY4NjIwOTEyLDE2OT
-AwNzAwNzAsLTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5
-MjEsMjc1MzQwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03Nj
-A4Njg5NzQsLTcyMTA5NzE0MywtNTMzNTg4NTAzLC02MjIxMjIz
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTM0NTg1MjQwOCwzOTk5NDY3ODMsMTM1NT
+Q5ODMwNiwtMTk5NjM0Nzg2MywtMTQ0MTA1MzUxMiwtNjMwMDc0
+ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5OTcxLDE0MzA1MDA2NSw4Nj
+g2MjA5MTIsMTY5MDA3MDA3MCwtMzE2Mzk0MjE0LDkzOTA4NjU4
+NiwtMTE5MDgxNDkyMSwyNzUzNDAxNzUsMTU3NTAwMTg2OSw2Nj
+ExNTk4NjksLTc2MDg2ODk3NCwtNzIxMDk3MTQzLC01MzM1ODg1
+MDNdfQ==
 -->
