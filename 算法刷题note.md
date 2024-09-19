@@ -272,12 +272,14 @@ void backtracking(参数) {
 [1005. K 次取反后最大化的数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/description/)
 [134. 加油站 - 力扣（LeetCode）](https://leetcode.cn/problems/gas-station/description/)
 [135. 分发糖果 - 力扣（LeetCode）](https://leetcode.cn/problems/candy/description/)这道题目一定是要确定一边之后，再确定另一边，如果两边一起考虑一定会顾此失彼
+[860. 柠檬水找零 - 力扣（LeetCode）](https://leetcode.cn/problems/lemonade-change/description/)
+[406. 根据身高重建队列 - 力扣（LeetCode）](https://leetcode.cn/problems/queue-reconstruction-by-height/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNDAwMDgxLDM5OTk0Njc4MywxMzU1ND
-k4MzA2LC0xOTk2MzQ3ODYzLC0xNDQxMDUzNTEyLC02MzAwNzQ4
-NTMsNTcxNDg3ODUxLDExNDYyNDk5NzEsMTQzMDUwMDY1LDg2OD
-YyMDkxMiwxNjkwMDcwMDcwLC0zMTYzOTQyMTQsOTM5MDg2NTg2
-LC0xMTkwODE0OTIxLDI3NTM0MDE3NSwxNTc1MDAxODY5LDY2MT
-E1OTg2OSwtNzYwODY4OTc0LC03MjEwOTcxNDMsLTUzMzU4ODUw
+eyJoaXN0b3J5IjpbMTE4MjIyMzIwMCw3MDA0MDAwODEsMzk5OT
+Q2NzgzLDEzNTU0OTgzMDYsLTE5OTYzNDc4NjMsLTE0NDEwNTM1
+MTIsLTYzMDA3NDg1Myw1NzE0ODc4NTEsMTE0NjI0OTk3MSwxND
+MwNTAwNjUsODY4NjIwOTEyLDE2OTAwNzAwNzAsLTMxNjM5NDIx
+NCw5MzkwODY1ODYsLTExOTA4MTQ5MjEsMjc1MzQwMTc1LDE1Nz
+UwMDE4NjksNjYxMTU5ODY5LC03NjA4Njg5NzQsLTcyMTA5NzE0
 M119
 -->
