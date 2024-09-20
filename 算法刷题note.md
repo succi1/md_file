@@ -274,13 +274,13 @@ void backtracking(参数) {
 [135. 分发糖果 - 力扣（LeetCode）](https://leetcode.cn/problems/candy/description/)这道题目一定是要确定一边之后，再确定另一边，如果两边一起考虑一定会顾此失彼
 [860. 柠檬水找零 - 力扣（LeetCode）](https://leetcode.cn/problems/lemonade-change/description/)
 [406. 根据身高重建队列 - 力扣（LeetCode）](https://leetcode.cn/problems/queue-reconstruction-by-height/description/)
-[452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+[452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/description/)找气球的右边界
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwODQwMDYsMTE4MjIyMzIwMCw3MDA0MD
-AwODEsMzk5OTQ2NzgzLDEzNTU0OTgzMDYsLTE5OTYzNDc4NjMs
-LTE0NDEwNTM1MTIsLTYzMDA3NDg1Myw1NzE0ODc4NTEsMTE0Nj
-I0OTk3MSwxNDMwNTAwNjUsODY4NjIwOTEyLDE2OTAwNzAwNzAs
-LTMxNjM5NDIxNCw5MzkwODY1ODYsLTExOTA4MTQ5MjEsMjc1Mz
-QwMTc1LDE1NzUwMDE4NjksNjYxMTU5ODY5LC03NjA4Njg5NzRd
-fQ==
+eyJoaXN0b3J5IjpbODIzNjMzMjE1LDU3MDg0MDA2LDExODIyMj
+MyMDAsNzAwNDAwMDgxLDM5OTk0Njc4MywxMzU1NDk4MzA2LC0x
+OTk2MzQ3ODYzLC0xNDQxMDUzNTEyLC02MzAwNzQ4NTMsNTcxND
+g3ODUxLDExNDYyNDk5NzEsMTQzMDUwMDY1LDg2ODYyMDkxMiwx
+NjkwMDcwMDcwLC0zMTYzOTQyMTQsOTM5MDg2NTg2LC0xMTkwOD
+E0OTIxLDI3NTM0MDE3NSwxNTc1MDAxODY5LDY2MTE1OTg2OV19
+
 -->
