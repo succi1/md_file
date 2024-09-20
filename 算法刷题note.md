@@ -278,13 +278,13 @@ void backtracking(参数) {
 [435. 无重叠区间 - 力扣（LeetCode）](https://leetcode.cn/problems/non-overlapping-intervals/description/)
 [763. 划分字母区间 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-labels/description/)技巧性强, 看起来切割字母串需要用回溯其实不需要
 [738. 单调递增的数字 - 力扣（LeetCode）](https://leetcode.cn/problems/monotone-increasing-digits/description/)从后向前遍历，num[i - 1] = num[i -1] -1且num[i] = 9
-[968. 监控二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-cameras/description/)后序遍历+设置节点状态的贪心
+[968. 监控二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-cameras/description/)后序遍历+设置节点状态的贪心  难
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAwNTMwNzQsMTI2MTA4NTI4OCwxMT
-UwMDk5NTA1LDg0MzUwNzgyMiwtMzIxMDUxMDMyLDMwOTk4OTMx
-NCw4MjM2MzMyMTUsNTcwODQwMDYsMTE4MjIyMzIwMCw3MDA0MD
-AwODEsMzk5OTQ2NzgzLDEzNTU0OTgzMDYsLTE5OTYzNDc4NjMs
-LTE0NDEwNTM1MTIsLTYzMDA3NDg1Myw1NzE0ODc4NTEsMTE0Nj
-I0OTk3MSwxNDMwNTAwNjUsODY4NjIwOTEyLDE2OTAwNzAwNzBd
-fQ==
+eyJoaXN0b3J5IjpbLTEyOTYyMzA1NTIsLTE5MDAwNTMwNzQsMT
+I2MTA4NTI4OCwxMTUwMDk5NTA1LDg0MzUwNzgyMiwtMzIxMDUx
+MDMyLDMwOTk4OTMxNCw4MjM2MzMyMTUsNTcwODQwMDYsMTE4Mj
+IyMzIwMCw3MDA0MDAwODEsMzk5OTQ2NzgzLDEzNTU0OTgzMDYs
+LTE5OTYzNDc4NjMsLTE0NDEwNTM1MTIsLTYzMDA3NDg1Myw1Nz
+E0ODc4NTEsMTE0NjI0OTk3MSwxNDMwNTAwNjUsODY4NjIwOTEy
+XX0=
 -->
