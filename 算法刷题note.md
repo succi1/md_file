@@ -277,12 +277,13 @@ void backtracking(参数) {
 [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/description/)找气球的右边界
 [435. 无重叠区间 - 力扣（LeetCode）](https://leetcode.cn/problems/non-overlapping-intervals/description/)
 [763. 划分字母区间 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-labels/description/)技巧性强, 看起来切割字母串需要用回溯其实不需要
+[738. 单调递增的数字 - 力扣（LeetCode）](https://leetcode.cn/problems/monotone-increasing-digits/description/)从后向前遍历，num[i - 1] = num[i -1] -1且num[i] = 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNTA3ODIyLC0zMjEwNTEwMzIsMzA5OT
-g5MzE0LDgyMzYzMzIxNSw1NzA4NDAwNiwxMTgyMjIzMjAwLDcw
-MDQwMDA4MSwzOTk5NDY3ODMsMTM1NTQ5ODMwNiwtMTk5NjM0Nz
-g2MywtMTQ0MTA1MzUxMiwtNjMwMDc0ODUzLDU3MTQ4Nzg1MSwx
-MTQ2MjQ5OTcxLDE0MzA1MDA2NSw4Njg2MjA5MTIsMTY5MDA3MD
-A3MCwtMzE2Mzk0MjE0LDkzOTA4NjU4NiwtMTE5MDgxNDkyMV19
+eyJoaXN0b3J5IjpbMTE1MDA5OTUwNSw4NDM1MDc4MjIsLTMyMT
+A1MTAzMiwzMDk5ODkzMTQsODIzNjMzMjE1LDU3MDg0MDA2LDEx
+ODIyMjMyMDAsNzAwNDAwMDgxLDM5OTk0Njc4MywxMzU1NDk4Mz
+A2LC0xOTk2MzQ3ODYzLC0xNDQxMDUzNTEyLC02MzAwNzQ4NTMs
+NTcxNDg3ODUxLDExNDYyNDk5NzEsMTQzMDUwMDY1LDg2ODYyMD
+kxMiwxNjkwMDcwMDcwLC0zMTYzOTQyMTQsOTM5MDg2NTg2XX0=
 
 -->
