@@ -276,13 +276,13 @@ void backtracking(参数) {
 [406. 根据身高重建队列 - 力扣（LeetCode）](https://leetcode.cn/problems/queue-reconstruction-by-height/description/)
 [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/description/)找气球的右边界
 [435. 无重叠区间 - 力扣（LeetCode）](https://leetcode.cn/problems/non-overlapping-intervals/description/)
-[763. 划分字母区间 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-labels/description/)
+[763. 划分字母区间 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-labels/description/)技巧性强
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5OTg5MzE0LDgyMzYzMzIxNSw1NzA4ND
-AwNiwxMTgyMjIzMjAwLDcwMDQwMDA4MSwzOTk5NDY3ODMsMTM1
-NTQ5ODMwNiwtMTk5NjM0Nzg2MywtMTQ0MTA1MzUxMiwtNjMwMD
-c0ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5OTcxLDE0MzA1MDA2NSw4
-Njg2MjA5MTIsMTY5MDA3MDA3MCwtMzE2Mzk0MjE0LDkzOTA4Nj
-U4NiwtMTE5MDgxNDkyMSwyNzUzNDAxNzUsMTU3NTAwMTg2OV19
+eyJoaXN0b3J5IjpbLTMyMTA1MTAzMiwzMDk5ODkzMTQsODIzNj
+MzMjE1LDU3MDg0MDA2LDExODIyMjMyMDAsNzAwNDAwMDgxLDM5
+OTk0Njc4MywxMzU1NDk4MzA2LC0xOTk2MzQ3ODYzLC0xNDQxMD
+UzNTEyLC02MzAwNzQ4NTMsNTcxNDg3ODUxLDExNDYyNDk5NzEs
+MTQzMDUwMDY1LDg2ODYyMDkxMiwxNjkwMDcwMDcwLC0zMTYzOT
+QyMTQsOTM5MDg2NTg2LC0xMTkwODE0OTIxLDI3NTM0MDE3NV19
 
 -->
