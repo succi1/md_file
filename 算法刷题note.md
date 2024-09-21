@@ -280,18 +280,26 @@ void backtracking(参数) {
 [738. 单调递增的数字 - 力扣（LeetCode）](https://leetcode.cn/problems/monotone-increasing-digits/description/)从后向前遍历，num[i - 1] = num[i -1] -1且num[i] = 9
 [968. 监控二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-cameras/description/)后序遍历+设置节点状态的贪心  难
 # 动态规划
-五部曲
+**五部曲:**
 1.  确定dp数组（dp table）以及下标的含义
 2.  确定递推公式
 3.  dp数组如何初始化
 4.  确定遍历顺序
 5.  举例推导dp数组
+
+**如果代码写出来了，一直AC不了，灵魂三问：**
+
+1.  这道题目我举例推导状态转移公式了么？
+2.  我打印dp数组的日志了么？
+3.  打印出来了dp数组和我想的一样么？
+### 题目链接
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDIyNjQ2NTgsMTcwMzMzMTQxMCwtMT
-kwMDA1MzA3NCwxMjYxMDg1Mjg4LDExNTAwOTk1MDUsODQzNTA3
-ODIyLC0zMjEwNTEwMzIsMzA5OTg5MzE0LDgyMzYzMzIxNSw1Nz
-A4NDAwNiwxMTgyMjIzMjAwLDcwMDQwMDA4MSwzOTk5NDY3ODMs
-MTM1NTQ5ODMwNiwtMTk5NjM0Nzg2MywtMTQ0MTA1MzUxMiwtNj
-MwMDc0ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5OTcxLDE0MzA1MDA2
-NV19
+eyJoaXN0b3J5IjpbMTYyMjY1ODAsLTEwMDIyNjQ2NTgsMTcwMz
+MzMTQxMCwtMTkwMDA1MzA3NCwxMjYxMDg1Mjg4LDExNTAwOTk1
+MDUsODQzNTA3ODIyLC0zMjEwNTEwMzIsMzA5OTg5MzE0LDgyMz
+YzMzIxNSw1NzA4NDAwNiwxMTgyMjIzMjAwLDcwMDQwMDA4MSwz
+OTk5NDY3ODMsMTM1NTQ5ODMwNiwtMTk5NjM0Nzg2MywtMTQ0MT
+A1MzUxMiwtNjMwMDc0ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5OTcx
+XX0=
 -->
