@@ -298,13 +298,13 @@ void backtracking(参数) {
 [343. 整数拆分 - 力扣（LeetCode）](https://leetcode.cn/problems/integer-break/description/)
 [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/unique-binary-search-trees/description/)推导🔪✍困难🔞
 二维dp数组
-[416. 分割等和子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-equal-subset-sum/description/)
+[416. 分割等和子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-equal-subset-sum/description/)能用回溯，但会超时。是01背包问题的变体
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzgzMDkyMyw0OTY0NzE4NCwtNDM0Mj
-UwNzc1LDIwMDAzMjM5ODgsLTE5MjIwODk5MDUsMTYyMjY1ODAs
-LTEwMDIyNjQ2NTgsMTcwMzMzMTQxMCwtMTkwMDA1MzA3NCwxMj
-YxMDg1Mjg4LDExNTAwOTk1MDUsODQzNTA3ODIyLC0zMjEwNTEw
-MzIsMzA5OTg5MzE0LDgyMzYzMzIxNSw1NzA4NDAwNiwxMTgyMj
-IzMjAwLDcwMDQwMDA4MSwzOTk5NDY3ODMsMTM1NTQ5ODMwNl19
+eyJoaXN0b3J5IjpbLTQ0NzAzMTUzNCwxMTA3ODMwOTIzLDQ5Nj
+Q3MTg0LC00MzQyNTA3NzUsMjAwMDMyMzk4OCwtMTkyMjA4OTkw
+NSwxNjIyNjU4MCwtMTAwMjI2NDY1OCwxNzAzMzMxNDEwLC0xOT
+AwMDUzMDc0LDEyNjEwODUyODgsMTE1MDA5OTUwNSw4NDM1MDc4
+MjIsLTMyMTA1MTAzMiwzMDk5ODkzMTQsODIzNjMzMjE1LDU3MD
+g0MDA2LDExODIyMjMyMDAsNzAwNDAwMDgxLDM5OTk0Njc4M119
 
 -->
