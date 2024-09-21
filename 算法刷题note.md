@@ -295,13 +295,13 @@ void backtracking(参数) {
 ### 题目链接
 [63. 不同路径 II - 力扣（LeetCode）](https://leetcode.cn/problems/unique-paths-ii/description/)
 [343. 整数拆分 - 力扣（LeetCode）](https://leetcode.cn/problems/integer-break/description/)
-[96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/unique-binary-search-trees/description/)推导🔪✍困难少
+[96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/unique-binary-search-trees/description/)推导🔪✍困难🔞
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzIwMjkyNiwtNDM0MjUwNzc1LDIwMD
-AzMjM5ODgsLTE5MjIwODk5MDUsMTYyMjY1ODAsLTEwMDIyNjQ2
-NTgsMTcwMzMzMTQxMCwtMTkwMDA1MzA3NCwxMjYxMDg1Mjg4LD
-ExNTAwOTk1MDUsODQzNTA3ODIyLC0zMjEwNTEwMzIsMzA5OTg5
-MzE0LDgyMzYzMzIxNSw1NzA4NDAwNiwxMTgyMjIzMjAwLDcwMD
-QwMDA4MSwzOTk5NDY3ODMsMTM1NTQ5ODMwNiwtMTk5NjM0Nzg2
-M119
+eyJoaXN0b3J5IjpbNDk2NDcxODQsLTQzNDI1MDc3NSwyMDAwMz
+IzOTg4LC0xOTIyMDg5OTA1LDE2MjI2NTgwLC0xMDAyMjY0NjU4
+LDE3MDMzMzE0MTAsLTE5MDAwNTMwNzQsMTI2MTA4NTI4OCwxMT
+UwMDk5NTA1LDg0MzUwNzgyMiwtMzIxMDUxMDMyLDMwOTk4OTMx
+NCw4MjM2MzMyMTUsNTcwODQwMDYsMTE4MjIyMzIwMCw3MDA0MD
+AwODEsMzk5OTQ2NzgzLDEzNTU0OTgzMDYsLTE5OTYzNDc4NjNd
+fQ==
 -->
