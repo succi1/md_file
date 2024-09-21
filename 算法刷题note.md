@@ -298,9 +298,9 @@ void backtracking(参数) {
 [343. 整数拆分 - 力扣（LeetCode）](https://leetcode.cn/problems/integer-break/description/)
 [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/unique-binary-search-trees/description/)推导🔪✍困难🔞
 二维dp数组
-
+[416. 分割等和子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-equal-subset-sum/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzY5ODAzNCw0OTY0NzE4NCwtNDM0Mj
+eyJoaXN0b3J5IjpbMTEwNzgzMDkyMyw0OTY0NzE4NCwtNDM0Mj
 UwNzc1LDIwMDAzMjM5ODgsLTE5MjIwODk5MDUsMTYyMjY1ODAs
 LTEwMDIyNjQ2NTgsMTcwMzMzMTQxMCwtMTkwMDA1MzA3NCwxMj
 YxMDg1Mjg4LDExNTAwOTk1MDUsODQzNTA3ODIyLC0zMjEwNTEw
