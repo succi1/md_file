@@ -294,12 +294,13 @@ void backtracking(参数) {
 3.  打印出来了dp数组和我想的一样么？
 ### 题目链接
 [63. 不同路径 II - 力扣（LeetCode）](https://leetcode.cn/problems/unique-paths-ii/description/)
+[343. 整数拆分 - 力扣（LeetCode）](https://leetcode.cn/problems/integer-break/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIwODk5MDUsMTYyMjY1ODAsLTEwMD
-IyNjQ2NTgsMTcwMzMzMTQxMCwtMTkwMDA1MzA3NCwxMjYxMDg1
-Mjg4LDExNTAwOTk1MDUsODQzNTA3ODIyLC0zMjEwNTEwMzIsMz
-A5OTg5MzE0LDgyMzYzMzIxNSw1NzA4NDAwNiwxMTgyMjIzMjAw
-LDcwMDQwMDA4MSwzOTk5NDY3ODMsMTM1NTQ5ODMwNiwtMTk5Nj
-M0Nzg2MywtMTQ0MTA1MzUxMiwtNjMwMDc0ODUzLDU3MTQ4Nzg1
-MV19
+eyJoaXN0b3J5IjpbMjAwMDMyMzk4OCwtMTkyMjA4OTkwNSwxNj
+IyNjU4MCwtMTAwMjI2NDY1OCwxNzAzMzMxNDEwLC0xOTAwMDUz
+MDc0LDEyNjEwODUyODgsMTE1MDA5OTUwNSw4NDM1MDc4MjIsLT
+MyMTA1MTAzMiwzMDk5ODkzMTQsODIzNjMzMjE1LDU3MDg0MDA2
+LDExODIyMjMyMDAsNzAwNDAwMDgxLDM5OTk0Njc4MywxMzU1ND
+k4MzA2LC0xOTk2MzQ3ODYzLC0xNDQxMDUzNTEyLC02MzAwNzQ4
+NTNdfQ==
 -->
