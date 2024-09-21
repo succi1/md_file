@@ -280,12 +280,18 @@ void backtracking(参数) {
 [738. 单调递增的数字 - 力扣（LeetCode）](https://leetcode.cn/problems/monotone-increasing-digits/description/)从后向前遍历，num[i - 1] = num[i -1] -1且num[i] = 9
 [968. 监控二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-cameras/description/)后序遍历+设置节点状态的贪心  难
 # 动态规划
+五部曲
+1.  确定dp数组（dp table）以及下标的含义
+2.  确定递推公式
+3.  dp数组如何初始化
+4.  确定遍历顺序
+5.  举例推导dp数组
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzMzMTQxMCwtMTkwMDA1MzA3NCwxMj
-YxMDg1Mjg4LDExNTAwOTk1MDUsODQzNTA3ODIyLC0zMjEwNTEw
-MzIsMzA5OTg5MzE0LDgyMzYzMzIxNSw1NzA4NDAwNiwxMTgyMj
-IzMjAwLDcwMDQwMDA4MSwzOTk5NDY3ODMsMTM1NTQ5ODMwNiwt
-MTk5NjM0Nzg2MywtMTQ0MTA1MzUxMiwtNjMwMDc0ODUzLDU3MT
-Q4Nzg1MSwxMTQ2MjQ5OTcxLDE0MzA1MDA2NSw4Njg2MjA5MTJd
-fQ==
+eyJoaXN0b3J5IjpbLTEwMDIyNjQ2NTgsMTcwMzMzMTQxMCwtMT
+kwMDA1MzA3NCwxMjYxMDg1Mjg4LDExNTAwOTk1MDUsODQzNTA3
+ODIyLC0zMjEwNTEwMzIsMzA5OTg5MzE0LDgyMzYzMzIxNSw1Nz
+A4NDAwNiwxMTgyMjIzMjAwLDcwMDQwMDA4MSwzOTk5NDY3ODMs
+MTM1NTQ5ODMwNiwtMTk5NjM0Nzg2MywtMTQ0MTA1MzUxMiwtNj
+MwMDc0ODUzLDU3MTQ4Nzg1MSwxMTQ2MjQ5OTcxLDE0MzA1MDA2
+NV19
 -->
