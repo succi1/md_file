@@ -293,15 +293,17 @@ void backtracking(参数) {
 2.  我打印dp数组的日志了么？
 3.  打印出来了dp数组和我想的一样么？
 ### 题目链接
+一维dp数组，但是可能存在二维循环
 [63. 不同路径 II - 力扣（LeetCode）](https://leetcode.cn/problems/unique-paths-ii/description/)
 [343. 整数拆分 - 力扣（LeetCode）](https://leetcode.cn/problems/integer-break/description/)
 [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/unique-binary-search-trees/description/)推导🔪✍困难🔞
+二维dp数组
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NDcxODQsLTQzNDI1MDc3NSwyMDAwMz
-IzOTg4LC0xOTIyMDg5OTA1LDE2MjI2NTgwLC0xMDAyMjY0NjU4
-LDE3MDMzMzE0MTAsLTE5MDAwNTMwNzQsMTI2MTA4NTI4OCwxMT
-UwMDk5NTA1LDg0MzUwNzgyMiwtMzIxMDUxMDMyLDMwOTk4OTMx
-NCw4MjM2MzMyMTUsNTcwODQwMDYsMTE4MjIyMzIwMCw3MDA0MD
-AwODEsMzk5OTQ2NzgzLDEzNTU0OTgzMDYsLTE5OTYzNDc4NjNd
+eyJoaXN0b3J5IjpbLTE0NjYwNjU3MjQsNDk2NDcxODQsLTQzND
+I1MDc3NSwyMDAwMzIzOTg4LC0xOTIyMDg5OTA1LDE2MjI2NTgw
+LC0xMDAyMjY0NjU4LDE3MDMzMzE0MTAsLTE5MDAwNTMwNzQsMT
+I2MTA4NTI4OCwxMTUwMDk5NTA1LDg0MzUwNzgyMiwtMzIxMDUx
+MDMyLDMwOTk4OTMxNCw4MjM2MzMyMTUsNTcwODQwMDYsMTE4Mj
+IyMzIwMCw3MDA0MDAwODEsMzk5OTQ2NzgzLDEzNTU0OTgzMDZd
 fQ==
 -->
