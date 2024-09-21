@@ -299,12 +299,13 @@ void backtracking(参数) {
 [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/unique-binary-search-trees/description/)推导🔪✍困难🔞
 二维dp数组
 [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-equal-subset-sum/description/)能用回溯，但会超时。是01背包问题的变体
+[1049. 最后一块石头的重量 II - 力扣（LeetCode）](https://leetcode.cn/problems/last-stone-weight-ii/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzAzMTUzNCwxMTA3ODMwOTIzLDQ5Nj
-Q3MTg0LC00MzQyNTA3NzUsMjAwMDMyMzk4OCwtMTkyMjA4OTkw
-NSwxNjIyNjU4MCwtMTAwMjI2NDY1OCwxNzAzMzMxNDEwLC0xOT
-AwMDUzMDc0LDEyNjEwODUyODgsMTE1MDA5OTUwNSw4NDM1MDc4
-MjIsLTMyMTA1MTAzMiwzMDk5ODkzMTQsODIzNjMzMjE1LDU3MD
-g0MDA2LDExODIyMjMyMDAsNzAwNDAwMDgxLDM5OTk0Njc4M119
-
+eyJoaXN0b3J5IjpbMTc0NDcyMjcxMSwtNDQ3MDMxNTM0LDExMD
+c4MzA5MjMsNDk2NDcxODQsLTQzNDI1MDc3NSwyMDAwMzIzOTg4
+LC0xOTIyMDg5OTA1LDE2MjI2NTgwLC0xMDAyMjY0NjU4LDE3MD
+MzMzE0MTAsLTE5MDAwNTMwNzQsMTI2MTA4NTI4OCwxMTUwMDk5
+NTA1LDg0MzUwNzgyMiwtMzIxMDUxMDMyLDMwOTk4OTMxNCw4Mj
+M2MzMyMTUsNTcwODQwMDYsMTE4MjIyMzIwMCw3MDA0MDAwODFd
+fQ==
 -->
