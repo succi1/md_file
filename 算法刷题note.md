@@ -306,13 +306,14 @@ void backtracking(参数) {
 **完全背包问题**
 **如果求组合数就是外层for循环遍历物品，内层for遍历背包**
 **如果求排列数就是外层for遍历背包，内层for循环遍历物品**
-[518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change-ii/description/)
+[518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change-ii/description/)求组合数总个数
+[377. 组合总和 Ⅳ - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-iv/description/)求排列数总个数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzY2NTc5MiwxNDk1OTIwMjIzLC0xNj
-I3NTI1ODYsMTgzNDg1MjQzNywtNDY1OTY4NjgsMjAwNzYxNTMy
-NSwtODUzNjU3MzYxLDE3NDQ3MjI3MTEsLTQ0NzAzMTUzNCwxMT
-A3ODMwOTIzLDQ5NjQ3MTg0LC00MzQyNTA3NzUsMjAwMDMyMzk4
-OCwtMTkyMjA4OTkwNSwxNjIyNjU4MCwtMTAwMjI2NDY1OCwxNz
-AzMzMxNDEwLC0xOTAwMDUzMDc0LDEyNjEwODUyODgsMTE1MDA5
-OTUwNV19
+eyJoaXN0b3J5IjpbNTI2NTMxMDMwLDEyOTc2NjU3OTIsMTQ5NT
+kyMDIyMywtMTYyNzUyNTg2LDE4MzQ4NTI0MzcsLTQ2NTk2ODY4
+LDIwMDc2MTUzMjUsLTg1MzY1NzM2MSwxNzQ0NzIyNzExLC00ND
+cwMzE1MzQsMTEwNzgzMDkyMyw0OTY0NzE4NCwtNDM0MjUwNzc1
+LDIwMDAzMjM5ODgsLTE5MjIwODk5MDUsMTYyMjY1ODAsLTEwMD
+IyNjQ2NTgsMTcwMzMzMTQxMCwtMTkwMDA1MzA3NCwxMjYxMDg1
+Mjg4XX0=
 -->
