@@ -301,13 +301,13 @@ void backtracking(参数) {
 [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-equal-subset-sum/description/)能用回溯，但会超时。是01背包问题的变体
 [1049. 最后一块石头的重量 II - 力扣（LeetCode）](https://leetcode.cn/problems/last-stone-weight-ii/description/)与上一题类似，但是很难转换成01背包问题
 [494. 目标和 - 力扣（LeetCode）](https://leetcode.cn/problems/target-sum/)完全想不出背包问题的bagsize。。。还要考虑num[i]为0的特殊情况
-[474. 一和零 - 力扣（LeetCode）](https://leetcode.cn/problems/ones-and-zeroes/description/)
+[474. 一和零 - 力扣（LeetCode）](https://leetcode.cn/problems/ones-and-zeroes/description/)虽然还是用二维dp数组，但是是三维01背包问题
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDg1MjQzNywtNDY1OTY4NjgsMjAwNz
-YxNTMyNSwtODUzNjU3MzYxLDE3NDQ3MjI3MTEsLTQ0NzAzMTUz
-NCwxMTA3ODMwOTIzLDQ5NjQ3MTg0LC00MzQyNTA3NzUsMjAwMD
-MyMzk4OCwtMTkyMjA4OTkwNSwxNjIyNjU4MCwtMTAwMjI2NDY1
-OCwxNzAzMzMxNDEwLC0xOTAwMDUzMDc0LDEyNjEwODUyODgsMT
-E1MDA5OTUwNSw4NDM1MDc4MjIsLTMyMTA1MTAzMiwzMDk5ODkz
-MTRdfQ==
+eyJoaXN0b3J5IjpbLTE2Mjc1MjU4NiwxODM0ODUyNDM3LC00Nj
+U5Njg2OCwyMDA3NjE1MzI1LC04NTM2NTczNjEsMTc0NDcyMjcx
+MSwtNDQ3MDMxNTM0LDExMDc4MzA5MjMsNDk2NDcxODQsLTQzND
+I1MDc3NSwyMDAwMzIzOTg4LC0xOTIyMDg5OTA1LDE2MjI2NTgw
+LC0xMDAyMjY0NjU4LDE3MDMzMzE0MTAsLTE5MDAwNTMwNzQsMT
+I2MTA4NTI4OCwxMTUwMDk5NTA1LDg0MzUwNzgyMiwtMzIxMDUx
+MDMyXX0=
 -->
