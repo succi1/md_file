@@ -304,13 +304,15 @@ void backtracking(参数) {
 [494. 目标和 - 力扣（LeetCode）](https://leetcode.cn/problems/target-sum/)完全想不出背包问题的bagsize。。。还要考虑num[i]为0的特殊情况
 [474. 一和零 - 力扣（LeetCode）](https://leetcode.cn/problems/ones-and-zeroes/description/)虽然还是用二维dp数组，但是是三维01背包问题
 **完全背包问题**
+**如果求组合数就是外层for循环遍历物品，内层for遍历背包**
+**如果求排列数就是外层for遍历背包，内层for循环遍历物品**
 [518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change-ii/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTkyMDIyMywtMTYyNzUyNTg2LDE4Mz
-Q4NTI0MzcsLTQ2NTk2ODY4LDIwMDc2MTUzMjUsLTg1MzY1NzM2
-MSwxNzQ0NzIyNzExLC00NDcwMzE1MzQsMTEwNzgzMDkyMyw0OT
-Y0NzE4NCwtNDM0MjUwNzc1LDIwMDAzMjM5ODgsLTE5MjIwODk5
-MDUsMTYyMjY1ODAsLTEwMDIyNjQ2NTgsMTcwMzMzMTQxMCwtMT
-kwMDA1MzA3NCwxMjYxMDg1Mjg4LDExNTAwOTk1MDUsODQzNTA3
-ODIyXX0=
+eyJoaXN0b3J5IjpbMTI5NzY2NTc5MiwxNDk1OTIwMjIzLC0xNj
+I3NTI1ODYsMTgzNDg1MjQzNywtNDY1OTY4NjgsMjAwNzYxNTMy
+NSwtODUzNjU3MzYxLDE3NDQ3MjI3MTEsLTQ0NzAzMTUzNCwxMT
+A3ODMwOTIzLDQ5NjQ3MTg0LC00MzQyNTA3NzUsMjAwMDMyMzk4
+OCwtMTkyMjA4OTkwNSwxNjIyNjU4MCwtMTAwMjI2NDY1OCwxNz
+AzMzMxNDEwLC0xOTAwMDUzMDc0LDEyNjEwODUyODgsMTE1MDA5
+OTUwNV19
 -->
