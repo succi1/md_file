@@ -308,12 +308,13 @@ void backtracking(参数) {
 **如果求排列数就是外层for遍历背包，内层for循环遍历物品**
 [518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change-ii/description/)求组合数总个数
 [377. 组合总和 Ⅳ - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-iv/description/)求排列数总个数
+爬楼梯问题本质上也是完全背包问题
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NTMxMDMwLDEyOTc2NjU3OTIsMTQ5NT
-kyMDIyMywtMTYyNzUyNTg2LDE4MzQ4NTI0MzcsLTQ2NTk2ODY4
-LDIwMDc2MTUzMjUsLTg1MzY1NzM2MSwxNzQ0NzIyNzExLC00ND
-cwMzE1MzQsMTEwNzgzMDkyMyw0OTY0NzE4NCwtNDM0MjUwNzc1
-LDIwMDAzMjM5ODgsLTE5MjIwODk5MDUsMTYyMjY1ODAsLTEwMD
-IyNjQ2NTgsMTcwMzMzMTQxMCwtMTkwMDA1MzA3NCwxMjYxMDg1
-Mjg4XX0=
+eyJoaXN0b3J5IjpbMTEzMTA2NDg4MCw1MjY1MzEwMzAsMTI5Nz
+Y2NTc5MiwxNDk1OTIwMjIzLC0xNjI3NTI1ODYsMTgzNDg1MjQz
+NywtNDY1OTY4NjgsMjAwNzYxNTMyNSwtODUzNjU3MzYxLDE3ND
+Q3MjI3MTEsLTQ0NzAzMTUzNCwxMTA3ODMwOTIzLDQ5NjQ3MTg0
+LC00MzQyNTA3NzUsMjAwMDMyMzk4OCwtMTkyMjA4OTkwNSwxNj
+IyNjU4MCwtMTAwMjI2NDY1OCwxNzAzMzMxNDEwLC0xOTAwMDUz
+MDc0XX0=
 -->
