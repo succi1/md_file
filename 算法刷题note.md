@@ -307,16 +307,16 @@ void backtracking(参数) {
 完全背包问题与01背包问题区别就是一维dp数组遍历顺序不一样，01背包逆序遍历dp[], 完全背包正序遍历dp[]
 **如果求组合数就是外层for循环遍历物品，内层for遍历背包**
 **如果求排列数就是外层for遍历背包，内层for循环遍历物品**
-**爬楼梯问题本质上也是完全背包问题**
+**爬楼梯问题本质上也是完全背包问题**，且是求排列数问题
 [518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change-ii/description/)求组合数总个数
 [377. 组合总和 Ⅳ - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-iv/description/)求排列数总个数
 [322. 零钱兑换 - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change/description/)没有强调组合数还是排列数，只要求最小个数，所以内外层循环顺序无所谓
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE1OTA5MjIsLTMxNjQyNjM1NiwxMT
-MxMDY0ODgwLDUyNjUzMTAzMCwxMjk3NjY1NzkyLDE0OTU5MjAy
-MjMsLTE2Mjc1MjU4NiwxODM0ODUyNDM3LC00NjU5Njg2OCwyMD
-A3NjE1MzI1LC04NTM2NTczNjEsMTc0NDcyMjcxMSwtNDQ3MDMx
-NTM0LDExMDc4MzA5MjMsNDk2NDcxODQsLTQzNDI1MDc3NSwyMD
-AwMzIzOTg4LC0xOTIyMDg5OTA1LDE2MjI2NTgwLC0xMDAyMjY0
-NjU4XX0=
+eyJoaXN0b3J5IjpbLTQzMDg0Njc5MiwtMzE2NDI2MzU2LDExMz
+EwNjQ4ODAsNTI2NTMxMDMwLDEyOTc2NjU3OTIsMTQ5NTkyMDIy
+MywtMTYyNzUyNTg2LDE4MzQ4NTI0MzcsLTQ2NTk2ODY4LDIwMD
+c2MTUzMjUsLTg1MzY1NzM2MSwxNzQ0NzIyNzExLC00NDcwMzE1
+MzQsMTEwNzgzMDkyMyw0OTY0NzE4NCwtNDM0MjUwNzc1LDIwMD
+AzMjM5ODgsLTE5MjIwODk5MDUsMTYyMjY1ODAsLTEwMDIyNjQ2
+NThdfQ==
 -->
