@@ -297,17 +297,20 @@ void backtracking(参数) {
 [63. 不同路径 II - 力扣（LeetCode）](https://leetcode.cn/problems/unique-paths-ii/description/)
 [343. 整数拆分 - 力扣（LeetCode）](https://leetcode.cn/problems/integer-break/description/)
 [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/unique-binary-search-trees/description/)推导🔪✍困难🔞
-二维dp数组
+
+**二维dp数组01背包问题**
 [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-equal-subset-sum/description/)能用回溯，但会超时。是01背包问题的变体
 [1049. 最后一块石头的重量 II - 力扣（LeetCode）](https://leetcode.cn/problems/last-stone-weight-ii/description/)与上一题类似，但是很难转换成01背包问题
 [494. 目标和 - 力扣（LeetCode）](https://leetcode.cn/problems/target-sum/)完全想不出背包问题的bagsize。。。还要考虑num[i]为0的特殊情况
 [474. 一和零 - 力扣（LeetCode）](https://leetcode.cn/problems/ones-and-zeroes/description/)虽然还是用二维dp数组，但是是三维01背包问题
+**完全背包问题**
+[518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change-ii/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc1MjU4NiwxODM0ODUyNDM3LC00Nj
-U5Njg2OCwyMDA3NjE1MzI1LC04NTM2NTczNjEsMTc0NDcyMjcx
-MSwtNDQ3MDMxNTM0LDExMDc4MzA5MjMsNDk2NDcxODQsLTQzND
-I1MDc3NSwyMDAwMzIzOTg4LC0xOTIyMDg5OTA1LDE2MjI2NTgw
-LC0xMDAyMjY0NjU4LDE3MDMzMzE0MTAsLTE5MDAwNTMwNzQsMT
-I2MTA4NTI4OCwxMTUwMDk5NTA1LDg0MzUwNzgyMiwtMzIxMDUx
-MDMyXX0=
+eyJoaXN0b3J5IjpbMTQ5NTkyMDIyMywtMTYyNzUyNTg2LDE4Mz
+Q4NTI0MzcsLTQ2NTk2ODY4LDIwMDc2MTUzMjUsLTg1MzY1NzM2
+MSwxNzQ0NzIyNzExLC00NDcwMzE1MzQsMTEwNzgzMDkyMyw0OT
+Y0NzE4NCwtNDM0MjUwNzc1LDIwMDAzMjM5ODgsLTE5MjIwODk5
+MDUsMTYyMjY1ODAsLTEwMDIyNjQ2NTgsMTcwMzMzMTQxMCwtMT
+kwMDA1MzA3NCwxMjYxMDg1Mjg4LDExNTAwOTk1MDUsODQzNTA3
+ODIyXX0=
 -->
