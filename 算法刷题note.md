@@ -318,12 +318,16 @@ void backtracking(参数) {
 问装满背包有几种方法：dp[j] += dp[j - nums[i]] 
 问背包装满最大价值：dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); 
 问装满背包所有物品的最小个数：dp[j] = min(dp[j - coins[i]] + 1, dp[j])
+
+
+------
+[213. 打家劫舍 II - 力扣（LeetCode）](https://leetcode.cn/problems/house-robber-ii/description/)环形dp解法
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTk1NTY5OSwxOTA0MTUzNDIsLTQzMD
-g0Njc5MiwtMzE2NDI2MzU2LDExMzEwNjQ4ODAsNTI2NTMxMDMw
-LDEyOTc2NjU3OTIsMTQ5NTkyMDIyMywtMTYyNzUyNTg2LDE4Mz
-Q4NTI0MzcsLTQ2NTk2ODY4LDIwMDc2MTUzMjUsLTg1MzY1NzM2
-MSwxNzQ0NzIyNzExLC00NDcwMzE1MzQsMTEwNzgzMDkyMyw0OT
-Y0NzE4NCwtNDM0MjUwNzc1LDIwMDAzMjM5ODgsLTE5MjIwODk5
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTE4NzE3NjEzNTQsLTUzOTk1NTY5OSwxOT
+A0MTUzNDIsLTQzMDg0Njc5MiwtMzE2NDI2MzU2LDExMzEwNjQ4
+ODAsNTI2NTMxMDMwLDEyOTc2NjU3OTIsMTQ5NTkyMDIyMywtMT
+YyNzUyNTg2LDE4MzQ4NTI0MzcsLTQ2NTk2ODY4LDIwMDc2MTUz
+MjUsLTg1MzY1NzM2MSwxNzQ0NzIyNzExLC00NDcwMzE1MzQsMT
+EwNzgzMDkyMyw0OTY0NzE4NCwtNDM0MjUwNzc1LDIwMDAzMjM5
+ODhdfQ==
 -->
