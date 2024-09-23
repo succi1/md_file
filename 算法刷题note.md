@@ -194,7 +194,7 @@ class Solution:
 [669. 修剪二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/trim-a-binary-search-tree/description/)递归
 [108. 将有序数组转换为二叉搜索树 - 力扣（LeetCode）](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/description/)
 [538. 把二叉搜索树转换为累加树 - 力扣（LeetCode）](https://leetcode.cn/problems/convert-bst-to-greater-tree/description/)关键在于设置一个记录上一个节点和的全局变量
-# 递归回溯法
+# 六、递归回溯法
 ### 回溯法解决的问题
 
 -   组合问题：N个数里面按一定规则找出k个数的集合
@@ -257,7 +257,7 @@ void backtracking(参数) {
 6. 棋盘问题
 [51. N 皇后 - 力扣（LeetCode）](https://leetcode.cn/problems/n-queens/description/)
 [37. 解数独 - 力扣（LeetCode）](https://leetcode.cn/problems/sudoku-solver/description/)
-# 贪心算法
+# 七、贪心算法
 ### 理论基础
 1. **贪心的本质是选择每一阶段的局部最优，从而达到全局最优**。
 2. 如何验证可不可以用贪心算法呢？
@@ -279,7 +279,7 @@ void backtracking(参数) {
 [763. 划分字母区间 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-labels/description/)技巧性强, 看起来切割字母串需要用回溯其实不需要
 [738. 单调递增的数字 - 力扣（LeetCode）](https://leetcode.cn/problems/monotone-increasing-digits/description/)从后向前遍历，num[i - 1] = num[i -1] -1且num[i] = 9
 [968. 监控二叉树 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-tree-cameras/description/)后序遍历+设置节点状态的贪心  难
-# 动态规划
+# 八、动态规划
 **五部曲:**
 1.  确定dp数组（dp table）以及下标的含义
 2.  确定递推公式
@@ -312,11 +312,11 @@ void backtracking(参数) {
 [377. 组合总和 Ⅳ - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-iv/description/)求排列数总个数
 [322. 零钱兑换 - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change/description/)没有强调组合数还是排列数，只要求最小个数，所以内外层循环顺序无所谓
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDg0Njc5MiwtMzE2NDI2MzU2LDExMz
-EwNjQ4ODAsNTI2NTMxMDMwLDEyOTc2NjU3OTIsMTQ5NTkyMDIy
-MywtMTYyNzUyNTg2LDE4MzQ4NTI0MzcsLTQ2NTk2ODY4LDIwMD
-c2MTUzMjUsLTg1MzY1NzM2MSwxNzQ0NzIyNzExLC00NDcwMzE1
-MzQsMTEwNzgzMDkyMyw0OTY0NzE4NCwtNDM0MjUwNzc1LDIwMD
-AzMjM5ODgsLTE5MjIwODk5MDUsMTYyMjY1ODAsLTEwMDIyNjQ2
-NThdfQ==
+eyJoaXN0b3J5IjpbMTc4MzU4NDczMiwtNDMwODQ2NzkyLC0zMT
+Y0MjYzNTYsMTEzMTA2NDg4MCw1MjY1MzEwMzAsMTI5NzY2NTc5
+MiwxNDk1OTIwMjIzLC0xNjI3NTI1ODYsMTgzNDg1MjQzNywtND
+Y1OTY4NjgsMjAwNzYxNTMyNSwtODUzNjU3MzYxLDE3NDQ3MjI3
+MTEsLTQ0NzAzMTUzNCwxMTA3ODMwOTIzLDQ5NjQ3MTg0LC00Mz
+QyNTA3NzUsMjAwMDMyMzk4OCwtMTkyMjA4OTkwNSwxNjIyNjU4
+MF19
 -->
