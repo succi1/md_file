@@ -312,12 +312,18 @@ void backtracking(参数) {
 [518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change-ii/description/)求组合数总个数
 [377. 组合总和 Ⅳ - 力扣（LeetCode）](https://leetcode.cn/problems/combination-sum-iv/description/)求排列数总个数
 [322. 零钱兑换 - 力扣（LeetCode）](https://leetcode.cn/problems/coin-change/description/)没有强调组合数还是排列数，只要求最小个数，所以内外层循环顺序无所谓
+[139. 单词拆分 - 力扣（LeetCode）](https://leetcode.cn/problems/word-break/description/)可以用回溯做
+### 背包递推公式
+问能否能装满背包（或者最多装多少）：dp[j] = max(dp[j], dp[j - nums[i]] + nums[i])
+问装满背包有几种方法：dp[j] += dp[j - nums[i]] 
+问背包装满最大价值：dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); 
+问装满背包所有物品的最小个数：dp[j] = min(dp[j - coins[i]] + 1, dp[j]); ，对应题目如下：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDE1MzQyLC00MzA4NDY3OTIsLTMxNj
-QyNjM1NiwxMTMxMDY0ODgwLDUyNjUzMTAzMCwxMjk3NjY1Nzky
-LDE0OTU5MjAyMjMsLTE2Mjc1MjU4NiwxODM0ODUyNDM3LC00Nj
-U5Njg2OCwyMDA3NjE1MzI1LC04NTM2NTczNjEsMTc0NDcyMjcx
-MSwtNDQ3MDMxNTM0LDExMDc4MzA5MjMsNDk2NDcxODQsLTQzND
-I1MDc3NSwyMDAwMzIzOTg4LC0xOTIyMDg5OTA1LDE2MjI2NTgw
-XX0=
+eyJoaXN0b3J5IjpbMTY1MzQxNjExNiwxOTA0MTUzNDIsLTQzMD
+g0Njc5MiwtMzE2NDI2MzU2LDExMzEwNjQ4ODAsNTI2NTMxMDMw
+LDEyOTc2NjU3OTIsMTQ5NTkyMDIyMywtMTYyNzUyNTg2LDE4Mz
+Q4NTI0MzcsLTQ2NTk2ODY4LDIwMDc2MTUzMjUsLTg1MzY1NzM2
+MSwxNzQ0NzIyNzExLC00NDcwMzE1MzQsMTEwNzgzMDkyMyw0OT
+Y0NzE4NCwtNDM0MjUwNzc1LDIwMDAzMjM5ODgsLTE5MjIwODk5
+MDVdfQ==
 -->
