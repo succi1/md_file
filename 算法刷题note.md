@@ -317,9 +317,9 @@ void backtracking(参数) {
 问能否能装满背包（或者最多装多少）：dp[j] = max(dp[j], dp[j - nums[i]] + nums[i])
 问装满背包有几种方法：dp[j] += dp[j - nums[i]] 
 问背包装满最大价值：dp[j] = max(dp[j], dp[j - weight[i]] + value[i]); 
-问装满背包所有物品的最小个数：dp[j] = min(dp[j - coins[i]] + 1, dp[j]); ，对应题目如下：
+问装满背包所有物品的最小个数：dp[j] = min(dp[j - coins[i]] + 1, dp[j])
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzQxNjExNiwxOTA0MTUzNDIsLTQzMD
+eyJoaXN0b3J5IjpbLTUzOTk1NTY5OSwxOTA0MTUzNDIsLTQzMD
 g0Njc5MiwtMzE2NDI2MzU2LDExMzEwNjQ4ODAsNTI2NTMxMDMw
 LDEyOTc2NjU3OTIsMTQ5NTkyMDIyMywtMTYyNzUyNTg2LDE4Mz
 Q4NTI0MzcsLTQ2NTk2ODY4LDIwMDc2MTUzMjUsLTg1MzY1NzM2
