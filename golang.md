@@ -440,8 +440,9 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 3. map的value最好使用结构体
 4. ```map[string]map[string]string```，map嵌套map，里层的map也要make后才能使用
 
-# 面向对象
+# 面向"对象" 结构体
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyNjE0NjYzLC0xOTE4MjIyMDg2LDE5Nj
-U1ODExMDUsLTgyMzYyNTQ4NSwxODEwMDU5NzA3XX0=
+eyJoaXN0b3J5IjpbMTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOT
+Y1NTgxMTA1LC04MjM2MjU0ODUsMTgxMDA1OTcwN119
 -->
