@@ -382,7 +382,7 @@ var slice []int = []int{4, 5, 6}
 ```
 从底层来说 ，slice是一个结构体，包含三个属性（指针，长度，容量）
 方式一和方式二创建slice的区别：方式一直接引用创建好的数组，程序员是可见的；方式二通过make创建切片和数组，这个数组对程序员不可见，只能通过切片访问和维护
-方式二指定了
+方式二指定了切片的最大长度，如果元素数量大于len，那么
 
 ---
 ```go
@@ -393,7 +393,7 @@ slice1 = append(slice1, 7, 6)
 // 第二种方式 apend(被添加切片, 切片...)
 slice1 = append(slice1, slice1...)
 ```
-使用append之后go底层会创建新的数组，会将原切片的元素拷贝到新数组，新数组对程序员来说是不可见的
+使用append之后go底层会创建新的数组，会将原切片的元素拷贝到新数组，新数组对程序员来说是不可见的。因此修改新数组的值原数组不会改变
 
 ---
 也能获取字符串切片
@@ -435,6 +435,6 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTYzOTIwMCwxOTY1NTgxMTA1LC04Mj
-M2MjU0ODUsMTgxMDA1OTcwN119
+eyJoaXN0b3J5IjpbOTMyMTIzNDI5LDE5NjU1ODExMDUsLTgyMz
+YyNTQ4NSwxODEwMDU5NzA3XX0=
 -->
