@@ -442,7 +442,7 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 
 # 面向"对象" 结构体
 ### 结构体的声明与赋值
-
+四种方式
 ```go
 var cat1 Cat
 cat1.Name = "bai"
@@ -459,7 +459,7 @@ cat3.Name = "doudou"
 var cat4 *Cat = &Cat{}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYzNDAxOTcsMTk4NTg4MDkzNSwtMT
-kxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0ODUsMTgxMDA1
-OTcwN119
+eyJoaXN0b3J5IjpbMTgyMjcxOTcxLDE5ODU4ODA5MzUsLTE5MT
+gyMjIwODYsMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAwNTk3
+MDddfQ==
 -->
