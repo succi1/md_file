@@ -459,8 +459,11 @@ cat3.Name = "doudou"
 var cat4 *Cat = &Cat{}
 ```
 ### 实际开发序列化结构体 结构体标签使用场景
+![示例图](/imgs/2024-09-24/KlqHqtc6TrBJJz9s.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTAyNTU4MywtNDgwODQ5NTE4LDE4Mj
-I3MTk3MSwxOTg1ODgwOTM1LC0xOTE4MjIyMDg2LDE5NjU1ODEx
-MDUsLTgyMzYyNTQ4NSwxODEwMDU5NzA3XX0=
+eyJoaXN0b3J5IjpbLTY5MzkyNzQyOSwtMjM1MDI1NTgzLC00OD
+A4NDk1MTgsMTgyMjcxOTcxLDE5ODU4ODA5MzUsLTE5MTgyMjIw
+ODYsMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAwNTk3MDddfQ
+==
 -->
