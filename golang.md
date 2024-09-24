@@ -441,8 +441,25 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 4. ```map[string]map[string]string```，map嵌套map，里层的map也要make后才能使用
 
 # 面向"对象" 结构体
+### 结构体的声明与赋值
 
+```go
+var cat1 Cat
+cat1.Name = "bai"
+cat1.age = 3
+cat1.Color = "black"
+
+var cat2 Cat = Cat{Name : "xiao", age : 10, Color : "yellow",}
+
+var cat3 *Cat = new(Cat)
+// (*cat3).Name = "doudou"是标准写法，但为了方便
+// 等价于 cat3.Name = "doudou"
+cat3.Name = "doudou"
+
+var cat4 *Cat = &Cat{}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOT
-Y1NTgxMTA1LC04MjM2MjU0ODUsMTgxMDA1OTcwN119
+eyJoaXN0b3J5IjpbLTE2NzYzNDAxOTcsMTk4NTg4MDkzNSwtMT
+kxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0ODUsMTgxMDA1
+OTcwN119
 -->
