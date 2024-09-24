@@ -126,7 +126,7 @@ var ptr *int = &a // 正确写法
 
 1）值类型：都有对应的指针类型，包括基本数据类型、数组、结构体
 变量直接存储值，内存**通常**在栈中分配（取决于go的逃逸分析）
-2）引用类型：指针、切片、map、管道、interface等，bi'xu
+2）引用类型：指针、切片、map、管道、interface等，必须通过make分配存储空间后才能使用
 引用类型**通常**在堆区分配空间，当没有引用这个变量所存储的地址时，该地址所对应的数据空间成为了一个垃圾，由GC来回收
 
 7. **命名**
@@ -419,6 +419,8 @@ var 变量名 map[keytype]valuetype
  - delete(map, key) key存在则删除，不存在不报错
  - ```value, ok := map(key)```如果key在映射中ok值为true，如果不存在ok值为false
  - map遍历只能用for range来遍历
+ 
+
  ### map切片
  切片的数据类型是map，我们称为map切片, 这样使用使得map的个数可以动态变化
  ```go
@@ -434,7 +436,9 @@ monster[1] = map[string]string{"name" : "redchild", "age" : "100",}
 monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzQyNDU0MSwxOTY1NTgxMTA1LC04Mj
+eyJoaXN0b3J5IjpbMTMyMTA1MjI2MywxOTY1NTgxMTA1LC04Mj
 M2MjU0ODUsMTgxMDA1OTcwN119
 -->
