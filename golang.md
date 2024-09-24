@@ -458,8 +458,9 @@ cat3.Name = "doudou"
 
 var cat4 *Cat = &Cat{}
 ```
+### 实际开发序列化结构体方式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjcxOTcxLDE5ODU4ODA5MzUsLTE5MT
-gyMjIwODYsMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAwNTk3
-MDddfQ==
+eyJoaXN0b3J5IjpbLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NT
+g4MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0
+ODUsMTgxMDA1OTcwN119
 -->
