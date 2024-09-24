@@ -420,6 +420,7 @@ var 变量名 map[keytype]valuetype
  - map遍历只能用for range来遍历
  ### map切片
  切片的数据类型是map，我们称为map切片
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDA1OTcwN119
+eyJoaXN0b3J5IjpbMTIxOTkyMDQyNywxODEwMDU5NzA3XX0=
 -->
