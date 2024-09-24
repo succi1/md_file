@@ -459,11 +459,11 @@ cat3.Name = "doudou"
 var cat4 *Cat = &Cat{}
 ```
 ### 实际开发序列化结构体 结构体标签使用场景
-structmei'ge
-![示例图](/imgs/2024-09-24/KlqHqtc6TrBJJz9s.png)
+struct每个字段上可以写上一个tag，该tag可以通过反射机制获取，常见的使用场景就是序列化和反序列化
+![name](/imgs/2024-09-24/KlqHqtc6TrBJJz9s.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjEyODU1MTQsLTIzNTAyNTU4MywtND
+eyJoaXN0b3J5IjpbLTEzODM2MDk1MDAsLTIzNTAyNTU4MywtND
 gwODQ5NTE4LDE4MjI3MTk3MSwxOTg1ODgwOTM1LC0xOTE4MjIy
 MDg2LDE5NjU1ODExMDUsLTgyMzYyNTQ4NSwxODEwMDU5NzA3XX
 0=
