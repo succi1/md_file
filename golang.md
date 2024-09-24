@@ -436,7 +436,8 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 
 ### map使用细节
 1. map是引用类型，遵循引用传递机制
+2. map能自动扩容，不会产生panic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU3NjY3MDgsMTk2NTU4MTEwNSwtOD
-IzNjI1NDg1LDE4MTAwNTk3MDddfQ==
+eyJoaXN0b3J5IjpbNjA3NDkzNzcsMTk2NTU4MTEwNSwtODIzNj
+I1NDg1LDE4MTAwNTk3MDddfQ==
 -->
