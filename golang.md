@@ -409,7 +409,7 @@ str = string(arr1) // 此时，str = "zbcabcabc"
 ### map声明
 var 变量名 map[keytype]valuetype
 
- - keytype一般是int或string，key键值不能重复，其中每次输出key的排序是不同的
+ - keytype一般是int或string，key键值不能重复
  - valuetype通常为数字、string、map、struct ```map[string]map[string]string```，valuetype为映射时一般这样定义
  - 声明不会分配内存，初始化需要make才能分配内存 ``` a := make(map[string]string, 10)```10表示a的长度,可省略
  - ```hero := map[string]string{"hero1" : "ming", "hero2" : "hong", }```最后一个逗号不能省略
@@ -432,7 +432,8 @@ monster[1] = map[string]string{"name" : "redchild", "age" : "100",}
 // 因为只给切片申请了2个单位大小，我们想让monster能动态增加 需要使用append
 monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc5MzQyODksLTgyMzYyNTQ4NSwxOD
-EwMDU5NzA3XX0=
+eyJoaXN0b3J5IjpbMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MT
+AwNTk3MDddfQ==
 -->
