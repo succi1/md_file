@@ -419,8 +419,6 @@ var 变量名 map[keytype]valuetype
  - delete(map, key) key存在则删除，不存在不报错
  - ```value, ok := map(key)```如果key在映射中ok值为true，如果不存在ok值为false
  - map遍历只能用for range来遍历
- 
-
  ### map切片
  切片的数据类型是map，我们称为map切片, 这样使用使得map的个数可以动态变化
  ```go
@@ -436,9 +434,9 @@ monster[1] = map[string]string{"name" : "redchild", "age" : "100",}
 monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 ```
 
-
-
+### map使用细节
+1. map是引用类型，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTA1MjI2MywxOTY1NTgxMTA1LC04Mj
-M2MjU0ODUsMTgxMDA1OTcwN119
+eyJoaXN0b3J5IjpbLTEwNDU2Mzk4MDYsMTk2NTU4MTEwNSwtOD
+IzNjI1NDg1LDE4MTAwNTk3MDddfQ==
 -->
