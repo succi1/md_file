@@ -419,8 +419,10 @@ var 变量名 map[keytype]valuetype
  - ```value, ok := map(key)```如果key在映射中ok值为true，如果不存在ok值为false
  - map遍历只能用for range来遍历
  ### map切片
- 切片的数据类型是map，我们称为map切片
+ 切片的数据类型是map，我们称为map切片, 这样使用使得map的个数可以动态变化
+ ```go
  
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTkyMDQyNywxODEwMDU5NzA3XX0=
+eyJoaXN0b3J5IjpbLTgyMzYyNTQ4NSwxODEwMDU5NzA3XX0=
 -->
