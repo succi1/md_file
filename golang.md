@@ -438,7 +438,10 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 1. map是引用类型，遵循引用传递机制
 2. map能自动扩容，即使设置了map的最大个数，超出后也不会产生panic
 3. map的value最好使用结构体
+4. ```map[string]map[string]string```，map嵌套map，里层的map也要make后才能使用
+
+# 面向对象
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgyMjIwODYsMTk2NTU4MTEwNSwtOD
-IzNjI1NDg1LDE4MTAwNTk3MDddfQ==
+eyJoaXN0b3J5IjpbNDAyNjE0NjYzLC0xOTE4MjIyMDg2LDE5Nj
+U1ODExMDUsLTgyMzYyNTQ4NSwxODEwMDU5NzA3XX0=
 -->
