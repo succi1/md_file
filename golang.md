@@ -382,6 +382,7 @@ var slice []int = []int{4, 5, 6}
 ```
 从底层来说 ，slice是一个结构体，包含三个属性（指针，长度，容量）
 方式一和方式二创建slice的区别：方式一直接引用创建好的数组，程序员是可见的；方式二通过make创建切片和数组，这个数组对程序员不可见，只能通过切片访问和维护
+方式二指定了
 
 ---
 ```go
@@ -434,6 +435,6 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MT
-AwNTk3MDddfQ==
+eyJoaXN0b3J5IjpbMTg3NTYzOTIwMCwxOTY1NTgxMTA1LC04Mj
+M2MjU0ODUsMTgxMDA1OTcwN119
 -->
