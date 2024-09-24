@@ -126,7 +126,7 @@ var ptr *int = &a // 正确写法
 
 1）值类型：都有对应的指针类型，包括基本数据类型、数组、结构体
 变量直接存储值，内存**通常**在栈中分配（取决于go的逃逸分析）
-2）引用类型：指针、切片、map、管道、interface等
+2）引用类型：指针、切片、map、管道、interface等，bi'xu
 引用类型**通常**在堆区分配空间，当没有引用这个变量所存储的地址时，该地址所对应的数据空间成为了一个垃圾，由GC来回收
 
 7. **命名**
@@ -382,7 +382,7 @@ var slice []int = []int{4, 5, 6}
 ```
 从底层来说 ，slice是一个结构体，包含三个属性（指针，长度，容量）
 方式一和方式二创建slice的区别：方式一直接引用创建好的数组，程序员是可见的；方式二通过make创建切片和数组，这个数组对程序员不可见，只能通过切片访问和维护
-方式二指定了切片的最大长度，如果元素数量大于len，那么
+方式二指定了切片的最大长度，如果元素数量大于len，那么会发生越界，只能通过append方式去添加元素
 
 ---
 ```go
@@ -435,6 +435,6 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMTIzNDI5LDE5NjU1ODExMDUsLTgyMz
-YyNTQ4NSwxODEwMDU5NzA3XX0=
+eyJoaXN0b3J5IjpbLTQ4MzQyNDU0MSwxOTY1NTgxMTA1LC04Mj
+M2MjU0ODUsMTgxMDA1OTcwN119
 -->
