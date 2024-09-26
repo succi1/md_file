@@ -503,8 +503,9 @@ func main(){
 	b.test() // 调用方法
 ```
 3.方法只能被绑定类型的变量来调用，不能直接被调用 
+4.如果一个类型实现了String()这个方法，那么**fmt.Println默认会调用这个变量的string()**进行输出
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjA2NjA2MywtMTA4MDMxNTQ4NSwxMz
+eyJoaXN0b3J5IjpbMTMyNjcyNTMxMiwtMTA4MDMxNTQ4NSwxMz
 A0ODc3MjA4LDE3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5
 NTAwLC0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMT
 k4NTg4MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2
