@@ -516,7 +516,7 @@ func main(){
 结构体名->结构体字段->结构体方法
 
 使用场景：
-1.我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式解决
+1.我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式建立函数解决
 ```go
 // 在定义结构体的包中 设置这样一个工厂函数
 func NewStudent(n string, s float64) *student{
@@ -531,11 +531,11 @@ func NewStudent(n string, s float64) *student{
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjQ4NzM0MCwtNTIxMzcwMjczLDE5Nz
-Q1Nzc3NCwtMTcwODE3MzI2LC05NTY3NTc5NzMsLTExODMyNDMw
-NDcsLTEwODAzMTU0ODUsMTMwNDg3NzIwOCwxNzc3OTk4MzQyLD
-cyNzgwMDAwMiwtMTM4MzYwOTUwMCwtMjM1MDI1NTgzLC00ODA4
-NDk1MTgsMTgyMjcxOTcxLDE5ODU4ODA5MzUsLTE5MTgyMjIwOD
-YsMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAwNTk3MDddfQ==
-
+eyJoaXN0b3J5IjpbMjA1MjEzNjIwOCwxMjE2NDg3MzQwLC01Mj
+EzNzAyNzMsMTk3NDU3Nzc0LC0xNzA4MTczMjYsLTk1Njc1Nzk3
+MywtMTE4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3MjA4LD
+E3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC0yMzUw
+MjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4MDkzNS
+wtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0ODUsMTgx
+MDA1OTcwN119
 -->
