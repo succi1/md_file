@@ -505,16 +505,17 @@ func main(){
 ```
 
 3.方法只能被绑定类型的变量来调用，不能直接被调用 
-4.如果一个类型实现了String()这个方法，那么**fmt.Println默认会调用这个变量的string()**进行输出
+4.如果一个类型实现了String()这个方法，**那么fmt.Println默认会调用这个变量的string()进行输出**
 ### 方法和函数的区别
 1.调用方式不一样：函数名(实参列表)；变量.方法名(实参列表)
 2.对于函数参数为值类型只能传递值类型，参数为引用类型只能传递引用类型
-3.对于方法，被结构体变量调用时，该调用变量既可以是值传递也可以是引用传递，方法是否改变变量内部的值应该看 **当初方法在定义时** 使用的结构体类型到底是值类型还是引用类型
+3.对于方法，被结构体变量调用时，该调用变量既可以是值传递也可以是引用传递，方法是否改变变量内部的值应该看 **当初方法在定义时** **绑定的结构体类型**到底是值类型还是引用类型
+### 面向对象bi'a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NDQ5NTc1LC05NTY3NTc5NzMsLTExOD
-MyNDMwNDcsLTEwODAzMTU0ODUsMTMwNDg3NzIwOCwxNzc3OTk4
-MzQyLDcyNzgwMDAwMiwtMTM4MzYwOTUwMCwtMjM1MDI1NTgzLC
-00ODA4NDk1MTgsMTgyMjcxOTcxLDE5ODU4ODA5MzUsLTE5MTgy
-MjIwODYsMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAwNTk3MD
-ddfQ==
+eyJoaXN0b3J5IjpbLTIwNTMxMjk5ODQsLTk1Njc1Nzk3MywtMT
+E4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3MjA4LDE3Nzc5
+OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC0yMzUwMjU1OD
+MsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4MDkzNSwtMTkx
+ODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0ODUsMTgxMDA1OT
+cwN119
 -->
