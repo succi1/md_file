@@ -488,8 +488,13 @@ func main(){
 ```
 ### 方法
 1.自定义类型都可以有方法，不只是struct
+2.方法的声明与调用
+```go
+type A struc{
+	Num,
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzczMDUsNzI3ODAwMDAyLC0xMzgzNj
+eyJoaXN0b3J5IjpbMTAyNDg4NDksNzI3ODAwMDAyLC0xMzgzNj
 A5NTAwLC0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEs
 MTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04Mj
 M2MjU0ODUsMTgxMDA1OTcwN119
