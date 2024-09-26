@@ -442,7 +442,7 @@ monster = append(monster, map[string]string{"name":"rabit", "age": "400",})
 
 # 面向"对象" 结构体
 ### 结构体的声明与赋值
-四种方式
+五种方式，后三种为创建结构体指针
 ```go
 var cat1 Cat
 cat1.Name = "bai"
@@ -516,7 +516,7 @@ func main(){
 结构体名->结构体字段->结构体方法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjgwNzE4LC0xNzA4MTczMjYsLTk1Nj
+eyJoaXN0b3J5IjpbMTY2MjIzMjU5LC0xNzA4MTczMjYsLTk1Nj
 c1Nzk3MywtMTE4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3
 MjA4LDE3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC
 0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4
