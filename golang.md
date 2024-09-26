@@ -516,7 +516,7 @@ func main(){
 结构体名->结构体字段->结构体方法
 
 使用场景：
-1.我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式建立函数解决
+1.我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式**建立函数**解决
 ```go
 // 在定义结构体的包中 设置这样一个工厂函数
 func NewStudent(n string, s float64) *student{
@@ -526,16 +526,16 @@ func NewStudent(n string, s float64) *student{
 	}
 }
 ```
-2.我们定义的结构体名称是大写，但是其中有的字段小写，我们需要在别的包中创建该结构体的实例并访问小写字段，可以使用工厂模式解决
+2.我们定义的结构体名称是大写，但是其中有的字段小写，我们需要在别的包中创建该结构体的实例并访问小写字段，可以使用工厂模式**建立方法**解决
 ```go
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjEzNjIwOCwxMjE2NDg3MzQwLC01Mj
-EzNzAyNzMsMTk3NDU3Nzc0LC0xNzA4MTczMjYsLTk1Njc1Nzk3
-MywtMTE4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3MjA4LD
-E3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC0yMzUw
-MjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4MDkzNS
-wtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0ODUsMTgx
-MDA1OTcwN119
+eyJoaXN0b3J5IjpbMzQzMjM1Mjk5LDEyMTY0ODczNDAsLTUyMT
+M3MDI3MywxOTc0NTc3NzQsLTE3MDgxNzMyNiwtOTU2NzU3OTcz
+LC0xMTgzMjQzMDQ3LC0xMDgwMzE1NDg1LDEzMDQ4NzcyMDgsMT
+c3Nzk5ODM0Miw3Mjc4MDAwMDIsLTEzODM2MDk1MDAsLTIzNTAy
+NTU4MywtNDgwODQ5NTE4LDE4MjI3MTk3MSwxOTg1ODgwOTM1LC
+0xOTE4MjIyMDg2LDE5NjU1ODExMDUsLTgyMzYyNTQ4NSwxODEw
+MDU5NzA3XX0=
 -->
