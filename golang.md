@@ -514,9 +514,9 @@ func main(){
 3.对于方法，被结构体变量调用时，该调用变量既可以是值传递也可以是引用传递，方法是否改变变量内部的值应该看 **当初方法在定义时** **绑定的结构体类型**到底是值类型还是引用类型
 ### 工厂模式
 结构体名->结构体字段->结构体方法
-使用场景：我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用gong
+使用场景：我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式解决
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyMTA4NDg4LC0xNzA4MTczMjYsLTk1Nj
+eyJoaXN0b3J5IjpbMTk3NDU3Nzc0LC0xNzA4MTczMjYsLTk1Nj
 c1Nzk3MywtMTE4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3
 MjA4LDE3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC
 0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4
