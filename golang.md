@@ -456,6 +456,8 @@ var cat3 *Cat = new(Cat)
 // 等价于 cat3.Name = "doudou"
 cat3.Name = "doudou"
 
+var cat4 *Cat = &Cat{Name:"hei",age:3, Color:"}
+
 var cat4 *Cat = &Cat{}
 ```
 ### 实际开发序列化结构体 结构体标签使用场景
@@ -514,10 +516,10 @@ func main(){
 结构体名->结构体字段->结构体方法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgxNzMyNiwtOTU2NzU3OTczLC0xMT
-gzMjQzMDQ3LC0xMDgwMzE1NDg1LDEzMDQ4NzcyMDgsMTc3Nzk5
-ODM0Miw3Mjc4MDAwMDIsLTEzODM2MDk1MDAsLTIzNTAyNTU4My
-wtNDgwODQ5NTE4LDE4MjI3MTk3MSwxOTg1ODgwOTM1LC0xOTE4
-MjIyMDg2LDE5NjU1ODExMDUsLTgyMzYyNTQ4NSwxODEwMDU5Nz
-A3XX0=
+eyJoaXN0b3J5IjpbMTk3NjQwODIzMiwtMTcwODE3MzI2LC05NT
+Y3NTc5NzMsLTExODMyNDMwNDcsLTEwODAzMTU0ODUsMTMwNDg3
+NzIwOCwxNzc3OTk4MzQyLDcyNzgwMDAwMiwtMTM4MzYwOTUwMC
+wtMjM1MDI1NTgzLC00ODA4NDk1MTgsMTgyMjcxOTcxLDE5ODU4
+ODA5MzUsLTE5MTgyMjIwODYsMTk2NTU4MTEwNSwtODIzNjI1ND
+g1LDE4MTAwNTk3MDddfQ==
 -->
