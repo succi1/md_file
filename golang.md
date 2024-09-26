@@ -506,9 +506,11 @@ func main(){
 
 3.方法只能被绑定类型的变量来调用，不能直接被调用 
 4.如果一个类型实现了String()这个方法，那么**fmt.Println默认会调用这个变量的string()**进行输出
-##
+### 方法和函数的区别
+1.调用方式不一样：函数名(实参列表)；变量.方法名(实参列表)
+2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzM0ODY3OSwtMTE4MzI0MzA0NywtMT
+eyJoaXN0b3J5IjpbLTEzNTA5MTk2NywtMTE4MzI0MzA0NywtMT
 A4MDMxNTQ4NSwxMzA0ODc3MjA4LDE3Nzc5OTgzNDIsNzI3ODAw
 MDAyLC0xMzgzNjA5NTAwLC0yMzUwMjU1ODMsLTQ4MDg0OTUxOC
 wxODIyNzE5NzEsMTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOTY1
