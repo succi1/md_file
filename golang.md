@@ -456,9 +456,9 @@ var cat3 *Cat = new(Cat)
 // 等价于 cat3.Name = "doudou"
 cat3.Name = "doudou"
 
-var cat4 *Cat = &Cat{Name:"hei",age:3, Color:"}
+var cat4 *Cat = &Cat{Name:"hei",age:3, Color:"white"}
 
-var cat4 *Cat = &Cat{}
+var cat5 = &Cat{"luo", 4, "blue"}
 ```
 ### 实际开发序列化结构体 结构体标签使用场景
 struct每个字段上可以写上一个tag，该tag可以通过反射机制获取，常见的使用场景就是序列化和反序列化
@@ -516,10 +516,10 @@ func main(){
 结构体名->结构体字段->结构体方法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjQwODIzMiwtMTcwODE3MzI2LC05NT
-Y3NTc5NzMsLTExODMyNDMwNDcsLTEwODAzMTU0ODUsMTMwNDg3
-NzIwOCwxNzc3OTk4MzQyLDcyNzgwMDAwMiwtMTM4MzYwOTUwMC
-wtMjM1MDI1NTgzLC00ODA4NDk1MTgsMTgyMjcxOTcxLDE5ODU4
-ODA5MzUsLTE5MTgyMjIwODYsMTk2NTU4MTEwNSwtODIzNjI1ND
-g1LDE4MTAwNTk3MDddfQ==
+eyJoaXN0b3J5IjpbLTUxNjgwNzE4LC0xNzA4MTczMjYsLTk1Nj
+c1Nzk3MywtMTE4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3
+MjA4LDE3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC
+0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4
+MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0OD
+UsMTgxMDA1OTcwN119
 -->
