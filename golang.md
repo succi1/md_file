@@ -490,12 +490,17 @@ func main(){
 1.自定义类型都可以有方法，不只是struct
 2.方法的声明与调用
 ```go
-type A struc{
-	Num,
+type A struct{
+	Num int
+}
+// 结构体A有一个方法 名为test
+func (a A) test(){
+	fmt.Println(a.Num)
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDg4NDksNzI3ODAwMDAyLC0xMzgzNj
-A5NTAwLC0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEs
-MTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04Mj
-M2MjU0ODUsMTgxMDA1OTcwN119
+eyJoaXN0b3J5IjpbMTc3Nzk5ODM0Miw3Mjc4MDAwMDIsLTEzOD
+M2MDk1MDAsLTIzNTAyNTU4MywtNDgwODQ5NTE4LDE4MjI3MTk3
+MSwxOTg1ODgwOTM1LC0xOTE4MjIyMDg2LDE5NjU1ODExMDUsLT
+gyMzYyNTQ4NSwxODEwMDU5NzA3XX0=
 -->
