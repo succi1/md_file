@@ -330,13 +330,15 @@ void backtracking(参数) {
 [714. 买卖股票的最佳时机含手续费 - 力扣（LeetCode）](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)
 
 ---
-
+[300. 最长递增子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-increasing-subsequence/description/)
+[718. 最长重复子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/description/)
+[1035. 不相交的线 - 力扣（LeetCode）](https://leetcode.cn/problems/uncrossed-lines/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1NDE2NDMzLC03MTY3ODMwOTYsLTEwNj
-E0MjEzMjcsLTQyOTQ0NDY2NCwtMTQ3NjA5NTQ3OSwtMTg3MTc2
-MTM1NCwtNTM5OTU1Njk5LDE5MDQxNTM0MiwtNDMwODQ2NzkyLC
-0zMTY0MjYzNTYsMTEzMTA2NDg4MCw1MjY1MzEwMzAsMTI5NzY2
-NTc5MiwxNDk1OTIwMjIzLC0xNjI3NTI1ODYsMTgzNDg1MjQzNy
-wtNDY1OTY4NjgsMjAwNzYxNTMyNSwtODUzNjU3MzYxLDE3NDQ3
-MjI3MTFdfQ==
+eyJoaXN0b3J5IjpbMTYzNTY4ODI1NSwtNzE2NzgzMDk2LC0xMD
+YxNDIxMzI3LC00Mjk0NDQ2NjQsLTE0NzYwOTU0NzksLTE4NzE3
+NjEzNTQsLTUzOTk1NTY5OSwxOTA0MTUzNDIsLTQzMDg0Njc5Mi
+wtMzE2NDI2MzU2LDExMzEwNjQ4ODAsNTI2NTMxMDMwLDEyOTc2
+NjU3OTIsMTQ5NTkyMDIyMywtMTYyNzUyNTg2LDE4MzQ4NTI0Mz
+csLTQ2NTk2ODY4LDIwMDc2MTUzMjUsLTg1MzY1NzM2MSwxNzQ0
+NzIyNzExXX0=
 -->
