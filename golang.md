@@ -514,7 +514,9 @@ func main(){
 3.对于方法，被结构体变量调用时，该调用变量既可以是值传递也可以是引用传递，方法是否改变变量内部的值应该看 **当初方法在定义时** **绑定的结构体类型**到底是值类型还是引用类型
 ### 工厂模式
 结构体名->结构体字段->结构体方法
-使用场景：我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式解决
+
+使用场景：
+1.我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式解决
 ```go
 // 在定义结构体的包中 设置这样一个工厂函数
 func NewStudent(n string, s float64) *student{
@@ -524,11 +526,16 @@ func NewStudent(n string, s float64) *student{
 	}
 }
 ```
+2.我们定义的结构体名称是大写，但是其中有的字段小写，我们需要在别的包中创建该结构体的实例并访问小写字段，可以使用工厂模式解决
+```go
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTM3MDI3MywxOTc0NTc3NzQsLTE3MD
-gxNzMyNiwtOTU2NzU3OTczLC0xMTgzMjQzMDQ3LC0xMDgwMzE1
-NDg1LDEzMDQ4NzcyMDgsMTc3Nzk5ODM0Miw3Mjc4MDAwMDIsLT
-EzODM2MDk1MDAsLTIzNTAyNTU4MywtNDgwODQ5NTE4LDE4MjI3
-MTk3MSwxOTg1ODgwOTM1LC0xOTE4MjIyMDg2LDE5NjU1ODExMD
-UsLTgyMzYyNTQ4NSwxODEwMDU5NzA3XX0=
+eyJoaXN0b3J5IjpbMTIxNjQ4NzM0MCwtNTIxMzcwMjczLDE5Nz
+Q1Nzc3NCwtMTcwODE3MzI2LC05NTY3NTc5NzMsLTExODMyNDMw
+NDcsLTEwODAzMTU0ODUsMTMwNDg3NzIwOCwxNzc3OTk4MzQyLD
+cyNzgwMDAwMiwtMTM4MzYwOTUwMCwtMjM1MDI1NTgzLC00ODA4
+NDk1MTgsMTgyMjcxOTcxLDE5ODU4ODA5MzUsLTE5MTgyMjIwOD
+YsMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAwNTk3MDddfQ==
+
 -->
