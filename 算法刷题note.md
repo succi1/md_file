@@ -334,12 +334,14 @@ void backtracking(参数) {
 [718. 最长重复子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/description/)
 [1143. 最长公共子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-common-subsequence/description/)
 [1035. 不相交的线 - 力扣（LeetCode）](https://leetcode.cn/problems/uncrossed-lines/)最长公共子序列的变体
+[53. 最大子数组和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-subarray/description/)
+[392. 判断子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/is-subsequence/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY5Nzg0MjYsLTcxNjc4MzA5NiwtMT
-A2MTQyMTMyNywtNDI5NDQ0NjY0LC0xNDc2MDk1NDc5LC0xODcx
-NzYxMzU0LC01Mzk5NTU2OTksMTkwNDE1MzQyLC00MzA4NDY3OT
-IsLTMxNjQyNjM1NiwxMTMxMDY0ODgwLDUyNjUzMTAzMCwxMjk3
-NjY1NzkyLDE0OTU5MjAyMjMsLTE2Mjc1MjU4NiwxODM0ODUyND
-M3LC00NjU5Njg2OCwyMDA3NjE1MzI1LC04NTM2NTczNjEsMTc0
-NDcyMjcxMV19
+eyJoaXN0b3J5IjpbLTIwMDQ3MzUwNzYsLTIwNDY5Nzg0MjYsLT
+cxNjc4MzA5NiwtMTA2MTQyMTMyNywtNDI5NDQ0NjY0LC0xNDc2
+MDk1NDc5LC0xODcxNzYxMzU0LC01Mzk5NTU2OTksMTkwNDE1Mz
+QyLC00MzA4NDY3OTIsLTMxNjQyNjM1NiwxMTMxMDY0ODgwLDUy
+NjUzMTAzMCwxMjk3NjY1NzkyLDE0OTU5MjAyMjMsLTE2Mjc1Mj
+U4NiwxODM0ODUyNDM3LC00NjU5Njg2OCwyMDA3NjE1MzI1LC04
+NTM2NTczNjFdfQ==
 -->
