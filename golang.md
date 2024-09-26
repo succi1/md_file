@@ -502,9 +502,9 @@ func main(){
 	b.Num = 10
 	b.test() // 调用方法
 ```
-3.fang'fa
+3.方法只能被绑定类型的变量来调用，不能直接被调用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA5MjIwNTIsMTMwNDg3NzIwOCwxNz
+eyJoaXN0b3J5IjpbLTEwODAzMTU0ODUsMTMwNDg3NzIwOCwxNz
 c3OTk4MzQyLDcyNzgwMDAwMiwtMTM4MzYwOTUwMCwtMjM1MDI1
 NTgzLC00ODA4NDk1MTgsMTgyMjcxOTcxLDE5ODU4ODA5MzUsLT
 E5MTgyMjIwODYsMTk2NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAw
