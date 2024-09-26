@@ -497,10 +497,13 @@ type A struct{
 func (a A) test(){
 	fmt.Println(a.Num)
 }
-func 
+func main(){
+	var b A
+	b.Num = 10
+	b.test() // 调用方法
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTk3NzQxMiwxMzA0ODc3MjA4LDE3Nz
+eyJoaXN0b3J5IjpbLTExMzM1NjU1MywxMzA0ODc3MjA4LDE3Nz
 c5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC0yMzUwMjU1
 ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4MDkzNSwtMT
 kxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0ODUsMTgxMDA1
