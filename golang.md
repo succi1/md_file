@@ -515,11 +515,20 @@ func main(){
 ### 工厂模式
 结构体名->结构体字段->结构体方法
 使用场景：我们定义的结构体名称是小写，但是我们需要在别的包中创建该结构体的实例，可以使用工厂模式解决
+```go
+// 在定义结构体的地方引入一个
+func NewStudent(n string, s float64) *student{
+	return &student{
+	Name : n,
+	Score : s,
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDU3Nzc0LC0xNzA4MTczMjYsLTk1Nj
-c1Nzk3MywtMTE4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3
-MjA4LDE3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC
-0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4
-MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0OD
-UsMTgxMDA1OTcwN119
+eyJoaXN0b3J5IjpbLTE2ODE3Nzg3MDIsMTk3NDU3Nzc0LC0xNz
+A4MTczMjYsLTk1Njc1Nzk3MywtMTE4MzI0MzA0NywtMTA4MDMx
+NTQ4NSwxMzA0ODc3MjA4LDE3Nzc5OTgzNDIsNzI3ODAwMDAyLC
+0xMzgzNjA5NTAwLC0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIy
+NzE5NzEsMTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMT
+A1LC04MjM2MjU0ODUsMTgxMDA1OTcwN119
 -->
