@@ -512,14 +512,14 @@ func main(){
 1.调用方式不一样：函数名(实参列表)；变量.方法名(实参列表)
 2.对于函数参数为值类型只能传递值类型，参数为引用类型只能传递引用类型
 3.对于方法，被结构体变量调用时，该调用变量既可以是值传递也可以是引用传递，方法是否改变变量内部的值应该看 **当初方法在定义时** **绑定的结构体类型**到底是值类型还是引用类型
-### 面向对象编程实例
+### 工厂模式
 结构体名->结构体字段->结构体方法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjIzMjU5LC0xNzA4MTczMjYsLTk1Nj
-c1Nzk3MywtMTE4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3
-MjA4LDE3Nzc5OTgzNDIsNzI3ODAwMDAyLC0xMzgzNjA5NTAwLC
-0yMzUwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4
-MDkzNSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0OD
-UsMTgxMDA1OTcwN119
+eyJoaXN0b3J5IjpbLTExNDIyMTY5MTksLTE3MDgxNzMyNiwtOT
+U2NzU3OTczLC0xMTgzMjQzMDQ3LC0xMDgwMzE1NDg1LDEzMDQ4
+NzcyMDgsMTc3Nzk5ODM0Miw3Mjc4MDAwMDIsLTEzODM2MDk1MD
+AsLTIzNTAyNTU4MywtNDgwODQ5NTE4LDE4MjI3MTk3MSwxOTg1
+ODgwOTM1LC0xOTE4MjIyMDg2LDE5NjU1ODExMDUsLTgyMzYyNT
+Q4NSwxODEwMDU5NzA3XX0=
 -->
