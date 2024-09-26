@@ -508,11 +508,11 @@ func main(){
 4.如果一个类型实现了String()这个方法，那么**fmt.Println默认会调用这个变量的string()**进行输出
 ### 方法和函数的区别
 1.调用方式不一样：函数名(实参列表)；变量.方法名(实参列表)
-2.对于函数值类型只能传递值类型
+2.对于函数参数为值类型只能传递值类型，参数为引用类型zhi'neng'chuan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ3MjYyMTAsLTExODMyNDMwNDcsLT
-EwODAzMTU0ODUsMTMwNDg3NzIwOCwxNzc3OTk4MzQyLDcyNzgw
-MDAwMiwtMTM4MzYwOTUwMCwtMjM1MDI1NTgzLC00ODA4NDk1MT
-gsMTgyMjcxOTcxLDE5ODU4ODA5MzUsLTE5MTgyMjIwODYsMTk2
-NTU4MTEwNSwtODIzNjI1NDg1LDE4MTAwNTk3MDddfQ==
+eyJoaXN0b3J5IjpbMTIzNzUwODM4MywtMTE4MzI0MzA0NywtMT
+A4MDMxNTQ4NSwxMzA0ODc3MjA4LDE3Nzc5OTgzNDIsNzI3ODAw
+MDAyLC0xMzgzNjA5NTAwLC0yMzUwMjU1ODMsLTQ4MDg0OTUxOC
+wxODIyNzE5NzEsMTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOTY1
+NTgxMTA1LC04MjM2MjU0ODUsMTgxMDA1OTcwN119
 -->
