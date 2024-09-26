@@ -528,14 +528,18 @@ func NewStudent(n string, s float64) *student{
 ```
 2.我们定义的结构体名称是大写，但是其中有的字段小写，我们需要在别的包中创建该结构体的实例并访问小写字段，可以使用工厂模式**建立方法**解决
 ```go
+func (s *student) GetScore() float64{
 
+return (*s).score
+
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMjM1Mjk5LDEyMTY0ODczNDAsLTUyMT
-M3MDI3MywxOTc0NTc3NzQsLTE3MDgxNzMyNiwtOTU2NzU3OTcz
-LC0xMTgzMjQzMDQ3LC0xMDgwMzE1NDg1LDEzMDQ4NzcyMDgsMT
-c3Nzk5ODM0Miw3Mjc4MDAwMDIsLTEzODM2MDk1MDAsLTIzNTAy
-NTU4MywtNDgwODQ5NTE4LDE4MjI3MTk3MSwxOTg1ODgwOTM1LC
-0xOTE4MjIyMDg2LDE5NjU1ODExMDUsLTgyMzYyNTQ4NSwxODEw
-MDU5NzA3XX0=
+eyJoaXN0b3J5IjpbLTY5ODUxOTM1MSwzNDMyMzUyOTksMTIxNj
+Q4NzM0MCwtNTIxMzcwMjczLDE5NzQ1Nzc3NCwtMTcwODE3MzI2
+LC05NTY3NTc5NzMsLTExODMyNDMwNDcsLTEwODAzMTU0ODUsMT
+MwNDg3NzIwOCwxNzc3OTk4MzQyLDcyNzgwMDAwMiwtMTM4MzYw
+OTUwMCwtMjM1MDI1NTgzLC00ODA4NDk1MTgsMTgyMjcxOTcxLD
+E5ODU4ODA5MzUsLTE5MTgyMjIwODYsMTk2NTU4MTEwNSwtODIz
+NjI1NDg1XX0=
 -->
