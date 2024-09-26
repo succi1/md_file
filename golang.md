@@ -460,11 +460,52 @@ var cat4 *Cat = &Cat{}
 ```
 ### 实际开发序列化结构体 结构体标签使用场景
 struct每个字段上可以写上一个tag，该tag可以通过反射机制获取，常见的使用场景就是序列化和反序列化
-![name](/imgs/2024-09-24/KlqHqtc6TrBJJz9s.png)
+```go
+package main
 
+import (
+"fmt"
+"encoding/json"
+
+)
+
+type Monster struct{
+
+// `json:"name"` 就是struct tag
+
+// 使输出的json字符串字段名是小写
+
+Name string `json:"name"`
+
+Age int `json:"age"`
+
+Skill string `json:"skill"`
+
+}
+
+func main(){
+
+// 创建monster变量
+
+monster := Monster{"牛魔王", 500, "芭蕉扇"}
+
+// 将monster变量序列化为json字符串
+
+// json.Marshal 函数使用反射 之后介绍
+
+jsonstr, err := json.Marshal(monster)
+
+if err == nil{
+
+fmt.Println("转化后的json串为", string(jsonstr))
+
+}
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM2MDk1MDAsLTIzNTAyNTU4MywtND
-gwODQ5NTE4LDE4MjI3MTk3MSwxOTg1ODgwOTM1LC0xOTE4MjIy
-MDg2LDE5NjU1ODExMDUsLTgyMzYyNTQ4NSwxODEwMDU5NzA3XX
-0=
+eyJoaXN0b3J5IjpbNzgxNzI3NDI5LC0xMzgzNjA5NTAwLC0yMz
+UwMjU1ODMsLTQ4MDg0OTUxOCwxODIyNzE5NzEsMTk4NTg4MDkz
+NSwtMTkxODIyMjA4NiwxOTY1NTgxMTA1LC04MjM2MjU0ODUsMT
+gxMDA1OTcwN119
 -->
