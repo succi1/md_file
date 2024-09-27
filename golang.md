@@ -564,9 +564,9 @@ E:\goproject\src\go_code\oop\extends
 - 只要是自定义类型都可以实现接口，不一定非得是结构体
 - 接口可以继承多个别的接口，必须实现继承的接口和本接口的所有方法才能算实现该接口
 - interface默认是一个指针（引用类型）
-- 空接口没有方法，所有类型都实现了空接口，即可以把任何一个变量赋给空接口类型
+- 空接口没有方法，所有类型都实现了空接口，即可以**把任何一个变量赋给空接口类型**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA3ODE3NDEsLTE4NDI2ODMzMzgsLT
+eyJoaXN0b3J5IjpbLTEyMDgxMTY5NzMsLTE4NDI2ODMzMzgsLT
 E0NTQwNzg3OSwyMDA5OTY2NTczLC0yMDc2MzIzNTA0LC0xMDIy
 ODkxMjgxLDEyNjA1ODI0ODQsMTcyMjQ3Mzc5MCwtMTg2MDAxOT
 g5MiwzNjIwMDg2MjQsNzM4MDI0OTE1LC03MTI5NDk3MzMsLTc3
