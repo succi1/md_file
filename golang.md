@@ -541,7 +541,7 @@ func main(){
 }
 ```
 # 面向对象下
-多态 
+多态 ：通过接口来实现多态
 ### 封装
 - 把抽象的字段和对字段方法封装在一起
 - 字段、方法首字母小写，此时要额外设置Setxx或者Getxx方法来获得
@@ -556,10 +556,10 @@ func main(){
 - 如果结构体嵌套了一个有名结构体，在访问有名结构体的字段时就必须带上名字。此时，**该关系名为组合关系**
 - 匿名结构体可以**以指针的方式被嵌套**。。。
 
-### 接口———Golangte特色
+### 接口——Golangte特色
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjExNzE2NywxNzIyNDczNzkwLC0xOD
+eyJoaXN0b3J5IjpbMTI2MDU4MjQ4NCwxNzIyNDczNzkwLC0xOD
 YwMDE5ODkyLDM2MjAwODYyNCw3MzgwMjQ5MTUsLTcxMjk0OTcz
 MywtNzc4MzE2MTg4LC01Mjk2NDI5OTMsMjk0NjYzMDU4LC05NT
 cxNjcxNDEsNDMwMTAxNzgsLTI0NDkwMDU4LC0xNTI4MTMzMzMy
