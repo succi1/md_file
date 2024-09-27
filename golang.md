@@ -562,13 +562,13 @@ E:\goproject\src\go_code\oop\extends
 接口里的所有方法都没有方法体
 - 接口本身不能创建实例，但是**可以指向一个实现了该接口的自定义类型的变量**
 - 只要是自定义类型都可以实现接口，不一定非得是结构体
-- 接口可以实现继承
+- 接口可以继承多个别的接口，必须实现继承的接口和本接口的所有方法才能算shi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI2ODMzMzgsLTE0NTQwNzg3OSwyMD
-A5OTY2NTczLC0yMDc2MzIzNTA0LC0xMDIyODkxMjgxLDEyNjA1
-ODI0ODQsMTcyMjQ3Mzc5MCwtMTg2MDAxOTg5MiwzNjIwMDg2Mj
-QsNzM4MDI0OTE1LC03MTI5NDk3MzMsLTc3ODMxNjE4OCwtNTI5
-NjQyOTkzLDI5NDY2MzA1OCwtOTU3MTY3MTQxLDQzMDEwMTc4LC
-0yNDQ5MDA1OCwtMTUyODEzMzMzMiwxMTY1MjMxNzk4LDIwMjUy
-ODkzMzRdfQ==
+eyJoaXN0b3J5IjpbLTMyMDE5Mzk2NywtMTg0MjY4MzMzOCwtMT
+Q1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1MDQsLTEwMjI4
+OTEyODEsMTI2MDU4MjQ4NCwxNzIyNDczNzkwLC0xODYwMDE5OD
+kyLDM2MjAwODYyNCw3MzgwMjQ5MTUsLTcxMjk0OTczMywtNzc4
+MzE2MTg4LC01Mjk2NDI5OTMsMjk0NjYzMDU4LC05NTcxNjcxND
+EsNDMwMTAxNzgsLTI0NDkwMDU4LC0xNTI4MTMzMzMyLDExNjUy
+MzE3OThdfQ==
 -->
