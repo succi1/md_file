@@ -339,12 +339,14 @@ void backtracking(参数) {
 [115. 不同的子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/distinct-subsequences/description/)
 [583. 两个字符串的删除操作 - 力扣（LeetCode）](https://leetcode.cn/problems/delete-operation-for-two-strings/description/)
 [72. 编辑距离 - 力扣（LeetCode）](https://leetcode.cn/problems/edit-distance/description/)经典例题，当元素不相等时，找增删改三种操作中操作数最小值
+[647. 回文子串 - 力扣（LeetCode）](https://leetcode.cn/problems/palindromic-substrings/description/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MjkwNDkyLC00NDE3NjYyNTcsLTQxOT
-A0MjAwMiwtMjAwNDczNTA3NiwtMjA0Njk3ODQyNiwtNzE2Nzgz
-MDk2LC0xMDYxNDIxMzI3LC00Mjk0NDQ2NjQsLTE0NzYwOTU0Nz
-ksLTE4NzE3NjEzNTQsLTUzOTk1NTY5OSwxOTA0MTUzNDIsLTQz
-MDg0Njc5MiwtMzE2NDI2MzU2LDExMzEwNjQ4ODAsNTI2NTMxMD
-MwLDEyOTc2NjU3OTIsMTQ5NTkyMDIyMywtMTYyNzUyNTg2LDE4
-MzQ4NTI0MzddfQ==
+eyJoaXN0b3J5IjpbLTE0MTg3ODAxMzAsNjg2MjkwNDkyLC00ND
+E3NjYyNTcsLTQxOTA0MjAwMiwtMjAwNDczNTA3NiwtMjA0Njk3
+ODQyNiwtNzE2NzgzMDk2LC0xMDYxNDIxMzI3LC00Mjk0NDQ2Nj
+QsLTE0NzYwOTU0NzksLTE4NzE3NjEzNTQsLTUzOTk1NTY5OSwx
+OTA0MTUzNDIsLTQzMDg0Njc5MiwtMzE2NDI2MzU2LDExMzEwNj
+Q4ODAsNTI2NTMxMDMwLDEyOTc2NjU3OTIsMTQ5NTkyMDIyMywt
+MTYyNzUyNTg2XX0=
 -->
