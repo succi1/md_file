@@ -541,9 +541,9 @@ func main(){
 }
 ```
 # 面向对象下
-继承 多态 封装
+继承 多态 封装：把抽象的字段和对字段方法封装在一起
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTczNjY2MzgsMTE2NTIzMTc5OCwyMD
+eyJoaXN0b3J5IjpbLTE1MjgxMzMzMzIsMTE2NTIzMTc5OCwyMD
 I1Mjg5MzM0LDM0MzIzNTI5OSwxMjE2NDg3MzQwLC01MjEzNzAy
 NzMsMTk3NDU3Nzc0LC0xNzA4MTczMjYsLTk1Njc1Nzk3MywtMT
 E4MzI0MzA0NywtMTA4MDMxNTQ4NSwxMzA0ODc3MjA4LDE3Nzc5
