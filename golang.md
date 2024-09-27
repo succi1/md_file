@@ -512,7 +512,7 @@ func main(){
 1.调用方式不一样：函数名(实参列表)；变量.方法名(实参列表)
 2.对于函数参数为值类型只能传递值类型，参数为引用类型只能传递引用类型
 3.对于方法，被结构体变量调用时，该调用变量既可以是值传递也可以是引用传递，方法是否改变变量内部的值应该看 **当初方法在定义时** **绑定的结构体类型**到底是值类型还是引用类型
-### 工厂模式
+### 工厂模式**
 结构体名->结构体字段->结构体方法
 
 使用场景：
@@ -541,11 +541,11 @@ func main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTI4OTMzNCwzNDMyMzUyOTksMTIxNj
-Q4NzM0MCwtNTIxMzcwMjczLDE5NzQ1Nzc3NCwtMTcwODE3MzI2
-LC05NTY3NTc5NzMsLTExODMyNDMwNDcsLTEwODAzMTU0ODUsMT
-MwNDg3NzIwOCwxNzc3OTk4MzQyLDcyNzgwMDAwMiwtMTM4MzYw
-OTUwMCwtMjM1MDI1NTgzLC00ODA4NDk1MTgsMTgyMjcxOTcxLD
-E5ODU4ODA5MzUsLTE5MTgyMjIwODYsMTk2NTU4MTEwNSwtODIz
-NjI1NDg1XX0=
+eyJoaXN0b3J5IjpbMTE2NTIzMTc5OCwyMDI1Mjg5MzM0LDM0Mz
+IzNTI5OSwxMjE2NDg3MzQwLC01MjEzNzAyNzMsMTk3NDU3Nzc0
+LC0xNzA4MTczMjYsLTk1Njc1Nzk3MywtMTE4MzI0MzA0NywtMT
+A4MDMxNTQ4NSwxMzA0ODc3MjA4LDE3Nzc5OTgzNDIsNzI3ODAw
+MDAyLC0xMzgzNjA5NTAwLC0yMzUwMjU1ODMsLTQ4MDg0OTUxOC
+wxODIyNzE5NzEsMTk4NTg4MDkzNSwtMTkxODIyMjA4NiwxOTY1
+NTgxMTA1XX0=
 -->
