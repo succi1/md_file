@@ -553,13 +553,14 @@ func main(){
 - 同一包中 结构体可以使用匿名结构体的所有字段和 属性，无论大小写
 - 如果结构体和匿名结构体有相同的字段或者方法时，编译器会采用就近访问原则，如果希望访问匿名结构体里面的字段和方法，可以通过匿名结构体名来访问
 - 结构体内部有两个匿名结构体，若两个匿名结构体有相同的字段和方法（而结构体本身没有同名的字段和方法），在访问时就必须指明匿名结构体名，否则报错
-- 如果结构体嵌套了一个有名结构体，在访问有名结构体的字段是很好
+- 如果结构体嵌套了一个有名结构体，在访问有名结构体的字段时就必须带上名字。此时，**该关系名为组合关系**
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzQ5OTg4LDM2MjAwODYyNCw3MzgwMj
-Q5MTUsLTcxMjk0OTczMywtNzc4MzE2MTg4LC01Mjk2NDI5OTMs
-Mjk0NjYzMDU4LC05NTcxNjcxNDEsNDMwMTAxNzgsLTI0NDkwMD
-U4LC0xNTI4MTMzMzMyLDExNjUyMzE3OTgsMjAyNTI4OTMzNCwz
-NDMyMzUyOTksMTIxNjQ4NzM0MCwtNTIxMzcwMjczLDE5NzQ1Nz
-c3NCwtMTcwODE3MzI2LC05NTY3NTc5NzMsLTExODMyNDMwNDdd
-fQ==
+eyJoaXN0b3J5IjpbLTE4NjAwMTk4OTIsMzYyMDA4NjI0LDczOD
+AyNDkxNSwtNzEyOTQ5NzMzLC03NzgzMTYxODgsLTUyOTY0Mjk5
+MywyOTQ2NjMwNTgsLTk1NzE2NzE0MSw0MzAxMDE3OCwtMjQ0OT
+AwNTgsLTE1MjgxMzMzMzIsMTE2NTIzMTc5OCwyMDI1Mjg5MzM0
+LDM0MzIzNTI5OSwxMjE2NDg3MzQwLC01MjEzNzAyNzMsMTk3ND
+U3Nzc0LC0xNzA4MTczMjYsLTk1Njc1Nzk3MywtMTE4MzI0MzA0
+N119
 -->
