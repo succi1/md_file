@@ -555,12 +555,15 @@ func main(){
 - 结构体内部有两个匿名结构体，若两个匿名结构体有相同的字段和方法（而结构体本身没有同名的字段和方法），在访问时就必须指明匿名结构体名，否则报错
 - 如果结构体嵌套了一个有名结构体，在访问有名结构体的字段时就必须带上名字。此时，**该关系名为组合关系**
 - 匿名结构体可以**以指针的方式被嵌套**。。。
+
+### 接口———Golangte特色
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjQ3Mzc5MCwtMTg2MDAxOTg5MiwzNj
-IwMDg2MjQsNzM4MDI0OTE1LC03MTI5NDk3MzMsLTc3ODMxNjE4
-OCwtNTI5NjQyOTkzLDI5NDY2MzA1OCwtOTU3MTY3MTQxLDQzMD
-EwMTc4LC0yNDQ5MDA1OCwtMTUyODEzMzMzMiwxMTY1MjMxNzk4
-LDIwMjUyODkzMzQsMzQzMjM1Mjk5LDEyMTY0ODczNDAsLTUyMT
-M3MDI3MywxOTc0NTc3NzQsLTE3MDgxNzMyNiwtOTU2NzU3OTcz
+eyJoaXN0b3J5IjpbMTE1NjExNzE2NywxNzIyNDczNzkwLC0xOD
+YwMDE5ODkyLDM2MjAwODYyNCw3MzgwMjQ5MTUsLTcxMjk0OTcz
+MywtNzc4MzE2MTg4LC01Mjk2NDI5OTMsMjk0NjYzMDU4LC05NT
+cxNjcxNDEsNDMwMTAxNzgsLTI0NDkwMDU4LC0xNTI4MTMzMzMy
+LDExNjUyMzE3OTgsMjAyNTI4OTMzNCwzNDMyMzUyOTksMTIxNj
+Q4NzM0MCwtNTIxMzcwMjczLDE5NzQ1Nzc3NCwtMTcwODE3MzI2
 XX0=
 -->
