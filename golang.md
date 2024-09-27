@@ -541,17 +541,20 @@ func main(){
 }
 ```
 # 面向对象下
-继承 多态 
+多态 
 ### 封装
 - 把抽象的字段和对字段方法封装在一起
 - 字段、方法首字母小写，此时要额外设置Setxx或者Getxx方法来获得
 - E:\goproject\src\go_code\oop\encapsulate\main 封装的简单示例
+
+### 继承
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzE2NzE0MSw0MzAxMDE3OCwtMjQ0OT
-AwNTgsLTE1MjgxMzMzMzIsMTE2NTIzMTc5OCwyMDI1Mjg5MzM0
-LDM0MzIzNTI5OSwxMjE2NDg3MzQwLC01MjEzNzAyNzMsMTk3ND
-U3Nzc0LC0xNzA4MTczMjYsLTk1Njc1Nzk3MywtMTE4MzI0MzA0
-NywtMTA4MDMxNTQ4NSwxMzA0ODc3MjA4LDE3Nzc5OTgzNDIsNz
-I3ODAwMDAyLC0xMzgzNjA5NTAwLC0yMzUwMjU1ODMsLTQ4MDg0
-OTUxOF19
+eyJoaXN0b3J5IjpbMjk0NjYzMDU4LC05NTcxNjcxNDEsNDMwMT
+AxNzgsLTI0NDkwMDU4LC0xNTI4MTMzMzMyLDExNjUyMzE3OTgs
+MjAyNTI4OTMzNCwzNDMyMzUyOTksMTIxNjQ4NzM0MCwtNTIxMz
+cwMjczLDE5NzQ1Nzc3NCwtMTcwODE3MzI2LC05NTY3NTc5NzMs
+LTExODMyNDMwNDcsLTEwODAzMTU0ODUsMTMwNDg3NzIwOCwxNz
+c3OTk4MzQyLDcyNzgwMDAwMiwtMTM4MzYwOTUwMCwtMjM1MDI1
+NTgzXX0=
 -->
