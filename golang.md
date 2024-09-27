@@ -548,9 +548,10 @@ func main(){
 - E:\goproject\src\go_code\oop\encapsulate\main 封装的简单示例
 
 ### 继承
--
+- 解决代码复用问题
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDYzMzIxNzEsMjk0NjYzMDU4LC05NT
+eyJoaXN0b3J5IjpbLTE3Njg4MDEyNDEsMjk0NjYzMDU4LC05NT
 cxNjcxNDEsNDMwMTAxNzgsLTI0NDkwMDU4LC0xNTI4MTMzMzMy
 LDExNjUyMzE3OTgsMjAyNTI4OTMzNCwzNDMyMzUyOTksMTIxNj
 Q4NzM0MCwtNTIxMzcwMjczLDE5NzQ1Nzc3NCwtMTcwODE3MzI2
