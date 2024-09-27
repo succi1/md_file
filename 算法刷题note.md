@@ -341,12 +341,13 @@ void backtracking(参数) {
 [72. 编辑距离 - 力扣（LeetCode）](https://leetcode.cn/problems/edit-distance/description/)经典例题，当元素不相等时，找增删改三种操作中操作数最小值
 [647. 回文子串 - 力扣（LeetCode）](https://leetcode.cn/problems/palindromic-substrings/description/)
 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-palindromic-subsequence/description/)
+# 八、单调栈
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTUyNDIzOCw2ODYyOTA0OTIsLTQ0MT
-c2NjI1NywtNDE5MDQyMDAyLC0yMDA0NzM1MDc2LC0yMDQ2OTc4
-NDI2LC03MTY3ODMwOTYsLTEwNjE0MjEzMjcsLTQyOTQ0NDY2NC
-wtMTQ3NjA5NTQ3OSwtMTg3MTc2MTM1NCwtNTM5OTU1Njk5LDE5
-MDQxNTM0MiwtNDMwODQ2NzkyLC0zMTY0MjYzNTYsMTEzMTA2ND
-g4MCw1MjY1MzEwMzAsMTI5NzY2NTc5MiwxNDk1OTIwMjIzLC0x
-NjI3NTI1ODZdfQ==
+eyJoaXN0b3J5IjpbMTk2MDYyOTQ4OSwxNzExNTI0MjM4LDY4Nj
+I5MDQ5MiwtNDQxNzY2MjU3LC00MTkwNDIwMDIsLTIwMDQ3MzUw
+NzYsLTIwNDY5Nzg0MjYsLTcxNjc4MzA5NiwtMTA2MTQyMTMyNy
+wtNDI5NDQ0NjY0LC0xNDc2MDk1NDc5LC0xODcxNzYxMzU0LC01
+Mzk5NTU2OTksMTkwNDE1MzQyLC00MzA4NDY3OTIsLTMxNjQyNj
+M1NiwxMTMxMDY0ODgwLDUyNjUzMTAzMCwxMjk3NjY1NzkyLDE0
+OTU5MjAyMjNdfQ==
 -->
