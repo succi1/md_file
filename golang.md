@@ -554,13 +554,13 @@ func main(){
 - 如果结构体和匿名结构体有相同的字段或者方法时，编译器会采用就近访问原则，如果希望访问匿名结构体里面的字段和方法，可以通过匿名结构体名来访问
 - 结构体内部有两个匿名结构体，若两个匿名结构体有相同的字段和方法（而结构体本身没有同名的字段和方法），在访问时就必须指明匿名结构体名，否则报错
 - 如果结构体嵌套了一个有名结构体，在访问有名结构体的字段时就必须带上名字。此时，**该关系名为组合关系**
-- 匿名结构体可以一直z
+- 匿名结构体可以**以指针的方式被嵌套**。。。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk2NDA4ODAsLTE4NjAwMTk4OTIsMz
-YyMDA4NjI0LDczODAyNDkxNSwtNzEyOTQ5NzMzLC03NzgzMTYx
-ODgsLTUyOTY0Mjk5MywyOTQ2NjMwNTgsLTk1NzE2NzE0MSw0Mz
-AxMDE3OCwtMjQ0OTAwNTgsLTE1MjgxMzMzMzIsMTE2NTIzMTc5
-OCwyMDI1Mjg5MzM0LDM0MzIzNTI5OSwxMjE2NDg3MzQwLC01Mj
-EzNzAyNzMsMTk3NDU3Nzc0LC0xNzA4MTczMjYsLTk1Njc1Nzk3
-M119
+eyJoaXN0b3J5IjpbMTcyMjQ3Mzc5MCwtMTg2MDAxOTg5MiwzNj
+IwMDg2MjQsNzM4MDI0OTE1LC03MTI5NDk3MzMsLTc3ODMxNjE4
+OCwtNTI5NjQyOTkzLDI5NDY2MzA1OCwtOTU3MTY3MTQxLDQzMD
+EwMTc4LC0yNDQ5MDA1OCwtMTUyODEzMzMzMiwxMTY1MjMxNzk4
+LDIwMjUyODkzMzQsMzQzMjM1Mjk5LDEyMTY0ODczNDAsLTUyMT
+M3MDI3MywxOTc0NTc3NzQsLTE3MDgxNzMyNiwtOTU2NzU3OTcz
+XX0=
 -->
