@@ -555,15 +555,16 @@ func main(){
 - 结构体内部有两个匿名结构体，若两个匿名结构体有相同的字段和方法（而结构体本身没有同名的字段和方法），在访问时就必须指明匿名结构体名，否则报错
 - 如果结构体嵌套了一个有名结构体，在访问有名结构体的字段时就必须带上名字。此时，**该关系名为组合关系**
 - 匿名结构体可以**以指针的方式被嵌套**。。。
-
+E:\goproject\src\go_code\oop\extends
 ### 接口——Golangte特色
-高内聚，低耦合
+高内聚，低耦合 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI4OTEyODEsMTI2MDU4MjQ4NCwxNz
-IyNDczNzkwLC0xODYwMDE5ODkyLDM2MjAwODYyNCw3MzgwMjQ5
-MTUsLTcxMjk0OTczMywtNzc4MzE2MTg4LC01Mjk2NDI5OTMsMj
-k0NjYzMDU4LC05NTcxNjcxNDEsNDMwMTAxNzgsLTI0NDkwMDU4
-LC0xNTI4MTMzMzMyLDExNjUyMzE3OTgsMjAyNTI4OTMzNCwzND
-MyMzUyOTksMTIxNjQ4NzM0MCwtNTIxMzcwMjczLDE5NzQ1Nzc3
-NF19
+eyJoaXN0b3J5IjpbLTUzNjE3ODE4MCwtMTAyMjg5MTI4MSwxMj
+YwNTgyNDg0LDE3MjI0NzM3OTAsLTE4NjAwMTk4OTIsMzYyMDA4
+NjI0LDczODAyNDkxNSwtNzEyOTQ5NzMzLC03NzgzMTYxODgsLT
+UyOTY0Mjk5MywyOTQ2NjMwNTgsLTk1NzE2NzE0MSw0MzAxMDE3
+OCwtMjQ0OTAwNTgsLTE1MjgxMzMzMzIsMTE2NTIzMTc5OCwyMD
+I1Mjg5MzM0LDM0MzIzNTI5OSwxMjE2NDg3MzQwLC01MjEzNzAy
+NzNdfQ==
 -->
