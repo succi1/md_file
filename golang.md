@@ -552,8 +552,9 @@ func main(){
 - 通过匿名结构体实现继承特性
 - 同一包中 结构体可以使用匿名结构体的所有字段和 属性，无论大小写
 - 如果结构体和匿名结构体有相同的字段或者方法时，编译器会采用就近访问原则，如果希望访问匿名结构体里面的字段和方法，可以通过匿名结构体名来访问
+- 结构体内部有两个匿名结构体
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDk5MzA2MCw3MzgwMjQ5MTUsLTcxMj
+eyJoaXN0b3J5IjpbMTk4MTg0OTkwNyw3MzgwMjQ5MTUsLTcxMj
 k0OTczMywtNzc4MzE2MTg4LC01Mjk2NDI5OTMsMjk0NjYzMDU4
 LC05NTcxNjcxNDEsNDMwMTAxNzgsLTI0NDkwMDU4LC0xNTI4MT
 MzMzMyLDExNjUyMzE3OTgsMjAyNTI4OTMzNCwzNDMyMzUyOTks
