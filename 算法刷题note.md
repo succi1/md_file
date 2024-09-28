@@ -354,9 +354,11 @@ void backtracking(参数) {
 无向图（度；连通图；连通分量）
 加权有向图
 加权无向图
-### 
+### 图的构造
+- 邻接表
+- 邻接矩阵
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDA0NDU3NCwtMjA4ODExNDc1MiwtMj
+eyJoaXN0b3J5IjpbMTQxMDc4Njk3NiwtMjA4ODExNDc1MiwtMj
 EzMzAzMDg5MCwtNDE3MDc0NDk0LDY5NTc5MzA0NCwtMjE5Mzk0
 ODkyLC0zNjY0NTkxNCwtMTA2NDI4NjUzNSwxNzExNTI0MjM4LD
 Y4NjI5MDQ5MiwtNDQxNzY2MjU3LC00MTkwNDIwMDIsLTIwMDQ3
