@@ -356,13 +356,19 @@ void backtracking(参数) {
 加权无向图
 ### 图的构造
 - 邻接表：邻接表 使用 数组 + 链表的方式来表示
+```python
+graph = defaultdict(list)  # 邻接表
+for _ in range(m):
+	s, t = map(int, input().split())
+    graph[s].append(t)
+```
 - 邻接矩阵
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMTQyOTYxLC0yMDg4MTE0NzUyLC0yMT
-MzMDMwODkwLC00MTcwNzQ0OTQsNjk1NzkzMDQ0LC0yMTkzOTQ4
-OTIsLTM2NjQ1OTE0LC0xMDY0Mjg2NTM1LDE3MTE1MjQyMzgsNj
-g2MjkwNDkyLC00NDE3NjYyNTcsLTQxOTA0MjAwMiwtMjAwNDcz
-NTA3NiwtMjA0Njk3ODQyNiwtNzE2NzgzMDk2LC0xMDYxNDIxMz
-I3LC00Mjk0NDQ2NjQsLTE0NzYwOTU0NzksLTE4NzE3NjEzNTQs
-LTUzOTk1NTY5OV19
+eyJoaXN0b3J5IjpbNTU2MjI0NTAzLDY5MjE0Mjk2MSwtMjA4OD
+ExNDc1MiwtMjEzMzAzMDg5MCwtNDE3MDc0NDk0LDY5NTc5MzA0
+NCwtMjE5Mzk0ODkyLC0zNjY0NTkxNCwtMTA2NDI4NjUzNSwxNz
+ExNTI0MjM4LDY4NjI5MDQ5MiwtNDQxNzY2MjU3LC00MTkwNDIw
+MDIsLTIwMDQ3MzUwNzYsLTIwNDY5Nzg0MjYsLTcxNjc4MzA5Ni
+wtMTA2MTQyMTMyNywtNDI5NDQ0NjY0LC0xNDc2MDk1NDc5LC0x
+ODcxNzYxMzU0XX0=
 -->
