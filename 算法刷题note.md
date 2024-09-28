@@ -342,12 +342,13 @@ void backtracking(参数) {
 [647. 回文子串 - 力扣（LeetCode）](https://leetcode.cn/problems/palindromic-substrings/description/)
 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-palindromic-subsequence/description/)
 # 八、单调栈
+**通常是一维数组，要寻找任一个元素的右边或者左边第一个比自己大或者小的元素的位置，此时我们就要想到可以用单调栈了**。时间复杂度为O(n)。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDYyOTQ4OSwxNzExNTI0MjM4LDY4Nj
-I5MDQ5MiwtNDQxNzY2MjU3LC00MTkwNDIwMDIsLTIwMDQ3MzUw
-NzYsLTIwNDY5Nzg0MjYsLTcxNjc4MzA5NiwtMTA2MTQyMTMyNy
-wtNDI5NDQ0NjY0LC0xNDc2MDk1NDc5LC0xODcxNzYxMzU0LC01
-Mzk5NTU2OTksMTkwNDE1MzQyLC00MzA4NDY3OTIsLTMxNjQyNj
-M1NiwxMTMxMDY0ODgwLDUyNjUzMTAzMCwxMjk3NjY1NzkyLDE0
-OTU5MjAyMjNdfQ==
+eyJoaXN0b3J5IjpbLTExNDIwNTczNDksMTcxMTUyNDIzOCw2OD
+YyOTA0OTIsLTQ0MTc2NjI1NywtNDE5MDQyMDAyLC0yMDA0NzM1
+MDc2LC0yMDQ2OTc4NDI2LC03MTY3ODMwOTYsLTEwNjE0MjEzMj
+csLTQyOTQ0NDY2NCwtMTQ3NjA5NTQ3OSwtMTg3MTc2MTM1NCwt
+NTM5OTU1Njk5LDE5MDQxNTM0MiwtNDMwODQ2NzkyLC0zMTY0Mj
+YzNTYsMTEzMTA2NDg4MCw1MjY1MzEwMzAsMTI5NzY2NTc5Miwx
+NDk1OTIwMjIzXX0=
 -->
