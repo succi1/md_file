@@ -346,12 +346,13 @@ void backtracking(参数) {
 [739. 每日温度 - 力扣（LeetCode）](https://leetcode.cn/problems/daily-temperatures/description/)
 [496. 下一个更大元素 I - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-i/description/)
 [503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-ii/description/)
+[42. 接雨水 - 力扣（LeetCode）](https://leetcode.cn/problems/trapping-rain-water/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTM5NDg5MiwtMzY2NDU5MTQsLTEwNj
-QyODY1MzUsMTcxMTUyNDIzOCw2ODYyOTA0OTIsLTQ0MTc2NjI1
-NywtNDE5MDQyMDAyLC0yMDA0NzM1MDc2LC0yMDQ2OTc4NDI2LC
-03MTY3ODMwOTYsLTEwNjE0MjEzMjcsLTQyOTQ0NDY2NCwtMTQ3
-NjA5NTQ3OSwtMTg3MTc2MTM1NCwtNTM5OTU1Njk5LDE5MDQxNT
-M0MiwtNDMwODQ2NzkyLC0zMTY0MjYzNTYsMTEzMTA2NDg4MCw1
-MjY1MzEwMzBdfQ==
+eyJoaXN0b3J5IjpbNjk1NzkzMDQ0LC0yMTkzOTQ4OTIsLTM2Nj
+Q1OTE0LC0xMDY0Mjg2NTM1LDE3MTE1MjQyMzgsNjg2MjkwNDky
+LC00NDE3NjYyNTcsLTQxOTA0MjAwMiwtMjAwNDczNTA3NiwtMj
+A0Njk3ODQyNiwtNzE2NzgzMDk2LC0xMDYxNDIxMzI3LC00Mjk0
+NDQ2NjQsLTE0NzYwOTU0NzksLTE4NzE3NjEzNTQsLTUzOTk1NT
+Y5OSwxOTA0MTUzNDIsLTQzMDg0Njc5MiwtMzE2NDI2MzU2LDEx
+MzEwNjQ4ODBdfQ==
 -->
