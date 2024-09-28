@@ -343,8 +343,9 @@ void backtracking(参数) {
 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-palindromic-subsequence/description/)
 # 八、单调栈
 **通常是一维数组，要寻找任一个元素的右边或者左边第一个比自己大或者小的元素的位置，此时我们就要想到可以用单调栈了**。时间复杂度为O(n)。
+[739. 每日温度 - 力扣（LeetCode）](https://leetcode.cn/problems/daily-temperatures/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIwNTczNDksMTcxMTUyNDIzOCw2OD
+eyJoaXN0b3J5IjpbLTEwNjQyODY1MzUsMTcxMTUyNDIzOCw2OD
 YyOTA0OTIsLTQ0MTc2NjI1NywtNDE5MDQyMDAyLC0yMDA0NzM1
 MDc2LC0yMDQ2OTc4NDI2LC03MTY3ODMwOTYsLTEwNjE0MjEzMj
 csLTQyOTQ0NDY2NCwtMTQ3NjA5NTQ3OSwtMTg3MTc2MTM1NCwt
