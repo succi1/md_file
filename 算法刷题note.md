@@ -347,13 +347,13 @@ void backtracking(参数) {
 [496. 下一个更大元素 I - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-i/description/)
 [503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-ii/description/)
 [42. 接雨水 - 力扣（LeetCode）](https://leetcode.cn/problems/trapping-rain-water/description/)使用列求雨水使用双指针，使用行求雨水使用单调栈
-
+[84. 柱状图中最大的矩形 - 力扣（LeetCode）](https://leetcode.cn/problems/largest-rectangle-in-histogram/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2OTU1NTA0LC00MTcwNzQ0OTQsNjk1Nz
-kzMDQ0LC0yMTkzOTQ4OTIsLTM2NjQ1OTE0LC0xMDY0Mjg2NTM1
-LDE3MTE1MjQyMzgsNjg2MjkwNDkyLC00NDE3NjYyNTcsLTQxOT
-A0MjAwMiwtMjAwNDczNTA3NiwtMjA0Njk3ODQyNiwtNzE2Nzgz
-MDk2LC0xMDYxNDIxMzI3LC00Mjk0NDQ2NjQsLTE0NzYwOTU0Nz
-ksLTE4NzE3NjEzNTQsLTUzOTk1NTY5OSwxOTA0MTUzNDIsLTQz
-MDg0Njc5Ml19
+eyJoaXN0b3J5IjpbLTIxMzMwMzA4OTAsLTQxNzA3NDQ5NCw2OT
+U3OTMwNDQsLTIxOTM5NDg5MiwtMzY2NDU5MTQsLTEwNjQyODY1
+MzUsMTcxMTUyNDIzOCw2ODYyOTA0OTIsLTQ0MTc2NjI1NywtND
+E5MDQyMDAyLC0yMDA0NzM1MDc2LC0yMDQ2OTc4NDI2LC03MTY3
+ODMwOTYsLTEwNjE0MjEzMjcsLTQyOTQ0NDY2NCwtMTQ3NjA5NT
+Q3OSwtMTg3MTc2MTM1NCwtNTM5OTU1Njk5LDE5MDQxNTM0Miwt
+NDMwODQ2NzkyXX0=
 -->
