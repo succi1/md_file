@@ -350,12 +350,13 @@ void backtracking(参数) {
 [84. 柱状图中最大的矩形 - 力扣（LeetCode）](https://leetcode.cn/problems/largest-rectangle-in-histogram/description/)要在原height数组前后各加一个0
 # 图论
 ### 图的种类
-有向图（出度，入度；强连通图）
-无向图（度；连通图）
+有向图（出度，入度；强连通图；强连通分量）
+无向图（度；连通图；连通分量）
 加权有向图
 加权无向图
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTU0Mzk5OSwtMjA4ODExNDc1MiwtMj
+eyJoaXN0b3J5IjpbLTc5NDA0NDU3NCwtMjA4ODExNDc1MiwtMj
 EzMzAzMDg5MCwtNDE3MDc0NDk0LDY5NTc5MzA0NCwtMjE5Mzk0
 ODkyLC0zNjY0NTkxNCwtMTA2NDI4NjUzNSwxNzExNTI0MjM4LD
 Y4NjI5MDQ5MiwtNDQxNzY2MjU3LC00MTkwNDIwMDIsLTIwMDQ3
