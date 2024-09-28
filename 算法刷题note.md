@@ -345,12 +345,13 @@ void backtracking(参数) {
 **通常是一维数组，要寻找任一个元素的右边或者左边第一个比自己大或者小的元素的位置，此时我们就要想到可以用单调栈了**。时间复杂度为O(n)。
 [739. 每日温度 - 力扣（LeetCode）](https://leetcode.cn/problems/daily-temperatures/description/)
 [496. 下一个更大元素 I - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-i/description/)
+[503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-ii/description/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjQ1OTE0LC0xMDY0Mjg2NTM1LDE3MT
-E1MjQyMzgsNjg2MjkwNDkyLC00NDE3NjYyNTcsLTQxOTA0MjAw
-MiwtMjAwNDczNTA3NiwtMjA0Njk3ODQyNiwtNzE2NzgzMDk2LC
-0xMDYxNDIxMzI3LC00Mjk0NDQ2NjQsLTE0NzYwOTU0NzksLTE4
-NzE3NjEzNTQsLTUzOTk1NTY5OSwxOTA0MTUzNDIsLTQzMDg0Nj
-c5MiwtMzE2NDI2MzU2LDExMzEwNjQ4ODAsNTI2NTMxMDMwLDEy
-OTc2NjU3OTJdfQ==
+eyJoaXN0b3J5IjpbLTIxOTM5NDg5MiwtMzY2NDU5MTQsLTEwNj
+QyODY1MzUsMTcxMTUyNDIzOCw2ODYyOTA0OTIsLTQ0MTc2NjI1
+NywtNDE5MDQyMDAyLC0yMDA0NzM1MDc2LC0yMDQ2OTc4NDI2LC
+03MTY3ODMwOTYsLTEwNjE0MjEzMjcsLTQyOTQ0NDY2NCwtMTQ3
+NjA5NTQ3OSwtMTg3MTc2MTM1NCwtNTM5OTU1Njk5LDE5MDQxNT
+M0MiwtNDMwODQ2NzkyLC0zMTY0MjYzNTYsMTEzMTA2NDg4MCw1
+MjY1MzEwMzBdfQ==
 -->
