@@ -570,13 +570,15 @@ E:\goproject\src\go_code\oop\extends
 1. 接口是对继承的补充
 2. 接口保障规范性
 3. 继承主要是解决代码的复用性和可维护性；接口价值主要在于设计各种规范
-4. 接口（like ）比继承更灵活
+4. 接口（like a）比继承（is a）更灵活更松散
+5. 接口实现代码解耦
+### 多态
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzM3MTY5MiwxMTc3MDAyODI1LC0xMj
-A4MTE2OTczLC0xODQyNjgzMzM4LC0xNDU0MDc4NzksMjAwOTk2
-NjU3MywtMjA3NjMyMzUwNCwtMTAyMjg5MTI4MSwxMjYwNTgyND
-g0LDE3MjI0NzM3OTAsLTE4NjAwMTk4OTIsMzYyMDA4NjI0LDcz
-ODAyNDkxNSwtNzEyOTQ5NzMzLC03NzgzMTYxODgsLTUyOTY0Mj
-k5MywyOTQ2NjMwNTgsLTk1NzE2NzE0MSw0MzAxMDE3OCwtMjQ0
-OTAwNThdfQ==
+eyJoaXN0b3J5IjpbLTE0NDU5OTIxODYsMTE3NzAwMjgyNSwtMT
+IwODExNjk3MywtMTg0MjY4MzMzOCwtMTQ1NDA3ODc5LDIwMDk5
+NjY1NzMsLTIwNzYzMjM1MDQsLTEwMjI4OTEyODEsMTI2MDU4Mj
+Q4NCwxNzIyNDczNzkwLC0xODYwMDE5ODkyLDM2MjAwODYyNCw3
+MzgwMjQ5MTUsLTcxMjk0OTczMywtNzc4MzE2MTg4LC01Mjk2ND
+I5OTMsMjk0NjYzMDU4LC05NTcxNjcxNDEsNDMwMTAxNzgsLTI0
+NDkwMDU4XX0=
 -->
