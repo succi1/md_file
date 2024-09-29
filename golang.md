@@ -597,8 +597,8 @@ func main(){
 > E:\goproject\src\go_code\oop\assert
 ```go
 func TypeJudge(items... interface{}){
-	for i, v := range items{
-		switch x.(type){
+	for i, v := range items{ 
+		switch x.(type){ // 进行类型断言
 		case bool:
 			fmt.Printf("%v, %v", i, v)
 		case float32:
@@ -610,10 +610,11 @@ func TypeJudge(items... interface{}){
 		default:
 			...
 		}
-	
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODA2ODcwNiwtNzYwNjg3OTQ4LC0yMD
+eyJoaXN0b3J5IjpbMTE1MDQ2NDE1NCwtNzYwNjg3OTQ4LC0yMD
 c0ODMxOTE2LDEwMDgwOTM3MTUsNDQ2OTY4Mzc0LC0xNzM4OTc0
 NDcwLDExNzcwMDI4MjUsLTEyMDgxMTY5NzMsLTE4NDI2ODMzMz
 gsLTE0NTQwNzg3OSwyMDA5OTY2NTczLC0yMDc2MzIzNTA0LC0x
