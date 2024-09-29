@@ -577,7 +577,7 @@ E:\goproject\src\go_code\oop\extends
 1. 多态参数：computer函数参数是usb接口；可以接受手机变量和相机变量。详细见：E:\goproject\src\go_code\oop\interface
 2. 多态数组：在usb数组中可以同时存放phone结构体和camera结构体
 ### 类型断言
-以下面为例：类型断言表示判断a是否指向Point类型的变量，如果是就转成Point类型并赋值给b，否则报错
+以下面为例：类型断言表示判断a是否指向Point类型的变量，如果是就转成Point类型并赋值给b，否则报错panic
 ```go
 type Point struct{
 	x int
@@ -591,10 +591,10 @@ func main(){
 	b = a.(Point) // 进行类型断言
 	fmt.Println(b)
 }
-	
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTEyOTQ0NCw0NDY5NjgzNzQsLTE3Mz
+eyJoaXN0b3J5IjpbMTAwODA5MzcxNSw0NDY5NjgzNzQsLTE3Mz
 g5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3MywtMTg0MjY4
 MzMzOCwtMTQ1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1MD
 QsLTEwMjI4OTEyODEsMTI2MDU4MjQ4NCwxNzIyNDczNzkwLC0x
