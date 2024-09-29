@@ -577,7 +577,7 @@ E:\goproject\src\go_code\oop\extends
 1. 多态参数：computer函数参数是usb接口；可以接受手机变量和相机变量。详细见：E:\goproject\src\go_code\oop\interface
 2. 多态数组：在usb数组中可以同时存放phone结构体和camera结构体
 ### 类型断言
-将空接口
+pand
 ```go
 type Point struct{
 	x int
@@ -586,14 +586,19 @@ type Point struct{
 func main(){
 	var a interface{}
 	var point Point = Point{1, 2}
-	a = point
+	a = point  // ok
+	var b Point
+	b = a.(Point) // 进行类型断言
+	fmt.Println(b)
+}
+	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTE2NTY1LDQ0Njk2ODM3NCwtMTczOD
-k3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgz
-MzM4LC0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNC
-wtMTAyMjg5MTI4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4
-NjAwMTk4OTIsMzYyMDA4NjI0LDczODAyNDkxNSwtNzEyOTQ5Nz
-MzLC03NzgzMTYxODgsLTUyOTY0Mjk5MywyOTQ2NjMwNTgsLTk1
-NzE2NzE0MV19
+eyJoaXN0b3J5IjpbMTA5MDQ5Nzg0Niw0NDY5NjgzNzQsLTE3Mz
+g5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3MywtMTg0MjY4
+MzMzOCwtMTQ1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1MD
+QsLTEwMjI4OTEyODEsMTI2MDU4MjQ4NCwxNzIyNDczNzkwLC0x
+ODYwMDE5ODkyLDM2MjAwODYyNCw3MzgwMjQ5MTUsLTcxMjk0OT
+czMywtNzc4MzE2MTg4LC01Mjk2NDI5OTMsMjk0NjYzMDU4LC05
+NTcxNjcxNDFdfQ==
 -->
