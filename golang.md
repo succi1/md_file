@@ -574,8 +574,9 @@ E:\goproject\src\go_code\oop\extends
 5. 接口实现代码解耦
 ### 多态
 多态特征通过接口实现
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTYxODc2MCwxMTc3MDAyODI1LC0xMj
+eyJoaXN0b3J5IjpbMjExOTg4OTM5OCwxMTc3MDAyODI1LC0xMj
 A4MTE2OTczLC0xODQyNjgzMzM4LC0xNDU0MDc4NzksMjAwOTk2
 NjU3MywtMjA3NjMyMzUwNCwtMTAyMjg5MTI4MSwxMjYwNTgyND
 g0LDE3MjI0NzM3OTAsLTE4NjAwMTk4OTIsMzYyMDA4NjI0LDcz
