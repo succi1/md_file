@@ -371,12 +371,15 @@ for _ in range(m):
 ```
 [99. 岛屿数量 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1171)
 [100. 岛屿的最大面积 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1172)
+[101. 孤岛的总面积 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1173)先遍历边界，再去遍历遍历zuo'yo
+[102. 沉没孤岛 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1174)与上一题类似
+[103. 水流问题 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1175)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjI1NjI2MCwtMjU4NDg1MzE5LDE5OT
-kzMTg2MjUsLTMxNzM1Mzc0MSw2OTIxNDI5NjEsLTIwODgxMTQ3
-NTIsLTIxMzMwMzA4OTAsLTQxNzA3NDQ5NCw2OTU3OTMwNDQsLT
-IxOTM5NDg5MiwtMzY2NDU5MTQsLTEwNjQyODY1MzUsMTcxMTUy
-NDIzOCw2ODYyOTA0OTIsLTQ0MTc2NjI1NywtNDE5MDQyMDAyLC
-0yMDA0NzM1MDc2LC0yMDQ2OTc4NDI2LC03MTY3ODMwOTYsLTEw
-NjE0MjEzMjddfQ==
+eyJoaXN0b3J5IjpbMTg1MTQzMDI5NCwtNDQ2MjU2MjYwLC0yNT
+g0ODUzMTksMTk5OTMxODYyNSwtMzE3MzUzNzQxLDY5MjE0Mjk2
+MSwtMjA4ODExNDc1MiwtMjEzMzAzMDg5MCwtNDE3MDc0NDk0LD
+Y5NTc5MzA0NCwtMjE5Mzk0ODkyLC0zNjY0NTkxNCwtMTA2NDI4
+NjUzNSwxNzExNTI0MjM4LDY4NjI5MDQ5MiwtNDQxNzY2MjU3LC
+00MTkwNDIwMDIsLTIwMDQ3MzUwNzYsLTIwNDY5Nzg0MjYsLTcx
+Njc4MzA5Nl19
 -->
