@@ -371,11 +371,11 @@ for _ in range(m):
 ```
 [99. 岛屿数量 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1171)
 [100. 岛屿的最大面积 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1172)
-[101. 孤岛的总面积 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1173)先遍历边界，再去遍历遍历zuo'yo
+[101. 孤岛的总面积 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1173)先遍历边界，再去遍历遍历所有节点
 [102. 沉没孤岛 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1174)与上一题类似
-[103. 水流问题 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1175)
+[103. 水流问题 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1175)从两组边界出发遍历点，被两组边界同时标记的点就是结果
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTQzMDI5NCwtNDQ2MjU2MjYwLC0yNT
+eyJoaXN0b3J5IjpbLTU5NDM1NjU4NiwtNDQ2MjU2MjYwLC0yNT
 g0ODUzMTksMTk5OTMxODYyNSwtMzE3MzUzNzQxLDY5MjE0Mjk2
 MSwtMjA4ODExNDc1MiwtMjEzMzAzMDg5MCwtNDE3MDc0NDk0LD
 Y5NTc5MzA0NCwtMjE5Mzk0ODkyLC0zNjY0NTkxNCwtMTA2NDI4
