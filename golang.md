@@ -600,14 +600,24 @@ func TypeJudge(items... interface{}){
 	for i, v := range items{
 		switch x.(type){
 		case bool:
-			fmt.Printf("")
+			fmt.Printf("%v, %v", i, v)
+		case float32:
+			...
+		case float64:
+			...
+		case int, int32, int64:
+			...
+		default:
+			...
+		}
+	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcwNzQ2NDIsLTc2MDY4Nzk0OCwtMj
-A3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3
-NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgzMz
-M4LC0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNCwt
-MTAyMjg5MTI4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4Nj
-AwMTk4OTIsMzYyMDA4NjI0LDczODAyNDkxNSwtNzEyOTQ5NzMz
-LC03NzgzMTYxODhdfQ==
+eyJoaXN0b3J5IjpbLTg2ODA2ODcwNiwtNzYwNjg3OTQ4LC0yMD
+c0ODMxOTE2LDEwMDgwOTM3MTUsNDQ2OTY4Mzc0LC0xNzM4OTc0
+NDcwLDExNzcwMDI4MjUsLTEyMDgxMTY5NzMsLTE4NDI2ODMzMz
+gsLTE0NTQwNzg3OSwyMDA5OTY2NTczLC0yMDc2MzIzNTA0LC0x
+MDIyODkxMjgxLDEyNjA1ODI0ODQsMTcyMjQ3Mzc5MCwtMTg2MD
+AxOTg5MiwzNjIwMDg2MjQsNzM4MDI0OTE1LC03MTI5NDk3MzMs
+LTc3ODMxNjE4OF19
 -->
