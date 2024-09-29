@@ -596,6 +596,7 @@ func main(){
 
 > E:\goproject\src\go_code\oop\assert
 ```go
+// 循环判断传入的参数是什么类型
 func TypeJudge(items... interface{}){
 	for i, v := range items{ 
 		switch x.(type){ // 进行类型断言
@@ -614,11 +615,11 @@ func TypeJudge(items... interface{}){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDQ2NDE1NCwtNzYwNjg3OTQ4LC0yMD
-c0ODMxOTE2LDEwMDgwOTM3MTUsNDQ2OTY4Mzc0LC0xNzM4OTc0
-NDcwLDExNzcwMDI4MjUsLTEyMDgxMTY5NzMsLTE4NDI2ODMzMz
-gsLTE0NTQwNzg3OSwyMDA5OTY2NTczLC0yMDc2MzIzNTA0LC0x
-MDIyODkxMjgxLDEyNjA1ODI0ODQsMTcyMjQ3Mzc5MCwtMTg2MD
-AxOTg5MiwzNjIwMDg2MjQsNzM4MDI0OTE1LC03MTI5NDk3MzMs
-LTc3ODMxNjE4OF19
+eyJoaXN0b3J5IjpbODczMDM4NTIsLTc2MDY4Nzk0OCwtMjA3ND
+gzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3NDQ3
+MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgzMzM4LC
+0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNCwtMTAy
+Mjg5MTI4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4NjAwMT
+k4OTIsMzYyMDA4NjI0LDczODAyNDkxNSwtNzEyOTQ5NzMzLC03
+NzgzMTYxODhdfQ==
 -->
