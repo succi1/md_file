@@ -578,13 +578,22 @@ E:\goproject\src\go_code\oop\extends
 2. 多态数组：在usb数组中可以同时存放phone结构体和camera结构体
 ### 类型断言
 将空接口
-
+```go
+type Point struct{
+	x int
+	y int
+}
+func main(){
+	var a interface{}
+	var point Point = Point{1, 2}
+	a = point
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTg4NDY5MCw0NDY5NjgzNzQsLTE3Mz
-g5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3MywtMTg0MjY4
-MzMzOCwtMTQ1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1MD
-QsLTEwMjI4OTEyODEsMTI2MDU4MjQ4NCwxNzIyNDczNzkwLC0x
-ODYwMDE5ODkyLDM2MjAwODYyNCw3MzgwMjQ5MTUsLTcxMjk0OT
-czMywtNzc4MzE2MTg4LC01Mjk2NDI5OTMsMjk0NjYzMDU4LC05
-NTcxNjcxNDFdfQ==
+eyJoaXN0b3J5IjpbLTk2NTE2NTY1LDQ0Njk2ODM3NCwtMTczOD
+k3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgz
+MzM4LC0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNC
+wtMTAyMjg5MTI4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4
+NjAwMTk4OTIsMzYyMDA4NjI0LDczODAyNDkxNSwtNzEyOTQ5Nz
+MzLC03NzgzMTYxODgsLTUyOTY0Mjk5MywyOTQ2NjMwNTgsLTk1
+NzE2NzE0MV19
 -->
