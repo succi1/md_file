@@ -574,10 +574,10 @@ E:\goproject\src\go_code\oop\extends
 5. 接口实现代码解耦
 ### 多态
 多态特征通过接口实现
-1. 多态参数：computer函数参数是usb接口；详细见：E:\goproject\src\go_code\oop\interface
-2. 多态数组
+1. 多态参数：computer函数参数是usb接口；可以接受手机变量和相机变量。详细见：E:\goproject\src\go_code\oop\interface
+2. 多态数组：在usb数组中可以同时存放phone结构体和camera结构体
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY4ODgyMDUsMTE3NzAwMjgyNSwtMT
+eyJoaXN0b3J5IjpbLTE3Mzg5NzQ0NzAsMTE3NzAwMjgyNSwtMT
 IwODExNjk3MywtMTg0MjY4MzMzOCwtMTQ1NDA3ODc5LDIwMDk5
 NjY1NzMsLTIwNzYzMjM1MDQsLTEwMjI4OTEyODEsMTI2MDU4Mj
 Q4NCwxNzIyNDczNzkwLC0xODYwMDE5ODkyLDM2MjAwODYyNCw3
