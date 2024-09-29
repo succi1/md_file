@@ -596,13 +596,18 @@ func main(){
 
 > E:\goproject\src\go_code\oop\assert
 ```go
-func 
+func TypeJudge(items... interface{}){
+	for i, v := range items{
+		switch x.(type){
+		case bool:
+			fmt.Printf("")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1MDc4MTk0LC03NjA2ODc5NDgsLTIwNz
-Q4MzE5MTYsMTAwODA5MzcxNSw0NDY5NjgzNzQsLTE3Mzg5NzQ0
-NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3MywtMTg0MjY4MzMzOC
-wtMTQ1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1MDQsLTEw
-MjI4OTEyODEsMTI2MDU4MjQ4NCwxNzIyNDczNzkwLC0xODYwMD
-E5ODkyLDM2MjAwODYyNCw3MzgwMjQ5MTUsLTcxMjk0OTczMywt
-Nzc4MzE2MTg4XX0=
+eyJoaXN0b3J5IjpbLTE3MTcwNzQ2NDIsLTc2MDY4Nzk0OCwtMj
+A3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3
+NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgzMz
+M4LC0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNCwt
+MTAyMjg5MTI4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4Nj
+AwMTk4OTIsMzYyMDA4NjI0LDczODAyNDkxNSwtNzEyOTQ5NzMz
+LC03NzgzMTYxODhdfQ==
 -->
