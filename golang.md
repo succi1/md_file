@@ -642,14 +642,17 @@ if err2 != nil{
 reader := bufio.NewReader(file)
 str, err := reader.ReadString('\n') // 读到换行符停止读
 
-// 1.读取文件内容并输出在终端,使用ioutilyi'ci'jiang'zheng'ge
+// 2.读取文件内容并输出在终端,使用ioutil.ReadFile一次将整个文件读入到内存，适用于文件不太大的情况
+// 这时不需要打开和关闭文件
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEzODkyNjUsMTU1MDM2MzQ2OSwyOT
-EyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwtMjA3NDgzMTkx
-NiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3NDQ3MCwxMT
-c3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgzMzM4LC0xNDU0
-MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNCwtMTAyMjg5MT
-I4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4NjAwMTk4OTIs
-MzYyMDA4NjI0XX0=
+eyJoaXN0b3J5IjpbLTg5NTMwMzkyNiwxNTUwMzYzNDY5LDI5MT
+I0ODc4MSw4NzMwMzg1MiwtNzYwNjg3OTQ4LC0yMDc0ODMxOTE2
+LDEwMDgwOTM3MTUsNDQ2OTY4Mzc0LC0xNzM4OTc0NDcwLDExNz
+cwMDI4MjUsLTEyMDgxMTY5NzMsLTE4NDI2ODMzMzgsLTE0NTQw
+Nzg3OSwyMDA5OTY2NTczLC0yMDc2MzIzNTA0LC0xMDIyODkxMj
+gxLDEyNjA1ODI0ODQsMTcyMjQ3Mzc5MCwtMTg2MDAxOTg5Miwz
+NjIwMDg2MjRdfQ==
 -->
