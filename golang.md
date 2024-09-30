@@ -650,17 +650,31 @@ fmt.Printf("%v\n", content) // 全是数字，因为content是[]byte
 fmt.Printf("%v\n", string(content))
 ```
 - 创建文件并写文件
+flag 的常用取值
+```go
+const (
+    O_RDONLY int = syscall.O_RDONLY // 只读模式打开文件
+    O_WRONLY int = syscall.O_WRONLY // 只写模式打开文件
+    O_RDWR   int = syscall.O_RDWR   // 读写模式打开文件
+    O_APPEND int = syscall.O_APPEND // 写操作时将数据附加到文件尾部
+    O_CREATE int = syscall.O_CREAT  // 如果不存在将创建一个新文件
+    O_EXCL   int = syscall.O_EXCL   // 和O_CREATE配合使用，文件必须不存在
+    O_SYNC   int = syscall.O_SYNC   // 打开文件用于同步I/O
+    O_TRUNC  int = syscall.O_TRUNC  // 如果可能，打开时清空文件
+)
+```
+
 ```go
 // FileMode在Windows下不发挥作用
 func OpenFile(name string, flag int, permn FileMode) (file *File, err error)
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgwMDA1MzgsMjA5MzI5NzcsNDI3Nz
-ExMDU4LDY1MTY1MjU4NiwtODk1MzAzOTI2LDE1NTAzNjM0Njks
-MjkxMjQ4NzgxLDg3MzAzODUyLC03NjA2ODc5NDgsLTIwNzQ4Mz
-E5MTYsMTAwODA5MzcxNSw0NDY5NjgzNzQsLTE3Mzg5NzQ0NzAs
-MTE3NzAwMjgyNSwtMTIwODExNjk3MywtMTg0MjY4MzMzOCwtMT
-Q1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1MDQsLTEwMjI4
-OTEyODFdfQ==
+eyJoaXN0b3J5IjpbMjgwODY0MjA4LDIwOTMyOTc3LDQyNzcxMT
+A1OCw2NTE2NTI1ODYsLTg5NTMwMzkyNiwxNTUwMzYzNDY5LDI5
+MTI0ODc4MSw4NzMwMzg1MiwtNzYwNjg3OTQ4LC0yMDc0ODMxOT
+E2LDEwMDgwOTM3MTUsNDQ2OTY4Mzc0LC0xNzM4OTc0NDcwLDEx
+NzcwMDI4MjUsLTEyMDgxMTY5NzMsLTE4NDI2ODMzMzgsLTE0NT
+QwNzg3OSwyMDA5OTY2NTczLC0yMDc2MzIzNTA0LC0xMDIyODkx
+MjgxXX0=
 -->
