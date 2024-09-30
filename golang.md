@@ -643,16 +643,16 @@ reader := bufio.NewReader(file)
 str, err := reader.ReadString('\n') // 读到换行符停止读
 
 // 2.读取文件内容并输出在终端,使用ioutil.ReadFile一次将整个文件读入到内存，适用于文件不太大的情况
-// 这时不需要打开和关闭文件
+// 这时不需要打开和关闭文件 文件的Open和Close都封装在该函数里面
 func ReadFile(filename string) ([]byte, error)
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MD
-M2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwt
-MjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczOD
-k3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgz
-MzM4LC0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNC
-wtMTAyMjg5MTI4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4
-NjAwMTk4OTJdfQ==
+eyJoaXN0b3J5IjpbNDI3NzExMDU4LDY1MTY1MjU4NiwtODk1Mz
+AzOTI2LDE1NTAzNjM0NjksMjkxMjQ4NzgxLDg3MzAzODUyLC03
+NjA2ODc5NDgsLTIwNzQ4MzE5MTYsMTAwODA5MzcxNSw0NDY5Nj
+gzNzQsLTE3Mzg5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3
+MywtMTg0MjY4MzMzOCwtMTQ1NDA3ODc5LDIwMDk5NjY1NzMsLT
+IwNzYzMjM1MDQsLTEwMjI4OTEyODEsMTI2MDU4MjQ4NCwxNzIy
+NDczNzkwXX0=
 -->
