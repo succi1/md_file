@@ -663,7 +663,7 @@ const (
     O_TRUNC  int = syscall.O_TRUNC  // 如果可能，打开时清空文件
 )
 ```
-
+E:\goproject\src\go_code\writefile
 ```go
 // FileMode在Windows下不发挥作用
 func OpenFile(name string, flag int, permn FileMode) (file *File, err error)
@@ -687,11 +687,11 @@ write.Flush()
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxNzI1MjQzLDI4MDg2NDIwOCwyMDkzMj
-k3Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1
-MDM2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OC
-wtMjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTcz
-ODk3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNj
-gzMzM4LC0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUw
-NF19
+eyJoaXN0b3J5IjpbMjA1Njg5MDcxNCwyODA4NjQyMDgsMjA5Mz
+I5NzcsNDI3NzExMDU4LDY1MTY1MjU4NiwtODk1MzAzOTI2LDE1
+NTAzNjM0NjksMjkxMjQ4NzgxLDg3MzAzODUyLC03NjA2ODc5ND
+gsLTIwNzQ4MzE5MTYsMTAwODA5MzcxNSw0NDY5NjgzNzQsLTE3
+Mzg5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3MywtMTg0Mj
+Y4MzMzOCwtMTQ1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1
+MDRdfQ==
 -->
