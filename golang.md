@@ -636,18 +636,20 @@ if err2 != nil{
 ```
 - 读取文件
 ```go
-// 读取文件内容并输出在终端（带缓冲区方式）
+// 1.读取文件内容并输出在终端（带缓冲区方式）
 // 创建一个 *Reader 是带缓冲的
 // 默认缓冲区是4096
 reader := bufio.NewReader(file)
 str, err := reader.ReadString('\n') // 读到换行符停止读
+
+// 1.读取文件内容并输出在终端,使用ioutilyi'ci'jiang'zheng'ge
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDM2MzQ2OSwyOTEyNDg3ODEsODczMD
-M4NTIsLTc2MDY4Nzk0OCwtMjA3NDgzMTkxNiwxMDA4MDkzNzE1
-LDQ0Njk2ODM3NCwtMTczODk3NDQ3MCwxMTc3MDAyODI1LC0xMj
-A4MTE2OTczLC0xODQyNjgzMzM4LC0xNDU0MDc4NzksMjAwOTk2
-NjU3MywtMjA3NjMyMzUwNCwtMTAyMjg5MTI4MSwxMjYwNTgyND
-g0LDE3MjI0NzM3OTAsLTE4NjAwMTk4OTIsMzYyMDA4NjI0LDcz
-ODAyNDkxNV19
+eyJoaXN0b3J5IjpbLTE5NTEzODkyNjUsMTU1MDM2MzQ2OSwyOT
+EyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwtMjA3NDgzMTkx
+NiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3NDQ3MCwxMT
+c3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgzMzM4LC0xNDU0
+MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNCwtMTAyMjg5MT
+I4MSwxMjYwNTgyNDg0LDE3MjI0NzM3OTAsLTE4NjAwMTk4OTIs
+MzYyMDA4NjI0XX0=
 -->
