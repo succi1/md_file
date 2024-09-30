@@ -685,9 +685,10 @@ for i := 0; i < 5; i++ {
 // 所以需要Flush方法将缓存内容冲刷到磁盘
 write.Flush()
 ```
-- 写覆盖已经存在的文件（jiang'shan）
+- 写覆盖已经存在的文件（将上段代码os.O_CREATE删除）
+- 追加内容到原来的文件
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzQzMTg4MSwyMDU2ODkwNzE0LDI4MD
+eyJoaXN0b3J5IjpbMTg1MzM0MTQzNSwyMDU2ODkwNzE0LDI4MD
 g2NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04
 OTUzMDM5MjYsMTU1MDM2MzQ2OSwyOTEyNDg3ODEsODczMDM4NT
 IsLTc2MDY4Nzk0OCwtMjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0
