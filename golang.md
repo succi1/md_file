@@ -615,13 +615,39 @@ func TypeJudge(items... interface{}){
 }
 ```
 # 文件操作
+### 常用文件操作函数和方法
+- 打开关闭文件
+```go
+import "os" // 引入os包
+// 打开文件 file叫文件指针|文件对象|文件句柄
+file, err := os.Open("d:/test.txt")
+if err != nil{
+	fmt.Println(err)
+}
+// 输出file 发现看到一个地址
+fmt.Printf("%v", file)
 
+// 关闭文件 经常打开文件后使用defer
+// defer file.Close()
+err2 := file.Close()
+if err2 != nil{
+	fmt.Println(err2)
+}	
+```
+- 读取文件
+```go
+// 读取文件内容并输出在终端（带缓冲区方式）
+// 创建一个 *Reader 是带缓冲的
+// 默认缓冲区是4096
+reader := bufio.NewReader(file)
+str, err := reader.ReadString('\n') // 读到换行符停止读
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMjQ4NzgxLDg3MzAzODUyLC03NjA2OD
-c5NDgsLTIwNzQ4MzE5MTYsMTAwODA5MzcxNSw0NDY5NjgzNzQs
-LTE3Mzg5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3MywtMT
-g0MjY4MzMzOCwtMTQ1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYz
-MjM1MDQsLTEwMjI4OTEyODEsMTI2MDU4MjQ4NCwxNzIyNDczNz
-kwLC0xODYwMDE5ODkyLDM2MjAwODYyNCw3MzgwMjQ5MTUsLTcx
-Mjk0OTczM119
+eyJoaXN0b3J5IjpbMTU1MDM2MzQ2OSwyOTEyNDg3ODEsODczMD
+M4NTIsLTc2MDY4Nzk0OCwtMjA3NDgzMTkxNiwxMDA4MDkzNzE1
+LDQ0Njk2ODM3NCwtMTczODk3NDQ3MCwxMTc3MDAyODI1LC0xMj
+A4MTE2OTczLC0xODQyNjgzMzM4LC0xNDU0MDc4NzksMjAwOTk2
+NjU3MywtMjA3NjMyMzUwNCwtMTAyMjg5MTI4MSwxMjYwNTgyND
+g0LDE3MjI0NzM3OTAsLTE4NjAwMTk4OTIsMzYyMDA4NjI0LDcz
+ODAyNDkxNV19
 -->
