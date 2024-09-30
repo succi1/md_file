@@ -668,13 +668,30 @@ const (
 // FileMode在Windows下不发挥作用
 func OpenFile(name string, flag int, permn FileMode) (file *File, err error)
 
+filename := "e:/abc.txt"
+file, err := os.OpenFile(filename, os.O_WRONLY|os.O_CREATE, 0666)
+if err != nil {
+	fmt.Println(err)
+	return
+}
+defer file.Close()
+str := "hello, God\n"
+// 写入时使用带缓存的 *Writer
+write := bufio.NewWriter(file)
+for i := 0; i < 5; i++ {
+	write.WriteString(str)
+}
+// 因为write是缓存，并没有真正写入磁盘
+// 所以需要Flush方法将缓存内容冲刷到磁盘
+write.Flush()
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwODY0MjA4LDIwOTMyOTc3LDQyNzcxMT
-A1OCw2NTE2NTI1ODYsLTg5NTMwMzkyNiwxNTUwMzYzNDY5LDI5
-MTI0ODc4MSw4NzMwMzg1MiwtNzYwNjg3OTQ4LC0yMDc0ODMxOT
-E2LDEwMDgwOTM3MTUsNDQ2OTY4Mzc0LC0xNzM4OTc0NDcwLDEx
-NzcwMDI4MjUsLTEyMDgxMTY5NzMsLTE4NDI2ODMzMzgsLTE0NT
-QwNzg3OSwyMDA5OTY2NTczLC0yMDc2MzIzNTA0LC0xMDIyODkx
-MjgxXX0=
+eyJoaXN0b3J5IjpbODQxNzI1MjQzLDI4MDg2NDIwOCwyMDkzMj
+k3Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1
+MDM2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OC
+wtMjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTcz
+ODk3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNj
+gzMzM4LC0xNDU0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUw
+NF19
 -->
