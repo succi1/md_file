@@ -651,16 +651,16 @@ fmt.Printf("%v\n", string(content))
 ```
 - 创建文件并写文件
 ```go
-// 
+// FileMode在Windows下不发挥作用
 func OpenFile(name string, flag int, permn FileMode) (file *File, err error)
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjE2NTk5NCwyMDkzMjk3Nyw0Mjc3MT
-EwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MDM2MzQ2OSwy
-OTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwtMjA3NDgzMT
-kxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3NDQ3MCwx
-MTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgzMzM4LC0xND
-U0MDc4NzksMjAwOTk2NjU3MywtMjA3NjMyMzUwNCwtMTAyMjg5
-MTI4MV19
+eyJoaXN0b3J5IjpbLTE1MTgwMDA1MzgsMjA5MzI5NzcsNDI3Nz
+ExMDU4LDY1MTY1MjU4NiwtODk1MzAzOTI2LDE1NTAzNjM0Njks
+MjkxMjQ4NzgxLDg3MzAzODUyLC03NjA2ODc5NDgsLTIwNzQ4Mz
+E5MTYsMTAwODA5MzcxNSw0NDY5NjgzNzQsLTE3Mzg5NzQ0NzAs
+MTE3NzAwMjgyNSwtMTIwODExNjk3MywtMTg0MjY4MzMzOCwtMT
+Q1NDA3ODc5LDIwMDk5NjY1NzMsLTIwNzYzMjM1MDQsLTEwMjI4
+OTEyODFdfQ==
 -->
