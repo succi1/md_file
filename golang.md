@@ -690,13 +690,26 @@ write.Flush()
 - ioutil.ReadFile()      ioutil.WriteFile()
 
 ---
-- 
+- **判断文件/目录是否存在** , 使用os.Stat()函数返回的错误值进行判断
+```go
+func PathExists(path string)(bool, error){
+	_, err := os.Stat(path)
+	if err == nil{// 返回错误为nil 说明文件/目录存在
+		return true, nil
+	}else if os.IsNotExist(err){//返回错误类型使用os.IsNotExist()判断为true 说明文件不存在
+		return false, nil
+	}else{ // 返回为其他类型说明不确定文件是否存在
+		return false, err
+	}
+}
+```
+- 拷贝文件
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMD
-U2ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgs
-NjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MDM2MzQ2OSwyOTEyND
-g3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwtMjA3NDgzMTkxNiwx
-MDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3NDQ3MCwxMTc3MD
-AyODI1LC0xMjA4MTE2OTczLC0xODQyNjgzMzM4LC0xNDU0MDc4
-NzldfQ==
+eyJoaXN0b3J5IjpbLTExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLT
+MwNTM4MDY1MiwyMDU2ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3
+Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MD
+M2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwt
+MjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczOD
+k3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgz
+MzM4XX0=
 -->
