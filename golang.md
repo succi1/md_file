@@ -704,12 +704,35 @@ func PathExists(path string)(bool, error){
 }
 ```
 - 拷贝文件
+```go
+func CopyFile(srcPath string, dstPath string) (int64, error) {
+srcFile, err01 := os.Open(srcPath)
+if err01 != nil{
+fmt.Printf("err01 is %v\n", err01)
+}
+defer srcFile.Close()
+reader := bufio.NewReader(srcFile) // 通过srcFile获取reader
+  
+dstFile, err02 := os.OpenFile(srcPath, os.O_CREATE | os.O_WRONLY, 0666)
+if err02 != nil{
+fmt.Printf("err02 is %v\n", err02)
+
+defer dstFile.Close()
+
+writer := bufio.NewWriter(dstFile) // 通过dstFile获取writer
+
+  
+
+return io.Copy(writer, reader)
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLT
-MwNTM4MDY1MiwyMDU2ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3
-Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MD
-M2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwt
-MjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczOD
-k3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2OTczLC0xODQyNjgz
-MzM4XX0=
+eyJoaXN0b3J5IjpbLTE1NDM0MjE5MDksLTExMDQ0NTA3MDgsLT
+E4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2ODkwNzE0LDI4MDg2
+NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OT
+UzMDM5MjYsMTU1MDM2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIs
+LTc2MDY4Nzk0OCwtMjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Nj
+k2ODM3NCwtMTczODk3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2
+OTczXX0=
 -->
