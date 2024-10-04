@@ -712,21 +712,21 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 	}
 	defer srcFile.Close()
   
-	dstFile, err02 := os.OpenFile(srcPath, os.O_CREATE | os.O_WRONLY, 0666)
+	dstFile, err02 := os.Create(dstPath)
 	if err02 != nil{
 		fmt.Printf("err02 is %v\n", err02)
 	}
 	defer dstFile.Close()
 
-	return io.Copy(writer, reader)
+	return io.Copy(dstFile, srcFile)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM5MTU0NDcsMjY3Mjg2Mzg1LC0xMT
-A0NDUwNzA4LC0xODM1MDc0NjM1LC0zMDUzODA2NTIsMjA1Njg5
-MDcxNCwyODA4NjQyMDgsMjA5MzI5NzcsNDI3NzExMDU4LDY1MT
-Y1MjU4NiwtODk1MzAzOTI2LDE1NTAzNjM0NjksMjkxMjQ4Nzgx
-LDg3MzAzODUyLC03NjA2ODc5NDgsLTIwNzQ4MzE5MTYsMTAwOD
-A5MzcxNSw0NDY5NjgzNzQsLTE3Mzg5NzQ0NzAsMTE3NzAwMjgy
-NV19
+eyJoaXN0b3J5IjpbMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNj
+cyODYzODUsLTExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4
+MDY1MiwyMDU2ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3Nyw0Mj
+c3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MDM2MzQ2
+OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwtMjA3ND
+gzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3NDQ3
+MF19
 -->
