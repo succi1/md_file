@@ -703,7 +703,7 @@ func PathExists(path string)(bool, error){
 	}
 }
 ```
-- 拷贝文件 func Copy(dst [Writer](https://studygolang.com/static/pkgdoc/pkg/io.htm#Writer), src [Reader](https://studygolang.com/static/pkgdoc/pkg/io.htm#Reader)) (written [int64](https://studygolang.com/static/pkgdoc/pkg/builtin.htm#int64), err [error](https://studygolang.com/static/pkgdoc/pkg/builtin.htm#error))
+- 拷贝文件 io包中 func Copy(dst Writer, src Reader) (written int64, err error)
 ```go
 func CopyFile(srcPath string, dstPath string) (int64, error) {
 	srcFile, err01 := os.Open(srcPath)
@@ -724,11 +724,11 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU0ODQ2MDIsLTExMDQ0NTA3MDgsLT
-E4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2ODkwNzE0LDI4MDg2
-NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OT
-UzMDM5MjYsMTU1MDM2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIs
-LTc2MDY4Nzk0OCwtMjA3NDgzMTkxNiwxMDA4MDkzNzE1LDQ0Nj
-k2ODM3NCwtMTczODk3NDQ3MCwxMTc3MDAyODI1LC0xMjA4MTE2
-OTczXX0=
+eyJoaXN0b3J5IjpbMjY3Mjg2Mzg1LC0xMTA0NDUwNzA4LC0xOD
+M1MDc0NjM1LC0zMDUzODA2NTIsMjA1Njg5MDcxNCwyODA4NjQy
+MDgsMjA5MzI5NzcsNDI3NzExMDU4LDY1MTY1MjU4NiwtODk1Mz
+AzOTI2LDE1NTAzNjM0NjksMjkxMjQ4NzgxLDg3MzAzODUyLC03
+NjA2ODc5NDgsLTIwNzQ4MzE5MTYsMTAwODA5MzcxNSw0NDY5Nj
+gzNzQsLTE3Mzg5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3
+M119
 -->
