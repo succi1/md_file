@@ -711,24 +711,22 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 		fmt.Printf("err01 is %v\n", err01)
 	}
 	defer srcFile.Close()
-	reader := bufio.NewReader(srcFile) // 通过srcFile获取reader
   
 	dstFile, err02 := os.OpenFile(srcPath, os.O_CREATE | os.O_WRONLY, 0666)
 	if err02 != nil{
 		fmt.Printf("err02 is %v\n", err02)
 	}
 	defer dstFile.Close()
-	writer := bufio.NewWriter(dstFile) // 通过dstFile获取writer
 
 	return io.Copy(writer, reader)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3Mjg2Mzg1LC0xMTA0NDUwNzA4LC0xOD
-M1MDc0NjM1LC0zMDUzODA2NTIsMjA1Njg5MDcxNCwyODA4NjQy
-MDgsMjA5MzI5NzcsNDI3NzExMDU4LDY1MTY1MjU4NiwtODk1Mz
-AzOTI2LDE1NTAzNjM0NjksMjkxMjQ4NzgxLDg3MzAzODUyLC03
-NjA2ODc5NDgsLTIwNzQ4MzE5MTYsMTAwODA5MzcxNSw0NDY5Nj
-gzNzQsLTE3Mzg5NzQ0NzAsMTE3NzAwMjgyNSwtMTIwODExNjk3
-M119
+eyJoaXN0b3J5IjpbLTE0MDM5MTU0NDcsMjY3Mjg2Mzg1LC0xMT
+A0NDUwNzA4LC0xODM1MDc0NjM1LC0zMDUzODA2NTIsMjA1Njg5
+MDcxNCwyODA4NjQyMDgsMjA5MzI5NzcsNDI3NzExMDU4LDY1MT
+Y1MjU4NiwtODk1MzAzOTI2LDE1NTAzNjM0NjksMjkxMjQ4Nzgx
+LDg3MzAzODUyLC03NjA2ODc5NDgsLTIwNzQ4MzE5MTYsMTAwOD
+A5MzcxNSw0NDY5NjgzNzQsLTE3Mzg5NzQ0NzAsMTE3NzAwMjgy
+NV19
 -->
