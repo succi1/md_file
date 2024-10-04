@@ -712,7 +712,7 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 	}
 	defer srcFile.Close()
   
-	dstFile, err02 := os.Create(dstPath)
+	dstFile, err02 := os.Create(dstPath) // 使用OpenFile会不成功
 	if err02 != nil{
 		fmt.Printf("err02 is %v\n", err02)
 	}
@@ -722,11 +722,11 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNj
-cyODYzODUsLTExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4
-MDY1MiwyMDU2ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3Nyw0Mj
-c3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MDM2MzQ2
-OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0OCwtMjA3ND
-gzMTkxNiwxMDA4MDkzNzE1LDQ0Njk2ODM3NCwtMTczODk3NDQ3
-MF19
+eyJoaXN0b3J5IjpbLTgyMzEyNDc0OSwxNDk2NDY5NTA2LC0xND
+AzOTE1NDQ3LDI2NzI4NjM4NSwtMTEwNDQ1MDcwOCwtMTgzNTA3
+NDYzNSwtMzA1MzgwNjUyLDIwNTY4OTA3MTQsMjgwODY0MjA4LD
+IwOTMyOTc3LDQyNzcxMTA1OCw2NTE2NTI1ODYsLTg5NTMwMzky
+NiwxNTUwMzYzNDY5LDI5MTI0ODc4MSw4NzMwMzg1MiwtNzYwNj
+g3OTQ4LC0yMDc0ODMxOTE2LDEwMDgwOTM3MTUsNDQ2OTY4Mzc0
+XX0=
 -->
