@@ -849,10 +849,10 @@ Go主线程(main, 重量级的耗费cpu资源，物理线程)：可以发起上�
 ### goroutine调度模型MPG
 M:操作系统的主线程（物理线程）
 P:协程需要的上下文
-G:
+G:协程
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjQwNjU1OSwtNTAxNjYwOTc5LDIwNz
+eyJoaXN0b3J5IjpbLTc1NDc1OTE2MywtNTAxNjYwOTc5LDIwNz
 ExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1MTgsLTE4MTA3MTkx
 NTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LDEwNTAzMzcyOTgsLT
 UwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0MjAwMTIsNjc1Mzk2
