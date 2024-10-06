@@ -842,17 +842,21 @@ func unMarshalSlice() {
  
 E:\goproject\src\go_code\project02\testingdemo
 # goroutine协程
-Go主线程(main, 重量级的耗费cpu资源)：可以发起上万个协程goroutine
+Go主线程(main, 重量级的耗费cpu资源，物理线程)：可以发起上万个协程goroutine（轻量级线程逻辑态）
 
 ### goroutine特点：
 有独立的栈空间；共享程序堆空间；调度由用户控制；协程是轻量级线程 
+### goroutine调度模型MPG
+M:操作系统的主线程（物理线程）
+P:协程需要的上下文
+G:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0NjkxNjM4LC01MDE2NjA5NzksMjA3MT
-EyMjg2OSw0ODE5MTQ5MTEsMTI4NTIxNDUxOCwtMTgxMDcxOTE1
-OCwyMDM3NjgyOTc2LDExODQ0NzI4ODksMTA1MDMzNzI5OCwtNT
-A3ODgzNTY1LC0xMzAwODcyNzczLDEyNjQyMDAxMiw2NzUzOTY4
-NiwtMTQ2NDU4MDI5NiwxNzY2ODg4MjQyLDEzMTA5MTM5OCwtMj
-AyMjk4NDIxLC0xNzE3NzMwMzE4LDE0MDQwMjI5NjMsLTY4ODk3
-MDQ3OF19
+eyJoaXN0b3J5IjpbLTQ0NjQwNjU1OSwtNTAxNjYwOTc5LDIwNz
+ExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1MTgsLTE4MTA3MTkx
+NTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LDEwNTAzMzcyOTgsLT
+UwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0MjAwMTIsNjc1Mzk2
+ODYsLTE0NjQ1ODAyOTYsMTc2Njg4ODI0MiwxMzEwOTEzOTgsLT
+IwMjI5ODQyMSwtMTcxNzczMDMxOCwxNDA0MDIyOTYzLC02ODg5
+NzA0NzhdfQ==
 -->
