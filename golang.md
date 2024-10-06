@@ -843,10 +843,12 @@ func unMarshalSlice() {
 E:\goproject\src\go_code\project02\testingdemo
 # goroutine协程
 Go主线程：可以发起上万个协程goroutine
-特点：有独立的栈空间；共享程序堆空间；调度由用户控制；协程是轻量级线程 
+
+### goroutine特点：
+有独立的栈空间；共享程序堆空间；调度由用户控制；协程是轻量级线程 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTk2Njc1OCw0ODE5MTQ5MTEsMTI4NT
+eyJoaXN0b3J5IjpbMjA3MTEyMjg2OSw0ODE5MTQ5MTEsMTI4NT
 IxNDUxOCwtMTgxMDcxOTE1OCwyMDM3NjgyOTc2LDExODQ0NzI4
 ODksMTA1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMzAwODcyNzczLD
 EyNjQyMDAxMiw2NzUzOTY4NiwtMTQ2NDU4MDI5NiwxNzY2ODg4
