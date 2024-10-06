@@ -743,13 +743,29 @@ func main() {
 再输入 main.exe 参数1 参数2 ...
 ### 2.flag包解析命令行参数
 解析带有指定参数的命令行
+仍然需要先生成exe文件
+E:\goproject\src\go_code\project02\flagdemo\main.go
+```go
+// &user 接收用户命令行输入的 -u 后面的参数值
+// "u" 指定 -u 参数
+// "" 是默认值 如果没有接收到参数user默认为""
+// "用户名默认为空字符串" 是说明信息
 
+flag.StringVar(&user, "u", "", "用户名默认为空字符串")
+flag.StringVar(&pwd, "pwd", "", "密码默认为空字符串")
+flag.StringVar(&host, "h", "localhost", "主机名默认为localhost")
+flag.IntVar(&port, "p", 3304, "端口号默认为3304")
+
+flag.Parse() // 必须调用该方法才能从os.Args中取出参数
+fmt.Printf("user = %v, pwd = %v, host = %v, port = %v",
+user, pwd, host, port)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODk3MDQ3OCw2NzIwNTU1MTUsLTgyMj
-c3NDE5NSwtMTYxMzA4NzgzOSwtODIzMTI0NzQ5LDE0OTY0Njk1
-MDYsLTE0MDM5MTU0NDcsMjY3Mjg2Mzg1LC0xMTA0NDUwNzA4LC
-0xODM1MDc0NjM1LC0zMDUzODA2NTIsMjA1Njg5MDcxNCwyODA4
-NjQyMDgsMjA5MzI5NzcsNDI3NzExMDU4LDY1MTY1MjU4NiwtOD
-k1MzAzOTI2LDE1NTAzNjM0NjksMjkxMjQ4NzgxLDg3MzAzODUy
-XX0=
+eyJoaXN0b3J5IjpbLTMxMDg4OTE0NiwtNjg4OTcwNDc4LDY3Mj
+A1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3
+NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLT
+ExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2
+ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgsNj
+UxNjUyNTg2LC04OTUzMDM5MjYsMTU1MDM2MzQ2OSwyOTEyNDg3
+ODFdfQ==
 -->
