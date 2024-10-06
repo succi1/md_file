@@ -724,6 +724,7 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 ## 命令行参数
 ### 1. 获取命令行输入的各种参数(原始)
 os.Args是一个string切片，用来存储所有命令行参数。Args保管了命令行参数，第一个是程序名。
+E:\goproject\src\go_code\project02\argsdemo
 ```go
 --mian.go--
 func main() {
@@ -738,16 +739,17 @@ func main() {
 // args[2] = 参数2
 // args[3] = ...
 ```
-在命令行 go biuld -o main.exe main.go
+在命令行 go build -o main.exe main.go
 再输入 main.exe 参数1 参数2 ...
 ### 2.flag包解析命令行参数
 解析带有指定参数的命令行
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyMDU1NTE1LC04MjI3NzQxOTUsLTE2MT
-MwODc4MzksLTgyMzEyNDc0OSwxNDk2NDY5NTA2LC0xNDAzOTE1
-NDQ3LDI2NzI4NjM4NSwtMTEwNDQ1MDcwOCwtMTgzNTA3NDYzNS
-wtMzA1MzgwNjUyLDIwNTY4OTA3MTQsMjgwODY0MjA4LDIwOTMy
-OTc3LDQyNzcxMTA1OCw2NTE2NTI1ODYsLTg5NTMwMzkyNiwxNT
-UwMzYzNDY5LDI5MTI0ODc4MSw4NzMwMzg1MiwtNzYwNjg3OTQ4
+eyJoaXN0b3J5IjpbLTY4ODk3MDQ3OCw2NzIwNTU1MTUsLTgyMj
+c3NDE5NSwtMTYxMzA4NzgzOSwtODIzMTI0NzQ5LDE0OTY0Njk1
+MDYsLTE0MDM5MTU0NDcsMjY3Mjg2Mzg1LC0xMTA0NDUwNzA4LC
+0xODM1MDc0NjM1LC0zMDUzODA2NTIsMjA1Njg5MDcxNCwyODA4
+NjQyMDgsMjA5MzI5NzcsNDI3NzExMDU4LDY1MTY1MjU4NiwtOD
+k1MzAzOTI2LDE1NTAzNjM0NjksMjkxMjQ4NzgxLDg3MzAzODUy
 XX0=
 -->
