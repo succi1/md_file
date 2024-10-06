@@ -837,15 +837,15 @@ func unMarshalSlice() {
  - go自带一个轻量级测试框架testing，自带的go test 命令能实现单元测试和性能测试。go test -v无论运行正常还是错误都输出日志信息
  - 要编写一个新的测试程序，需要创建一个名称以 _test.go 结尾的文件，该文件包含 `func TestXxx(*testing.T) `函数。 将该文件放在与被测试的包相同的包中。该文件将被排除在正常的程序包之外，但在运行 “go test” 命令时将被包含。
  -  func (*T) Fatalf(string)   func (*T) Logf(string)
- - 测试单个文件：go test -v xx_test.go xx.go 
+ - 测试单个文件：go test -v **xx_test.go xx.go** 
  - 测试单个方法：go test -v **-test.run** 方法名
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTk4NjAzOCwyMDM3NjgyOTc2LDExOD
-Q0NzI4ODksMTA1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMzAwODcy
-NzczLDEyNjQyMDAxMiw2NzUzOTY4NiwtMTQ2NDU4MDI5NiwxNz
-Y2ODg4MjQyLDEzMTA5MTM5OCwtMjAyMjk4NDIxLC0xNzE3NzMw
-MzE4LDE0MDQwMjI5NjMsLTY4ODk3MDQ3OCw2NzIwNTU1MTUsLT
-gyMjc3NDE5NSwtMTYxMzA4NzgzOSwtODIzMTI0NzQ5LDE0OTY0
-Njk1MDZdfQ==
+eyJoaXN0b3J5IjpbLTE4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMT
+g0NDcyODg5LDEwNTAzMzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3
+Mjc3MywxMjY0MjAwMTIsNjc1Mzk2ODYsLTE0NjQ1ODAyOTYsMT
+c2Njg4ODI0MiwxMzEwOTEzOTgsLTIwMjI5ODQyMSwtMTcxNzcz
+MDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0NzgsNjcyMDU1NTE1LC
+04MjI3NzQxOTUsLTE2MTMwODc4MzksLTgyMzEyNDc0OSwxNDk2
+NDY5NTA2XX0=
 -->
