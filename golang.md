@@ -764,12 +764,17 @@ json：轻量级的**数据交换格式**，易于机器解析和生成，提高
 Golang数据 ——**序列化**——> json字符串 ——网络传输——> 程序 ——**反序列化**——> 其他语言
 [{"key1" : value1, "key2" : value2}, {"key1" : value1, "key2" : value2}]
 **json数据解析：**https://www.json.cn/ 确定json格式是否正确
-json序列化：将key-value结构的shu'ju'l
-1.结构体序列化
-2.map序列化
-3.切片序列化
+json序列化：将key-value结构的数据类型序列化为json字符串的操作
+1. 结构体序列化
+
+2. map序列化
+
+3. 切片序列化
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTEzMjU5MiwtMTcxNzczMDMxOCwxND
+eyJoaXN0b3J5IjpbLTIwMjI5ODQyMSwtMTcxNzczMDMxOCwxND
 A0MDIyOTYzLC02ODg5NzA0NzgsNjcyMDU1NTE1LC04MjI3NzQx
 OTUsLTE2MTMwODc4MzksLTgyMzEyNDc0OSwxNDk2NDY5NTA2LC
 0xNDAzOTE1NDQ3LDI2NzI4NjM4NSwtMTEwNDQ1MDcwOCwtMTgz
