@@ -764,7 +764,9 @@ json：轻量级的**数据交换格式**，易于机器解析和生成，提高
 Golang数据 ——**序列化**——> json字符串 ——网络传输——> 程序 ——**反序列化**——> 其他语言
 [{"key1" : value1, "key2" : value2}, {"key1" : value1, "key2" : value2}]
 **json数据解析：**https://www.json.cn/ 确定json格式是否正确
+#
 json序列化：将key-value结构的数据类型序列化为json字符串的操作
+**encoding/json包**
 1. 结构体序列化
 ```go
 func testStruct() {
@@ -791,14 +793,15 @@ func testInt() {
 	fmt.Printf("monster 序列化后为: %v", string(data))
 }
 ```
+### 反序列化
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Njg4ODI0MiwxMzEwOTEzOTgsLTIwMj
-I5ODQyMSwtMTcxNzczMDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0
-NzgsNjcyMDU1NTE1LC04MjI3NzQxOTUsLTE2MTMwODc4MzksLT
-gyMzEyNDc0OSwxNDk2NDY5NTA2LC0xNDAzOTE1NDQ3LDI2NzI4
-NjM4NSwtMTEwNDQ1MDcwOCwtMTgzNTA3NDYzNSwtMzA1MzgwNj
-UyLDIwNTY4OTA3MTQsMjgwODY0MjA4LDIwOTMyOTc3LDQyNzcx
-MTA1OF19
+eyJoaXN0b3J5IjpbLTEzNTMxNjE1MCwxNzY2ODg4MjQyLDEzMT
+A5MTM5OCwtMjAyMjk4NDIxLC0xNzE3NzMwMzE4LDE0MDQwMjI5
+NjMsLTY4ODk3MDQ3OCw2NzIwNTU1MTUsLTgyMjc3NDE5NSwtMT
+YxMzA4NzgzOSwtODIzMTI0NzQ5LDE0OTY0Njk1MDYsLTE0MDM5
+MTU0NDcsMjY3Mjg2Mzg1LC0xMTA0NDUwNzA4LC0xODM1MDc0Nj
+M1LC0zMDUzODA2NTIsMjA1Njg5MDcxNCwyODA4NjQyMDgsMjA5
+MzI5NzddfQ==
 -->
