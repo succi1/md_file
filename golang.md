@@ -762,12 +762,14 @@ user, pwd, host, port)
 ## json
 json：轻量级的**数据交换格式**，易于机器解析和生成，提高网络传输效率。
 Golang数据 ——**序列化**——> json字符串 ——网络传输——> 程序 ——**反序列化**——> 其他语言
+[{"key1" : value1, "key2" : value2}, {"key1" : value1, "key2" : value2}]
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDAyMjk2MywtNjg4OTcwNDc4LDY3Mj
-A1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3
-NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLT
-ExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2
-ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgsNj
-UxNjUyNTg2LC04OTUzMDM5MjYsMTU1MDM2MzQ2OSwyOTEyNDg3
-ODFdfQ==
+eyJoaXN0b3J5IjpbLTEzMDMxOTgzNTIsMTQwNDAyMjk2MywtNj
+g4OTcwNDc4LDY3MjA1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3
+ODM5LC04MjMxMjQ3NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0Ny
+wyNjcyODYzODUsLTExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMw
+NTM4MDY1MiwyMDU2ODkwNzE0LDI4MDg2NDIwOCwyMDkzMjk3Ny
+w0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMTU1MDM2
+MzQ2OV19
 -->
