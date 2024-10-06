@@ -777,18 +777,27 @@ func testStruct() {
 	fmt.Printf("monster 序列化后为: %v", string(data))
 }
 ```
-2. map序列化
-
-3. 切片序列化
-
+2. map序列化E:\goproject\src\go_code\project02\json\serial\main.go
+3. 切片序列化E:\goproject\src\go_code\project02\json\serial\main.go
+4. 普通数据类型序列化
+```go
+func testStruct() {
+	monster := Monster{"牛魔王", 500, "1500-12-12", 10000.0, "开辟"}
+	// 将monster序列化 Marshal() data是[]byte
+	data, err01 := json.Marshal(&monster)
+	if err01 != nil {
+		fmt.Println("失败")
+	}
+	fmt.Printf("monster 序列化后为: %v", string(data))
+}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDkxMzk4LC0yMDIyOTg0MjEsLTE3MT
-c3MzAzMTgsMTQwNDAyMjk2MywtNjg4OTcwNDc4LDY3MjA1NTUx
-NSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3NDksMT
-Q5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLTExMDQ0
-NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2ODkwNz
-E0LDI4MDg2NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgsNjUxNjUy
-NTg2XX0=
+eyJoaXN0b3J5IjpbMTU1NDMyOTQ4MywxMzEwOTEzOTgsLTIwMj
+I5ODQyMSwtMTcxNzczMDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0
+NzgsNjcyMDU1NTE1LC04MjI3NzQxOTUsLTE2MTMwODc4MzksLT
+gyMzEyNDc0OSwxNDk2NDY5NTA2LC0xNDAzOTE1NDQ3LDI2NzI4
+NjM4NSwtMTEwNDQ1MDcwOCwtMTgzNTA3NDYzNSwtMzA1MzgwNj
+UyLDIwNTY4OTA3MTQsMjgwODY0MjA4LDIwOTMyOTc3LDQyNzcx
+MTA1OF19
 -->
