@@ -796,15 +796,29 @@ func testInt() {
 ### 反序列化
 反序列化：将json字符串还原成原先的数据类型
 json.Unmarshal([]byte(str), &xx)后一个参数要传入一个指针，无论是变量是否是值类型
+1. 结构体反序列化
+```go
+func unMarshalStruct() {
+	str := `{"Name":"牛魔王","Age":500,"Birthday":"1500-12-12","Salary":10000,"Skill":"开辟"}`
+	var monster Monster
+	err := json.Unmarshal([]byte(str), &monster)
+	if err != nil {
+		fmt.Println("失败")
+	}
+	fmt.Println(monster)
+}
+```
+2. map反序列化
+```go
 
-
-
+```
+4. 切片反序列化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMDYzNDczLDY3NTM5Njg2LC0xNDY0NT
-gwMjk2LDE3NjY4ODgyNDIsMTMxMDkxMzk4LC0yMDIyOTg0MjEs
-LTE3MTc3MzAzMTgsMTQwNDAyMjk2MywtNjg4OTcwNDc4LDY3Mj
-A1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3
-NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLT
-ExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2
-ODkwNzE0XX0=
+eyJoaXN0b3J5IjpbLTEyOTA1NDA4OTcsNjc1Mzk2ODYsLTE0Nj
+Q1ODAyOTYsMTc2Njg4ODI0MiwxMzEwOTEzOTgsLTIwMjI5ODQy
+MSwtMTcxNzczMDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0NzgsNj
+cyMDU1NTE1LC04MjI3NzQxOTUsLTE2MTMwODc4MzksLTgyMzEy
+NDc0OSwxNDk2NDY5NTA2LC0xNDAzOTE1NDQ3LDI2NzI4NjM4NS
+wtMTEwNDQ1MDcwOCwtMTgzNTA3NDYzNSwtMzA1MzgwNjUyLDIw
+NTY4OTA3MTRdfQ==
 -->
