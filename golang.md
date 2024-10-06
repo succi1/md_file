@@ -779,21 +779,22 @@ func testStruct() {
 ```
 2. map序列化E:\goproject\src\go_code\project02\json\serial\main.go
 3. 切片序列化E:\goproject\src\go_code\project02\json\serial\main.go
-4. 普通数据类型序列化
+4. 普通数据类型序列化(输出仍是这个数据)
 ```go
-func testStruct() {
-	monster := Monster{"牛魔王", 500, "1500-12-12", 10000.0, "开辟"}
+func testInt() {
+	a := 10
 	// 将monster序列化 Marshal() data是[]byte
-	data, err01 := json.Marshal(&monster)
+	data, err01 := json.Marshal(a)
 	if err01 != nil {
 		fmt.Println("失败")
 	}
 	fmt.Printf("monster 序列化后为: %v", string(data))
 }
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDMyOTQ4MywxMzEwOTEzOTgsLTIwMj
+eyJoaXN0b3J5IjpbMTc2Njg4ODI0MiwxMzEwOTEzOTgsLTIwMj
 I5ODQyMSwtMTcxNzczMDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0
 NzgsNjcyMDU1NTE1LC04MjI3NzQxOTUsLTE2MTMwODc4MzksLT
 gyMzEyNDc0OSwxNDk2NDY5NTA2LC0xNDAzOTE1NDQ3LDI2NzI4
