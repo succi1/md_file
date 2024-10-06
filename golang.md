@@ -768,9 +768,9 @@ json序列化：将key-value结构的数据类型序列化为json字符串的操
 1. 结构体序列化
 ```go
 func testStruct() {
-monster := Monster{"牛魔王", 500, "1500-12-12", 10000.0, "开辟"}
-// 将monster序列化 Marshal() data是[]byte
-data, err01 := json.Marshal(&monster)
+	monster := Monster{"牛魔王", 500, "1500-12-12", 10000.0, "开辟"}
+	// 将monster序列化 Marshal() data是[]byte
+	data, err01 := json.Marshal(&monster)
 	if err01 != nil {
 		fmt.Println("失败")
 	}
@@ -784,11 +784,11 @@ data, err01 := json.Marshal(&monster)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA2MjE3OTQsLTIwMjI5ODQyMSwtMT
-cxNzczMDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0NzgsNjcyMDU1
-NTE1LC04MjI3NzQxOTUsLTE2MTMwODc4MzksLTgyMzEyNDc0OS
-wxNDk2NDY5NTA2LC0xNDAzOTE1NDQ3LDI2NzI4NjM4NSwtMTEw
-NDQ1MDcwOCwtMTgzNTA3NDYzNSwtMzA1MzgwNjUyLDIwNTY4OT
-A3MTQsMjgwODY0MjA4LDIwOTMyOTc3LDQyNzcxMTA1OCw2NTE2
-NTI1ODZdfQ==
+eyJoaXN0b3J5IjpbMTMxMDkxMzk4LC0yMDIyOTg0MjEsLTE3MT
+c3MzAzMTgsMTQwNDAyMjk2MywtNjg4OTcwNDc4LDY3MjA1NTUx
+NSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3NDksMT
+Q5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLTExMDQ0
+NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2ODkwNz
+E0LDI4MDg2NDIwOCwyMDkzMjk3Nyw0Mjc3MTEwNTgsNjUxNjUy
+NTg2XX0=
 -->
