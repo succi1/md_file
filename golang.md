@@ -852,9 +852,11 @@ P:协程需要的上下文
 G:协程
 获取当前逻辑CPU个数：runtime.NumCPU()
 设置运行该程序的CPU个数：runtime.GOMAXPROCS(num)
-**go build -race main.go**编译生成的可执行文件在有竞争时能一直执行，并且最后告知存在多少资源竞争问题
+**go build -race main.go**编译生成的可执行文件在协程有竞争时能一直执行，并且最后告知存在多少资源竞争问题
+### 不同协程间如何通信
+共享资源jia'suo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDMzNTgxNiwtNTQ2NTg5NjcxLC03NT
+eyJoaXN0b3J5IjpbLTg2Njg1NDExMiwtNTQ2NTg5NjcxLC03NT
 Q3NTkxNjMsLTUwMTY2MDk3OSwyMDcxMTIyODY5LDQ4MTkxNDkx
 MSwxMjg1MjE0NTE4LC0xODEwNzE5MTU4LDIwMzc2ODI5NzYsMT
 E4NDQ3Mjg4OSwxMDUwMzM3Mjk4LC01MDc4ODM1NjUsLTEzMDA4
