@@ -796,6 +796,7 @@ func testInt() {
 ### 反序列化
 反序列化：将json字符串还原成原先的数据类型
 json.Unmarshal([]byte(str), &xx)后一个参数要传入一个指针，无论是变量是否是值类型
+E:\goproject\src\go_code\project02\json\unserial\main.go
 1. 结构体反序列化
 ```go
 func unMarshalStruct() {
@@ -819,13 +820,25 @@ if err != nil {
 }
 fmt.Println(m)
 ```
-4. 切片反序列化
+3. 切片反序列化
+```go
+func unMarshalSlice() {
+	str := `[{"add":"chongqing","age":20,"name":"redboy"},{"add":"chongqing","age":10,"name":"blueboy"}]`
+	var s []map[string]interface{}
+// 无需make
+	err := json.Unmarshal([]byte(str), &s)
+	if err != nil {
+		fmt.Println("失败")
+	}
+	fmt.Println(s)
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDIwMDEyLDY3NTM5Njg2LC0xNDY0NT
-gwMjk2LDE3NjY4ODgyNDIsMTMxMDkxMzk4LC0yMDIyOTg0MjEs
-LTE3MTc3MzAzMTgsMTQwNDAyMjk2MywtNjg4OTcwNDc4LDY3Mj
-A1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3
-NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLT
-ExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2
-ODkwNzE0XX0=
+eyJoaXN0b3J5IjpbLTEzMDA4NzI3NzMsMTI2NDIwMDEyLDY3NT
+M5Njg2LC0xNDY0NTgwMjk2LDE3NjY4ODgyNDIsMTMxMDkxMzk4
+LC0yMDIyOTg0MjEsLTE3MTc3MzAzMTgsMTQwNDAyMjk2MywtNj
+g4OTcwNDc4LDY3MjA1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3
+ODM5LC04MjMxMjQ3NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0Ny
+wyNjcyODYzODUsLTExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMw
+NTM4MDY1Ml19
 -->
