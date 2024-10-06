@@ -841,7 +841,7 @@ func unMarshalSlice() {
  - 测试单个方法：go test -v **-test.run** 方法名
  
 E:\goproject\src\go_code\project02\testingdemo
-# goroutine协程
+# goroutine协程和Channel管道
 Go主线程(main, 重量级的耗费cpu资源，物理线程)：可以发起上万个协程goroutine（轻量级线程逻辑态）
 
 ### goroutine特点：
@@ -854,11 +854,11 @@ G:协程
 设置运行该程序的CPU个数：runtime.GOMAXPROCS(num)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMyMjI4NzgsLTc1NDc1OTE2MywtNT
-AxNjYwOTc5LDIwNzExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1
-MTgsLTE4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LD
-EwNTAzMzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0
-MjAwMTIsNjc1Mzk2ODYsLTE0NjQ1ODAyOTYsMTc2Njg4ODI0Mi
-wxMzEwOTEzOTgsLTIwMjI5ODQyMSwtMTcxNzczMDMxOCwxNDA0
-MDIyOTYzXX0=
+eyJoaXN0b3J5IjpbLTU0NjU4OTY3MSwtNzU0NzU5MTYzLC01MD
+E2NjA5NzksMjA3MTEyMjg2OSw0ODE5MTQ5MTEsMTI4NTIxNDUx
+OCwtMTgxMDcxOTE1OCwyMDM3NjgyOTc2LDExODQ0NzI4ODksMT
+A1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMzAwODcyNzczLDEyNjQy
+MDAxMiw2NzUzOTY4NiwtMTQ2NDU4MDI5NiwxNzY2ODg4MjQyLD
+EzMTA5MTM5OCwtMjAyMjk4NDIxLC0xNzE3NzMwMzE4LDE0MDQw
+MjI5NjNdfQ==
 -->
