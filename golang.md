@@ -767,7 +767,7 @@ Golang数据 ——**序列化**——> json字符串 ——网络传输——> 
 ### 序列化
 json序列化：将key-value结构的数据类型序列化为json字符串的操作
 **encoding/json包**
-1. 结构体序列化
+ - 结构体序列化
 ```go
 func testStruct() {
 	monster := Monster{"牛魔王", 500, "1500-12-12", 10000.0, "开辟"}
@@ -779,9 +779,9 @@ func testStruct() {
 	fmt.Printf("monster 序列化后为: %v", string(data))
 }
 ```
-2. map序列化E:\goproject\src\go_code\project02\json\serial\main.go
-3. 切片序列化E:\goproject\src\go_code\project02\json\serial\main.go
-4. 普通数据类型序列化(输出仍是这个数据)
+ - map序列化E:\goproject\src\go_code\project02\json\serial\main.go
+ - 切片序列化E:\goproject\src\go_code\project02\json\serial\main.go
+ - 普通数据类型序列化(输出仍是这个数据)
 ```go
 func testInt() {
 	a := 10
@@ -797,7 +797,7 @@ func testInt() {
 反序列化：将json字符串还原成原先的数据类型
 json.Unmarshal([]byte(str), &xx)后一个参数要传入一个指针，无论是变量是否是值类型
 E:\goproject\src\go_code\project02\json\unserial\main.go
-1. 结构体反序列化
+ - 结构体反序列化
 ```go
 func unMarshalStruct() {
 	str := `{"Name":"牛魔王","Age":500,"Birthday":"1500-12-12","Salary":10000,"Skill":"开辟"}`
@@ -809,7 +809,7 @@ func unMarshalStruct() {
 	fmt.Println(monster)
 }
 ```
-2. map反序列化
+ - map反序列化
 ```go
 str := `{"add":"chongqing","age":20,"name":"yellowboy"}`
 var m map[string]interface{}
@@ -820,7 +820,7 @@ if err != nil {
 }
 fmt.Println(m)
 ```
-3. 切片反序列化
+ - 切片反序列化
 ```go
 func unMarshalSlice() {
 	str := `[{"add":"chongqing","age":20,"name":"redboy"},{"add":"chongqing","age":10,"name":"blueboy"}]`
@@ -834,13 +834,14 @@ func unMarshalSlice() {
 }
 ```
 ## 单元测试
-go自带一个轻量级测试框架testing，自带的go test 命令能实现单元测试和性能测试
+ - go自带一个轻量级测试框架testing，自带的go test 命令能实现单元测试和性能测试
+ - 要编写一个新的测试套件，需要创建一个名称以 _test.go 结尾的文件，该文件包含 `TestXxx` 函数。 将该文件放在与被测试的包相同的包中。该文件将被排除在正常的程序包之外，但在运行 “go test” 命令时将被包含。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMz
-AwODcyNzczLDEyNjQyMDAxMiw2NzUzOTY4NiwtMTQ2NDU4MDI5
-NiwxNzY2ODg4MjQyLDEzMTA5MTM5OCwtMjAyMjk4NDIxLC0xNz
-E3NzMwMzE4LDE0MDQwMjI5NjMsLTY4ODk3MDQ3OCw2NzIwNTU1
-MTUsLTgyMjc3NDE5NSwtMTYxMzA4NzgzOSwtODIzMTI0NzQ5LD
-E0OTY0Njk1MDYsLTE0MDM5MTU0NDcsMjY3Mjg2Mzg1LC0xMTA0
-NDUwNzA4XX0=
+eyJoaXN0b3J5IjpbMTE4NDQ3Mjg4OSwxMDUwMzM3Mjk4LC01MD
+c4ODM1NjUsLTEzMDA4NzI3NzMsMTI2NDIwMDEyLDY3NTM5Njg2
+LC0xNDY0NTgwMjk2LDE3NjY4ODgyNDIsMTMxMDkxMzk4LC0yMD
+IyOTg0MjEsLTE3MTc3MzAzMTgsMTQwNDAyMjk2MywtNjg4OTcw
+NDc4LDY3MjA1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC
+04MjMxMjQ3NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcy
+ODYzODVdfQ==
 -->
