@@ -723,9 +723,9 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 ``` 
 ## 命令行参数
 ### 1. 获取命令行输入的各种参数
-os.Args Args保管了命令行参数，第一个是程序名。
+os.Args是一个string切片，用来存储所有命令行参数。Args保管了命令行参数，第一个是程序名。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDU2NjM4MiwtMTYxMzA4NzgzOSwtOD
+eyJoaXN0b3J5IjpbLTgyMjc3NDE5NSwtMTYxMzA4NzgzOSwtOD
 IzMTI0NzQ5LDE0OTY0Njk1MDYsLTE0MDM5MTU0NDcsMjY3Mjg2
 Mzg1LC0xMTA0NDUwNzA4LC0xODM1MDc0NjM1LC0zMDUzODA2NT
 IsMjA1Njg5MDcxNCwyODA4NjQyMDgsMjA5MzI5NzcsNDI3NzEx
