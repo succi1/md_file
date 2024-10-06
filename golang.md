@@ -842,15 +842,15 @@ func unMarshalSlice() {
  
 E:\goproject\src\go_code\project02\testingdemo
 # goroutine协程
-Go主线程：可以发起上万个协程goroutine（轻量级线程）
-特点：有独立的栈空间；gong'xiang'cheng'xu
+Go主线程：可以发起上万个协程goroutine
+特点：有独立的栈空间；共享程序堆空间；调度由用户控制；协程是轻量级线程 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMwNTUzMzcsNDgxOTE0OTExLDEyOD
-UyMTQ1MTgsLTE4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcy
-ODg5LDEwNTAzMzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3My
-wxMjY0MjAwMTIsNjc1Mzk2ODYsLTE0NjQ1ODAyOTYsMTc2Njg4
-ODI0MiwxMzEwOTEzOTgsLTIwMjI5ODQyMSwtMTcxNzczMDMxOC
-wxNDA0MDIyOTYzLC02ODg5NzA0NzgsNjcyMDU1NTE1LC04MjI3
-NzQxOTVdfQ==
+eyJoaXN0b3J5IjpbMTkyOTk2Njc1OCw0ODE5MTQ5MTEsMTI4NT
+IxNDUxOCwtMTgxMDcxOTE1OCwyMDM3NjgyOTc2LDExODQ0NzI4
+ODksMTA1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMzAwODcyNzczLD
+EyNjQyMDAxMiw2NzUzOTY4NiwtMTQ2NDU4MDI5NiwxNzY2ODg4
+MjQyLDEzMTA5MTM5OCwtMjAyMjk4NDIxLC0xNzE3NzMwMzE4LD
+E0MDQwMjI5NjMsLTY4ODk3MDQ3OCw2NzIwNTU1MTUsLTgyMjc3
+NDE5NV19
 -->
