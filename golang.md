@@ -835,13 +835,14 @@ func unMarshalSlice() {
 ```
 ## 单元测试
  - go自带一个轻量级测试框架testing，自带的go test 命令能实现单元测试和性能测试
- - 要编写一个新的测试套件，需要创建一个名称以 _test.go 结尾的文件，该文件包含 `TestXxx` 函数。 将该文件放在与被测试的包相同的包中。该文件将被排除在正常的程序包之外，但在运行 “go test” 命令时将被包含。
+ - 要编写一个新的测试套件，需要创建一个名称以 _test.go 结尾的文件，该文件包含 `func TestXxx(*testing.T) `函数。 将该文件放在与被测试的包相同的包中。该文件将被排除在正常的程序包之外，但在运行 “go test” 命令时将被包含。
+ - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDQ3Mjg4OSwxMDUwMzM3Mjk4LC01MD
-c4ODM1NjUsLTEzMDA4NzI3NzMsMTI2NDIwMDEyLDY3NTM5Njg2
-LC0xNDY0NTgwMjk2LDE3NjY4ODgyNDIsMTMxMDkxMzk4LC0yMD
-IyOTg0MjEsLTE3MTc3MzAzMTgsMTQwNDAyMjk2MywtNjg4OTcw
-NDc4LDY3MjA1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC
-04MjMxMjQ3NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcy
-ODYzODVdfQ==
+eyJoaXN0b3J5IjpbMTgxMzEwNzg3NywxMTg0NDcyODg5LDEwNT
+AzMzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0MjAw
+MTIsNjc1Mzk2ODYsLTE0NjQ1ODAyOTYsMTc2Njg4ODI0MiwxMz
+EwOTEzOTgsLTIwMjI5ODQyMSwtMTcxNzczMDMxOCwxNDA0MDIy
+OTYzLC02ODg5NzA0NzgsNjcyMDU1NTE1LC04MjI3NzQxOTUsLT
+E2MTMwODc4MzksLTgyMzEyNDc0OSwxNDk2NDY5NTA2LC0xNDAz
+OTE1NDQ3XX0=
 -->
