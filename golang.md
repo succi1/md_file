@@ -724,12 +724,28 @@ func CopyFile(srcPath string, dstPath string) (int64, error) {
 ## 命令行参数
 ### 1. 获取命令行输入的各种参数
 os.Args是一个string切片，用来存储所有命令行参数。Args保管了命令行参数，第一个是程序名。
+```go
+--mian.go--
+func main() {
+	fmt.Println("命令行的参数有", len(os.Args))
+	for i, v := range os.Args {
+		fmt.Printf("args[%d] = %v\n", i, v)
+	}
+}
+// 程序输出:
+// args[0] = main.exe
+// args[1] = 参数1
+// args[2] = 参数2
+// args[3] = ...
+```
+在命令行 go biuld -o main.exe main.go
+再输入 main.exe 参数1 参数2 ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjc3NDE5NSwtMTYxMzA4NzgzOSwtOD
-IzMTI0NzQ5LDE0OTY0Njk1MDYsLTE0MDM5MTU0NDcsMjY3Mjg2
-Mzg1LC0xMTA0NDUwNzA4LC0xODM1MDc0NjM1LC0zMDUzODA2NT
-IsMjA1Njg5MDcxNCwyODA4NjQyMDgsMjA5MzI5NzcsNDI3NzEx
-MDU4LDY1MTY1MjU4NiwtODk1MzAzOTI2LDE1NTAzNjM0NjksMj
-kxMjQ4NzgxLDg3MzAzODUyLC03NjA2ODc5NDgsLTIwNzQ4MzE5
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTAwMDE5MzYzNCwtODIyNzc0MTk1LC0xNj
+EzMDg3ODM5LC04MjMxMjQ3NDksMTQ5NjQ2OTUwNiwtMTQwMzkx
+NTQ0NywyNjcyODYzODUsLTExMDQ0NTA3MDgsLTE4MzUwNzQ2Mz
+UsLTMwNTM4MDY1MiwyMDU2ODkwNzE0LDI4MDg2NDIwOCwyMDkz
+Mjk3Nyw0Mjc3MTEwNTgsNjUxNjUyNTg2LC04OTUzMDM5MjYsMT
+U1MDM2MzQ2OSwyOTEyNDg3ODEsODczMDM4NTIsLTc2MDY4Nzk0
+OF19
 -->
