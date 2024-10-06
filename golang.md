@@ -810,15 +810,22 @@ func unMarshalStruct() {
 ```
 2. map反序列化
 ```go
-
+str := `{"add":"chongqing","age":20,"name":"yellowboy"}`
+var m map[string]interface{}
+// 反序列化无需make unMarshal底层自动make
+err := json.Unmarshal([]byte(str), &m)
+if err != nil {
+	fmt.Println("失败")
+}
+fmt.Println(m)
 ```
 4. 切片反序列化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA1NDA4OTcsNjc1Mzk2ODYsLTE0Nj
-Q1ODAyOTYsMTc2Njg4ODI0MiwxMzEwOTEzOTgsLTIwMjI5ODQy
-MSwtMTcxNzczMDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0NzgsNj
-cyMDU1NTE1LC04MjI3NzQxOTUsLTE2MTMwODc4MzksLTgyMzEy
-NDc0OSwxNDk2NDY5NTA2LC0xNDAzOTE1NDQ3LDI2NzI4NjM4NS
-wtMTEwNDQ1MDcwOCwtMTgzNTA3NDYzNSwtMzA1MzgwNjUyLDIw
-NTY4OTA3MTRdfQ==
+eyJoaXN0b3J5IjpbMTI2NDIwMDEyLDY3NTM5Njg2LC0xNDY0NT
+gwMjk2LDE3NjY4ODgyNDIsMTMxMDkxMzk4LC0yMDIyOTg0MjEs
+LTE3MTc3MzAzMTgsMTQwNDAyMjk2MywtNjg4OTcwNDc4LDY3Mj
+A1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3
+NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLT
+ExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2
+ODkwNzE0XX0=
 -->
