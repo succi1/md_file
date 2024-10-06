@@ -861,12 +861,12 @@ G:协程
 var lock sync.Mutex
 func test(){
 	lock.Lock()
-	
+	m[i] = i
 }
 ```
  - 管道通信
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Nzk5NzYwNCwtNTQ2NTg5NjcxLC03NT
+eyJoaXN0b3J5IjpbMTk3NzA3MjU0OCwtNTQ2NTg5NjcxLC03NT
 Q3NTkxNjMsLTUwMTY2MDk3OSwyMDcxMTIyODY5LDQ4MTkxNDkx
 MSwxMjg1MjE0NTE4LC0xODEwNzE5MTU4LDIwMzc2ODI5NzYsMT
 E4NDQ3Mjg4OSwxMDUwMzM3Mjk4LC01MDc4ODM1NjUsLTEzMDA4
