@@ -839,13 +839,15 @@ func unMarshalSlice() {
  -  func (*T) Fatalf(string)   func (*T) Logf(string)
  - 测试单个文件：go test -v **xx_test.go xx.go** 
  - 测试单个方法：go test -v **-test.run** 方法名
+ 
+E:\goproject\src\go_code\project02\testingdemo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMT
-g0NDcyODg5LDEwNTAzMzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3
-Mjc3MywxMjY0MjAwMTIsNjc1Mzk2ODYsLTE0NjQ1ODAyOTYsMT
-c2Njg4ODI0MiwxMzEwOTEzOTgsLTIwMjI5ODQyMSwtMTcxNzcz
-MDMxOCwxNDA0MDIyOTYzLC02ODg5NzA0NzgsNjcyMDU1NTE1LC
-04MjI3NzQxOTUsLTE2MTMwODc4MzksLTgyMzEyNDc0OSwxNDk2
-NDY5NTA2XX0=
+eyJoaXN0b3J5IjpbMTI4NTIxNDUxOCwtMTgxMDcxOTE1OCwyMD
+M3NjgyOTc2LDExODQ0NzI4ODksMTA1MDMzNzI5OCwtNTA3ODgz
+NTY1LC0xMzAwODcyNzczLDEyNjQyMDAxMiw2NzUzOTY4NiwtMT
+Q2NDU4MDI5NiwxNzY2ODg4MjQyLDEzMTA5MTM5OCwtMjAyMjk4
+NDIxLC0xNzE3NzMwMzE4LDE0MDQwMjI5NjMsLTY4ODk3MDQ3OC
+w2NzIwNTU1MTUsLTgyMjc3NDE5NSwtMTYxMzA4NzgzOSwtODIz
+MTI0NzQ5XX0=
 -->
