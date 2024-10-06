@@ -764,13 +764,16 @@ json：轻量级的**数据交换格式**，易于机器解析和生成，提高
 Golang数据 ——**序列化**——> json字符串 ——网络传输——> 程序 ——**反序列化**——> 其他语言
 [{"key1" : value1, "key2" : value2}, {"key1" : value1, "key2" : value2}]
 **json数据解析：**https://www.json.cn/ 确定json格式是否正确
-
+json序列化：将key-value结构的shu'ju'l
+1.结构体序列化
+2.map序列化
+3.切片序列化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2Nzc5NTE3LC0xNzE3NzMwMzE4LDE0MD
-QwMjI5NjMsLTY4ODk3MDQ3OCw2NzIwNTU1MTUsLTgyMjc3NDE5
-NSwtMTYxMzA4NzgzOSwtODIzMTI0NzQ5LDE0OTY0Njk1MDYsLT
-E0MDM5MTU0NDcsMjY3Mjg2Mzg1LC0xMTA0NDUwNzA4LC0xODM1
-MDc0NjM1LC0zMDUzODA2NTIsMjA1Njg5MDcxNCwyODA4NjQyMD
-gsMjA5MzI5NzcsNDI3NzExMDU4LDY1MTY1MjU4NiwtODk1MzAz
-OTI2XX0=
+eyJoaXN0b3J5IjpbMTQwOTEzMjU5MiwtMTcxNzczMDMxOCwxND
+A0MDIyOTYzLC02ODg5NzA0NzgsNjcyMDU1NTE1LC04MjI3NzQx
+OTUsLTE2MTMwODc4MzksLTgyMzEyNDc0OSwxNDk2NDY5NTA2LC
+0xNDAzOTE1NDQ3LDI2NzI4NjM4NSwtMTEwNDQ1MDcwOCwtMTgz
+NTA3NDYzNSwtMzA1MzgwNjUyLDIwNTY4OTA3MTQsMjgwODY0Mj
+A4LDIwOTMyOTc3LDQyNzcxMTA1OCw2NTE2NTI1ODYsLTg5NTMw
+MzkyNl19
 -->
