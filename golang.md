@@ -742,7 +742,7 @@ func main() {
 在命令行 go build -o main.exe main.go
 再输入 main.exe 参数1 参数2 ...
 ### 2.flag包解析命令行参数
-解析带有指定参数的命令行
+flag解析带有指定参数的命令行
 仍然需要先生成exe文件
 E:\goproject\src\go_code\project02\flagdemo\main.go
 ```go
@@ -750,7 +750,6 @@ E:\goproject\src\go_code\project02\flagdemo\main.go
 // "u" 指定 -u 参数
 // "" 是默认值 如果没有接收到参数user默认为""
 // "用户名默认为空字符串" 是说明信息
-
 flag.StringVar(&user, "u", "", "用户名默认为空字符串")
 flag.StringVar(&pwd, "pwd", "", "密码默认为空字符串")
 flag.StringVar(&host, "h", "localhost", "主机名默认为localhost")
@@ -760,8 +759,10 @@ flag.Parse() // 必须调用该方法才能从os.Args中取出参数
 fmt.Printf("user = %v, pwd = %v, host = %v, port = %v",
 user, pwd, host, port)
 ```
+## json
+json：轻量级的数据
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDg4OTE0NiwtNjg4OTcwNDc4LDY3Mj
+eyJoaXN0b3J5IjpbMTAyOTA0NDI5NSwtNjg4OTcwNDc4LDY3Mj
 A1NTUxNSwtODIyNzc0MTk1LC0xNjEzMDg3ODM5LC04MjMxMjQ3
 NDksMTQ5NjQ2OTUwNiwtMTQwMzkxNTQ0NywyNjcyODYzODUsLT
 ExMDQ0NTA3MDgsLTE4MzUwNzQ2MzUsLTMwNTM4MDY1MiwyMDU2
