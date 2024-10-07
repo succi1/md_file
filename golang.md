@@ -946,9 +946,32 @@ for{
 只读：var chan3 <-chan int
 一般只读只写是非主函数调用时管道参数设置，防止对管道误操作
 # 反射
+**reflect包**实现了运行时反射，允许程序操作任意类型的对象。
+
+反射可以在运行时获取变量的各种信息；如果是结构体变量可以获取到结构体本身的字段方法；通过反射可以修改变量的值
+
+reflect.TypeOf(变量名)获取变量的类型，返回reflect.Type类型
+reflect.ValueOf(变量名)获取变量的值，返回reflect.Value类型
+Value是一个结构体类型，有很多属性和方法
+
+### 变量、interface{}和reflect.Value 是可以相互转换的
+
+> b := interface{}
+
+- 将interface{}转成reflect.Value
+
+> rVal := reflect.ValueOf(b)
+
+- 将reflect.Value转成interface{}
+
+> iVal := rVal.interface()
+
+- 将interface{}转成原变量的类型 使用类型断言
+
+> v := iVal.(变量类型)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzM5NTY0MSwtMTk5ODIxMzQ4OSwtNT
+eyJoaXN0b3J5IjpbLTQxOTEyODY4NCwtMTk5ODIxMzQ4OSwtNT
 Q2NTg5NjcxLC03NTQ3NTkxNjMsLTUwMTY2MDk3OSwyMDcxMTIy
 ODY5LDQ4MTkxNDkxMSwxMjg1MjE0NTE4LC0xODEwNzE5MTU4LD
 IwMzc2ODI5NzYsMTE4NDQ3Mjg4OSwxMDUwMzM3Mjk4LC01MDc4
