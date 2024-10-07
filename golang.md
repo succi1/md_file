@@ -853,10 +853,18 @@ G:协程
 获取当前逻辑CPU个数：runtime.NumCPU()
 设置运行该程序的CPU个数：runtime.GOMAXPROCS(num)
 **go build -race main.go**编译生成的可执行文件在协程有竞争时能一直执行，并且最后告知存在多少资源竞争问题
+### goroutine捕获panic
+使用recover捕获goroutine可能出现的panic，使其不会影响主线程和其他协程执行
+```go
+defer func() {
+	if err := recover(); err != nil{
+		fmt.Println(err)
+	}()
+```
 ### 不同协程间如何通信
 
  - 共享资源加锁
- ```go
+ ``` go
 // 声明一个全局的互斥锁
 var lock sync.Mutex
 func test(){
@@ -867,12 +875,84 @@ func test(){
 ```
  - 管道通信
  
+ ### 管道
+  管道是以队列形式存取数据
+  ```go
+	// 创建一个可以存放三个int类型数据的管道，3 表示容量，不能超过
+	var intChan chan int
+	intChan = make(chan int, 3)
+
+	// 向管道内添加数据, 若添加数据超出容量会报告deadlock
+	intChan <- 10
+	num := 22
+	intChan <- num
+
+	// 从管道内取出数据
+	// 在没有协程的情况下如果管道内没有数据并且再取就会deadlock
+	var num2 int
+	num2 = <-intChan
+```
+
+```go
+	// 设置一个可以存放任意数据类型的管道
+	allChan := make(chan interface{}, 3)
+	allChan <- 10
+	allChan <- "tom"
+	cat := Cat{"hei", 12}
+	allChan <- cat
+
+	// 取出前两个数据扔掉
+	<-allChan
+	<-allChan
+
+	// 取出cat赋值给newCat
+	// 此时newCat的类型在编译层面是interface{}
+	// 但在运行层面打印出newCat的类型是Cat
+	newCat := <-allChan
+	// newCat.Name 写法错误 会在编译阶段出错
+	// 使用类型断言
+	a := newCat.(Cat)
+	fmt.Println(a.Name)
+```
+### channel的关闭
+使用内置函数close()关闭管道; 关闭管道后只能读不能写；关闭管道后不能再次关闭管道
+
+> v, ok := <- channel
+
+当数据被取完后继续执行该语句，如果管道已经关闭，ok = false
+如果管道没有关闭，会抛出deadlock，可以用select解决
+```go
+for{
+	select{ // 管道没有关闭取不到数据也不会死锁，而是到下一个case里面执行，直到default
+		case v := <- intChan :
+			fmt.Println(v)
+		case v := <- stringChan :
+			fmt.Println(v)
+		default : 
+			跳出循环对应代码
+	}
+}
+```
+### channel的遍历
+使用for range 遍历已关闭的管道，如果不关闭会出现deadlock
+### channel的阻塞
+ - 编译器发现一个管道只有写，没有读，当管道满后会发生deadlock
+ - 编译器发现一个管道只有读，没有写，当管道空后会发生deadlock
+ - 如果一个管道有读有写，但读频率低于写频率，无事发生，只是写管道的协程在管道满时会发生阻塞
+ - 读频率高于写频率，无事发生，只是读管道的协程在管道空时会发生阻塞
+### 管道声明三种类型：
+可读可写：var chan1 chan int
+只写：var chan2 chan<- int
+只读：var chan3 <-chan int
+一般只读只写是非主函数调用时管道参数设置，防止对管道误操作
+# 反射
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0MjYyMjMxLC0xOTk4MjEzNDg5LC01ND
-Y1ODk2NzEsLTc1NDc1OTE2MywtNTAxNjYwOTc5LDIwNzExMjI4
-NjksNDgxOTE0OTExLDEyODUyMTQ1MTgsLTE4MTA3MTkxNTgsMj
-AzNzY4Mjk3NiwxMTg0NDcyODg5LDEwNTAzMzcyOTgsLTUwNzg4
-MzU2NSwtMTMwMDg3Mjc3MywxMjY0MjAwMTIsNjc1Mzk2ODYsLT
-E0NjQ1ODAyOTYsMTc2Njg4ODI0MiwxMzEwOTEzOTgsLTIwMjI5
-ODQyMV19
+eyJoaXN0b3J5IjpbMTUyMzM5NTY0MSwtMTk5ODIxMzQ4OSwtNT
+Q2NTg5NjcxLC03NTQ3NTkxNjMsLTUwMTY2MDk3OSwyMDcxMTIy
+ODY5LDQ4MTkxNDkxMSwxMjg1MjE0NTE4LC0xODEwNzE5MTU4LD
+IwMzc2ODI5NzYsMTE4NDQ3Mjg4OSwxMDUwMzM3Mjk4LC01MDc4
+ODM1NjUsLTEzMDA4NzI3NzMsMTI2NDIwMDEyLDY3NTM5Njg2LC
+0xNDY0NTgwMjk2LDE3NjY4ODgyNDIsMTMxMDkxMzk4LC0yMDIy
+OTg0MjFdfQ==
 -->
