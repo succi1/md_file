@@ -983,12 +983,13 @@ for{
 - reflect.Value.Kind()reflect.Type.Kind()可以获取变量类别
 - kind是类别 type是类型 type划分更细致一点
 - 通过反射修改变量，使用SetXxx()方法时需要通过对应指针类型来完成，同时需要使用reflect.Value.Elem()方法
+- Elem()返回v持有的接口保管的值的Value封装，或者v持有的指针指向的值的Value封装。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3MTE4MjIyLC0xNzE2MDA5MDEwLC0yND
-Q3NDExMzAsMTM3NzcyMzY2MSwtMTk5ODIxMzQ4OSwtNTQ2NTg5
-NjcxLC03NTQ3NTkxNjMsLTUwMTY2MDk3OSwyMDcxMTIyODY5LD
-Q4MTkxNDkxMSwxMjg1MjE0NTE4LC0xODEwNzE5MTU4LDIwMzc2
-ODI5NzYsMTE4NDQ3Mjg4OSwxMDUwMzM3Mjk4LC01MDc4ODM1Nj
-UsLTEzMDA4NzI3NzMsMTI2NDIwMDEyLDY3NTM5Njg2LC0xNDY0
-NTgwMjk2XX0=
+eyJoaXN0b3J5IjpbMTU3ODM5NDU0NSwyMjcxMTgyMjIsLTE3MT
+YwMDkwMTAsLTI0NDc0MTEzMCwxMzc3NzIzNjYxLC0xOTk4MjEz
+NDg5LC01NDY1ODk2NzEsLTc1NDc1OTE2MywtNTAxNjYwOTc5LD
+IwNzExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1MTgsLTE4MTA3
+MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LDEwNTAzMzcyOT
+gsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0MjAwMTIsNjc1
+Mzk2ODZdfQ==
 -->
