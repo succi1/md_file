@@ -149,7 +149,11 @@ a % b = a - a / b * b
 ### 常量const
 常量在定义时必须初始化，常量不能修改，只能修饰bool、数值、string
 ```go
-
+const (
+	a = iota  // a 值为0
+	b  //
+	c/
+)
 ```
 
 ### 键盘输入语句
@@ -975,11 +979,11 @@ for{
 > v := iVal.(变量类型)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDc0MTEzMCwxMzc3NzIzNjYxLC0xOT
-k4MjEzNDg5LC01NDY1ODk2NzEsLTc1NDc1OTE2MywtNTAxNjYw
-OTc5LDIwNzExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1MTgsLT
-E4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LDEwNTAz
-MzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0MjAwMT
-IsNjc1Mzk2ODYsLTE0NjQ1ODAyOTYsMTc2Njg4ODI0MiwxMzEw
-OTEzOThdfQ==
+eyJoaXN0b3J5IjpbMTMxNzQ4Mjk4MCwtMjQ0NzQxMTMwLDEzNz
+c3MjM2NjEsLTE5OTgyMTM0ODksLTU0NjU4OTY3MSwtNzU0NzU5
+MTYzLC01MDE2NjA5NzksMjA3MTEyMjg2OSw0ODE5MTQ5MTEsMT
+I4NTIxNDUxOCwtMTgxMDcxOTE1OCwyMDM3NjgyOTc2LDExODQ0
+NzI4ODksMTA1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMzAwODcyNz
+czLDEyNjQyMDAxMiw2NzUzOTY4NiwtMTQ2NDU4MDI5NiwxNzY2
+ODg4MjQyXX0=
 -->
