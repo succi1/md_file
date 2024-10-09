@@ -984,7 +984,7 @@ for{
 - kind是类别 type是类型 type划分更细致一点
 - 通过反射修改变量，使用SetXxx()方法时需要通过对应指针类型来完成，同时需要使用reflect.Value.Elem()方法
 - Elem()返回v持有的接口保管的值的Value封装，或者v持有的指针指向的值的Value封装。
-- Value.NumField() Value.Field(i) Type.Field(i).Tag.Get() Value.NumMethod()
+- Value.NumField() Value.Field(i) Type.Field(i).Tag.Get() Value.NumMethod() Value.Method(i).Call(params)
 ```go
 func TestStruct(b interface{}) {
 	typ := reflect.TypeOf(b)
@@ -1027,11 +1027,11 @@ func TestStruct(b interface{}) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDM1OTYyNSwxNTc4Mzk0NTQ1LDIyNz
-ExODIyMiwtMTcxNjAwOTAxMCwtMjQ0NzQxMTMwLDEzNzc3MjM2
-NjEsLTE5OTgyMTM0ODksLTU0NjU4OTY3MSwtNzU0NzU5MTYzLC
-01MDE2NjA5NzksMjA3MTEyMjg2OSw0ODE5MTQ5MTEsMTI4NTIx
-NDUxOCwtMTgxMDcxOTE1OCwyMDM3NjgyOTc2LDExODQ0NzI4OD
-ksMTA1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMzAwODcyNzczLDEy
-NjQyMDAxMl19
+eyJoaXN0b3J5IjpbOTgxNDIwODYsMTU3ODM5NDU0NSwyMjcxMT
+gyMjIsLTE3MTYwMDkwMTAsLTI0NDc0MTEzMCwxMzc3NzIzNjYx
+LC0xOTk4MjEzNDg5LC01NDY1ODk2NzEsLTc1NDc1OTE2MywtNT
+AxNjYwOTc5LDIwNzExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1
+MTgsLTE4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LD
+EwNTAzMzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0
+MjAwMTJdfQ==
 -->
