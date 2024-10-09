@@ -147,7 +147,10 @@ a % b = a - a / b * b
 ! // 逻辑非
 ```
 ### 常量const
-常量在定义时必须初始化，常量不能修改，只能修饰
+常量在定义时必须初始化，常量不能修改，只能修饰bool、数值、string
+```go
+
+```
 
 ### 键盘输入语句
 ```go
@@ -972,7 +975,7 @@ for{
 > v := iVal.(变量类型)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODI2Njc5NSwxMzc3NzIzNjYxLC0xOT
+eyJoaXN0b3J5IjpbLTI0NDc0MTEzMCwxMzc3NzIzNjYxLC0xOT
 k4MjEzNDg5LC01NDY1ODk2NzEsLTc1NDc1OTE2MywtNTAxNjYw
 OTc5LDIwNzExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1MTgsLT
 E4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LDEwNTAz
