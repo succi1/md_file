@@ -984,12 +984,54 @@ for{
 - kind是类别 type是类型 type划分更细致一点
 - 通过反射修改变量，使用SetXxx()方法时需要通过对应指针类型来完成，同时需要使用reflect.Value.Elem()方法
 - Elem()返回v持有的接口保管的值的Value封装，或者v持有的指针指向的值的Value封装。
+- NumField() NumMethod()
+```go
+func TestStruct(b interface{}) {
+	typ := reflect.TypeOf(b)
+	val := reflect.ValueOf(b)
+	kd := val.Kind()
+	if kd != reflect.Struct {
+		fmt.Println("expect struct")
+		return
+	}
+	// 获取该结构体有几个字段
+	num := val.NumField()
+	fmt.Println(num)
+	// 遍历该结构体的所有字段
+	for i := 0; i < num; i++ {
+		//  val.Field(i) 返回结构体的第i个字段的值 值仍然是reflect.Value类型
+		fmt.Printf("Feild %d: 值为=%v\n", i, val.Field(i))
+
+		// 获取struct标签 需要通过reflect.Type来获取标签的值
+		// typ.Field(i) 返回第i个字段的tag标签 标签是reflect.StructField类型
+		tagValue := typ.Field(i).Tag.Get("json") // 对于没有json注释返回""
+		if tagValue != "" {
+			fmt.Printf("Field %d: tag = %v\n", i, tagValue)
+		}
+	}
+
+	// 获取结构体有几个方法
+	numOfMethod := val.NumMethod()
+	fmt.Printf("struct have %d methods\n", numOfMethod)
+
+	// 获取到结构体的第二个方法 并且调用执行
+	// 方法的排序默认按照函数名的ASCII比较
+	// 所以此处调用的方法是Print()
+	val.Method(1).Call(nil)
+
+	// 调用GetSum()方法
+	var params []reflect.Value
+	params = append(params, reflect.ValueOf(10), reflect.ValueOf(20))
+	res := val.Method(0).Call(params) // 返回值是[]reflect.Value
+	fmt.Println("res = ", res[0].Int())
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODM5NDU0NSwyMjcxMTgyMjIsLTE3MT
-YwMDkwMTAsLTI0NDc0MTEzMCwxMzc3NzIzNjYxLC0xOTk4MjEz
-NDg5LC01NDY1ODk2NzEsLTc1NDc1OTE2MywtNTAxNjYwOTc5LD
-IwNzExMjI4NjksNDgxOTE0OTExLDEyODUyMTQ1MTgsLTE4MTA3
-MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcyODg5LDEwNTAzMzcyOT
-gsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3MywxMjY0MjAwMTIsNjc1
-Mzk2ODZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDM3NDM0MTMsMTU3ODM5NDU0NSwyMj
+cxMTgyMjIsLTE3MTYwMDkwMTAsLTI0NDc0MTEzMCwxMzc3NzIz
+NjYxLC0xOTk4MjEzNDg5LC01NDY1ODk2NzEsLTc1NDc1OTE2My
+wtNTAxNjYwOTc5LDIwNzExMjI4NjksNDgxOTE0OTExLDEyODUy
+MTQ1MTgsLTE4MTA3MTkxNTgsMjAzNzY4Mjk3NiwxMTg0NDcyOD
+g5LDEwNTAzMzcyOTgsLTUwNzg4MzU2NSwtMTMwMDg3Mjc3Mywx
+MjY0MjAwMTJdfQ==
 -->
