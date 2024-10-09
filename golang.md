@@ -978,12 +978,12 @@ for{
 
 > v := iVal.(变量类型)
 
-
+总结：变量<---->interface{}<---->reflect.Value
 ### 反射细节说明
 - reflect.Value.Kind()reflect.Type.Kind()可以获取变量类别
 - kind是类别 type是类型 type划分更细致一点
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1ODE0ODY4LC0xNzE2MDA5MDEwLC0yND
+eyJoaXN0b3J5IjpbNzg4ODg0MDgyLC0xNzE2MDA5MDEwLC0yND
 Q3NDExMzAsMTM3NzcyMzY2MSwtMTk5ODIxMzQ4OSwtNTQ2NTg5
 NjcxLC03NTQ3NTkxNjMsLTUwMTY2MDk3OSwyMDcxMTIyODY5LD
 Q4MTkxNDkxMSwxMjg1MjE0NTE4LC0xODEwNzE5MTU4LDIwMzc2
