@@ -1027,18 +1027,19 @@ func TestStruct(b interface{}) {
 }
 ```
 ```go
-// 传入该函数的参数shi
+// 前提传入该函数的参数是结构体的地址
 func TestStruct(b interface{}) {
 val := reflect.ValueOf(b)
 val.Elem().Field(0).SetString("白象精")
 }
+// 上述函数完成了对原先结构体第一个字段值的改变
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTIyNTAwNiw5ODE0MjA4NiwxNTc4Mz
-k0NTQ1LDIyNzExODIyMiwtMTcxNjAwOTAxMCwtMjQ0NzQxMTMw
-LDEzNzc3MjM2NjEsLTE5OTgyMTM0ODksLTU0NjU4OTY3MSwtNz
-U0NzU5MTYzLC01MDE2NjA5NzksMjA3MTEyMjg2OSw0ODE5MTQ5
-MTEsMTI4NTIxNDUxOCwtMTgxMDcxOTE1OCwyMDM3NjgyOTc2LD
-ExODQ0NzI4ODksMTA1MDMzNzI5OCwtNTA3ODgzNTY1LC0xMzAw
-ODcyNzczXX0=
+eyJoaXN0b3J5IjpbLTIxMDg1ODI1MjgsOTgxNDIwODYsMTU3OD
+M5NDU0NSwyMjcxMTgyMjIsLTE3MTYwMDkwMTAsLTI0NDc0MTEz
+MCwxMzc3NzIzNjYxLC0xOTk4MjEzNDg5LC01NDY1ODk2NzEsLT
+c1NDc1OTE2MywtNTAxNjYwOTc5LDIwNzExMjI4NjksNDgxOTE0
+OTExLDEyODUyMTQ1MTgsLTE4MTA3MTkxNTgsMjAzNzY4Mjk3Ni
+wxMTg0NDcyODg5LDEwNTAzMzcyOTgsLTUwNzg4MzU2NSwtMTMw
+MDg3Mjc3M119
 -->
