@@ -374,12 +374,50 @@ for _ in range(m):
 [101. 孤岛的总面积 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1173)先遍历边界，再去遍历遍历所有节点
 [102. 沉没孤岛 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1174)与上一题类似
 [103. 水流问题 (kamacoder.com)](https://kamacoder.com/problempage.php?pid=1175)从两组边界出发遍历点，被两组边界同时标记的点就是结果
+[建造最大岛屿](https://kamacoder.com/problempage.php?pid=1176)遍历两次图，第一次遍历求出每个岛面积并存在一个字典里；第二次遍历0，找到最大面积，要注意去重
+[字符串接龙](https://kamacoder.com/problempage.php?pid=1183)难点在于转换成图的思维。采用bfs能找到最近路径
+[有向图的完全可达性](https://kamacoder.com/problempage.php?pid=1177)点的可达性问题
+[岛屿的周长](https://kamacoder.com/problempage.php?pid=1178)无需使用递归，简单遍历即可
+### 并查集理论基础
+并查集通常用来解决图的连通性问题
+并查集可以解决什么问题：两个节点是否在一个集合，也可以将两个节点添加到一个集合中
+
+- **init()**并查集初始化，每个节点的父节点都是自己
+- **find()**递归查找节点的根节点，并进行路径压缩，将自己的父节点直接指向根节点
+- **join()**将一个节点的父节点设置为另一个节点的根节点
+- 判断两个节点是否属于同一个集合，就看两节点的根节点是否是同一个节点
+- 同一个集合的节点意味着它们在图上连通
+```python
+class UnionFind:
+    def __init__(self, size):
+        self.parent = list(range(size + 1 ))
+        
+    def find(self, v):
+        if v != self.parent[v]:
+            self.parent[v] = self.find(self.parent[v])
+        return self.parent[v]
+    
+    def union(self, u, v):
+        root_u = self.find(u)
+        root_v = self.find(v)
+        if root_v == root_u:
+            return
+        self.parent[root_v] = root_u
+    
+    def issame(self, u, v):
+        root_u = self.find(u)
+        root_v = self.find(v)
+        return root_v == root_u
+```
+
+[寻找存在的路径](https://kamacoder.com/problempage.php?pid=1179)并查集基础应用，查看两节点之间是否联通
+[冗余连接](https://kamacoder.com/problempage.php?pid=1181)查看一条边是否重复连接（重复连接意味着有环的出现）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDM1NjU4NiwtNDQ2MjU2MjYwLC0yNT
-g0ODUzMTksMTk5OTMxODYyNSwtMzE3MzUzNzQxLDY5MjE0Mjk2
-MSwtMjA4ODExNDc1MiwtMjEzMzAzMDg5MCwtNDE3MDc0NDk0LD
-Y5NTc5MzA0NCwtMjE5Mzk0ODkyLC0zNjY0NTkxNCwtMTA2NDI4
-NjUzNSwxNzExNTI0MjM4LDY4NjI5MDQ5MiwtNDQxNzY2MjU3LC
-00MTkwNDIwMDIsLTIwMDQ3MzUwNzYsLTIwNDY5Nzg0MjYsLTcx
-Njc4MzA5Nl19
+eyJoaXN0b3J5IjpbMjg3MzgwNjk4LC01OTQzNTY1ODYsLTQ0Nj
+I1NjI2MCwtMjU4NDg1MzE5LDE5OTkzMTg2MjUsLTMxNzM1Mzc0
+MSw2OTIxNDI5NjEsLTIwODgxMTQ3NTIsLTIxMzMwMzA4OTAsLT
+QxNzA3NDQ5NCw2OTU3OTMwNDQsLTIxOTM5NDg5MiwtMzY2NDU5
+MTQsLTEwNjQyODY1MzUsMTcxMTUyNDIzOCw2ODYyOTA0OTIsLT
+Q0MTc2NjI1NywtNDE5MDQyMDAyLC0yMDA0NzM1MDc2LC0yMDQ2
+OTc4NDI2XX0=
 -->
