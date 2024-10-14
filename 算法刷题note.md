@@ -412,12 +412,15 @@ class UnionFind:
 
 [寻找存在的路径](https://kamacoder.com/problempage.php?pid=1179)并查集基础应用，查看两节点之间是否联通
 [冗余连接](https://kamacoder.com/problempage.php?pid=1181)查看一条边是否重复连接（重复连接意味着有环的出现）
+[冗余连接Ⅱ](https://kamacoder.com/problempage.php?pid=1182)因为是有向边来构成树，所以要基于并查集实现下面两个功能函数
+-   `isTreeAfterRemoveEdge()` 判断删一个边之后是不是有向树
+-   `getRemoveEdge()` 确定图中一定有了有向环，那么要找到需要删除的那条边
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3MzgwNjk4LC01OTQzNTY1ODYsLTQ0Nj
-I1NjI2MCwtMjU4NDg1MzE5LDE5OTkzMTg2MjUsLTMxNzM1Mzc0
-MSw2OTIxNDI5NjEsLTIwODgxMTQ3NTIsLTIxMzMwMzA4OTAsLT
-QxNzA3NDQ5NCw2OTU3OTMwNDQsLTIxOTM5NDg5MiwtMzY2NDU5
-MTQsLTEwNjQyODY1MzUsMTcxMTUyNDIzOCw2ODYyOTA0OTIsLT
-Q0MTc2NjI1NywtNDE5MDQyMDAyLC0yMDA0NzM1MDc2LC0yMDQ2
-OTc4NDI2XX0=
+eyJoaXN0b3J5IjpbMTQ1NzgzODQyOSwyODczODA2OTgsLTU5ND
+M1NjU4NiwtNDQ2MjU2MjYwLC0yNTg0ODUzMTksMTk5OTMxODYy
+NSwtMzE3MzUzNzQxLDY5MjE0Mjk2MSwtMjA4ODExNDc1MiwtMj
+EzMzAzMDg5MCwtNDE3MDc0NDk0LDY5NTc5MzA0NCwtMjE5Mzk0
+ODkyLC0zNjY0NTkxNCwtMTA2NDI4NjUzNSwxNzExNTI0MjM4LD
+Y4NjI5MDQ5MiwtNDQxNzY2MjU3LC00MTkwNDIwMDIsLTIwMDQ3
+MzUwNzZdfQ==
 -->
